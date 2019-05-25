@@ -89,6 +89,10 @@
   h2 {
     margin-top: 1.5em;
   }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
   .row .column.column-18 {
     flex: 0 0 100%;
     max-width: 100%;
@@ -122,6 +126,7 @@
     float: left;
   }
   #left {
+    width: 100%;
     clear: both;
   }
   #right {
@@ -152,7 +157,7 @@
 </head>
 <body>
 <div class="container">
-  <div class="row">
+  <div id="main-row" class="row">
     <div id="left" class="column column-18">
       <div id="info">
         <img src="./static/img/me.png">
@@ -239,7 +244,7 @@
           <b>Huan He</b>, Qinghua Zheng, Dehai Di, and Bo Dong.<br>
           <a href="./static/file/access19-ols/paper.pdf" class="tag-link tag-link-paper">PDF</a>
           <a href="./static/file/access19-ols/slide.pdf" class="tag-link tag-link-ppt">Slides</a>
-          <a href="https://doi.org/10.1109/ACCESS.2019.DOI" class="tag-link tag-link-doi">10.1109/ACCESS.2019.DOI</a>
+          <a href="https://doi.org/10.1109/ACCESS.2019.2910589" class="tag-link tag-link-doi">10.1109/ACCESS.2019.2910589</a>
         </div>
       </div>
 
