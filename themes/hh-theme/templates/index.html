@@ -16,6 +16,7 @@
 
 <!-- css -->
 <link rel="stylesheet" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/css/milligram.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono">
 <style>
 .text-xlarge {
   font-size: 1.8em;
@@ -119,6 +120,41 @@
     max-width: 82%;
 }
 
+/* navigation */
+.navigation {
+  width: 100%;
+  position: sticky;
+  background-color: white;
+  top: 0;
+}
+.navigation ul {
+  list-style: none;
+}
+.navigation li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-family: 'Roboto Mono', Courier, monospace;
+}
+.navigation li a {
+  color: #606060;
+}
+.navigation li a:hover {
+  color: black;
+  font-weight: bold;
+}
+.navigation li.active {
+  border-bottom: 2px solid #464646;
+}
+.navigation li.active a {
+  color: black;
+  font-weight: bold;
+}
+.section-break {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
 /* for mobile devices */
 @media (max-width: 720px) {
   h2 {
@@ -187,6 +223,7 @@
     text-align: center;
     margin-top: 1em;
   }
+  
 }
 </style>
 </head>
@@ -228,33 +265,60 @@
 
 
     <div id="right" class="column column-82">
+
+      <!-- About me -->
+
       {{ WORKS['me']['about']|md2html }}
-
-      <h2>Work Experience</h2>
-
-      {% for p in WORKS['work_exp'] %}
-      <div class="row">
-        <div class="work-date column column-20">
-          {{ p['date_start'] }} 
-          - 
-          {{ p['date_end'] }}
-        </div>
-        <div class="column column-80">
-          <b>
-            {{ p['title'] }}
-          </b>, 
-          {{ p['organization'] }}
-        </div>
-      </div>
-      {% endfor %}
-
-
-
-     
-
       <p></p>
 
-      <h2>Publications</h2>
+
+
+
+      <div class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item active">
+            <a target="_self" onclick="onClickNav(this)" href="#publications">
+              Publications
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_self" onclick="onClickNav(this)" href="#projects">
+              Projects
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_self" onclick="onClickNav(this)" href="#tools">
+              Tools
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_self" onclick="onClickNav(this)" href="#patents">
+              Patents
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_self" onclick="onClickNav(this)" href="#work_exp">
+              Work Experience
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_self" onclick="onClickNav(this)" href="#community_services">
+              Community Services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_self" onclick="onClickNav(this)" href="#awards">
+              Awards
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+
+
+
+      <br class="section-break" id="publications">
 
       {% for y in YEARS %}
       <h3 class="pub-year">
@@ -293,9 +357,11 @@
       <p>&nbsp;</p>
 
 
-      
 
-      <h2>Projects</h2>
+
+      <h2 class="section-break" id="projects">
+        Projects
+      </h2>
 
       {% for p in WORKS['projects'] %}
       {% if p['title'] != '' %}
@@ -333,7 +399,9 @@
 
       
 
-      <h2>Tools</h2>
+      <h2 class="section-break" id="tools">
+        Tools
+      </h2>
 
       <div class="row project" style="flex-wrap: wrap;">
         
@@ -370,7 +438,9 @@
 
 
 
-      <h2>Patents</h2>
+      <h2 class="section-break" id="patents">
+        Patents
+      </h2>
 
       {% for p in WORKS['patents'] %}
       <div class="row patent">
@@ -396,7 +466,35 @@
 
 
 
-      <h2>Academic &amp; Social Works</h2>
+      <h2 class="section-break" id="work_exp">
+        Work Experience
+      </h2>
+      
+
+      {% for p in WORKS['work_exp'] %}
+      <div class="row">
+        <div class="work-date column column-20">
+          {{ p['date_start'] }} 
+          - 
+          {{ p['date_end'] }}
+        </div>
+        <div class="column column-80">
+          <b>
+            {{ p['title'] }}
+          </b>, 
+          {{ p['organization'] }}
+        </div>
+      </div>
+      {% endfor %}
+
+      <p>&nbsp;</p>
+      
+
+
+
+      <h2 class="section-break" id="community_services">
+        Community Services
+      </h2>
 
       {% for p in WORKS['academic_exp'] %}
       <div class="row">
@@ -416,10 +514,9 @@
       {% endfor %}
 
 
-      <p>&nbsp;</p>
-
-
-      <h2>Awards &amp; Scholarship</h2>
+      <h2 class="section-break" id="awards">
+        Awards
+      </h2>
 
       {% for p in WORKS['awards'] %}
       {% if p['title'] != '' %}
@@ -446,5 +543,38 @@
   </div>
 
 </div>
+<script>
+function onClickNav(obj) {
+  console.log(obj);
+  let navs = document.getElementsByClassName('nav-item');
+  for (let i = 0; i < navs.length; i++) {
+    navs[i].className = 'nav-item';
+  }
+  obj.parentNode.className = 'nav-item active';
+}
+
+let navs = document.querySelectorAll('nav-item');
+let secs = document.querySelectorAll('section');
+
+function activeNav(li) {
+    lists.forEach((item) => item.classList.remove('active'));
+    li.classList.add('active');
+}
+
+let section = document.querySelectorAll('section');
+window.onscroll = () => {
+    section.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+
+        if (top >= offset && top < offset + height) {
+            const target = document.querySelector(`[href='#${id}']`).parentElement;
+            activeLink(target);
+        }
+    })
+};
+</script>
 </body>
 </html>
