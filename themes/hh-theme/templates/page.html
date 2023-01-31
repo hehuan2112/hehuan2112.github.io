@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% if page.lang %}
+    {% block html_lang %}
+        {{ page.lang }}
+    {% endblock html_lang %}
+{% endif %}
+
+{% block title %}
+    {{ page.title }} &ndash; {{ SITENAME }}
+{% endblock title %}
+
+{% block header %}
+<div class="container">
+    <div class="row">
+        <div class="col py-4">
+
+            <h1 id="{{ page.slug }}"
+                class="header-title">
+                {{ page.title }}
+            </h1>
+
+        </div>
+    </div>
+</div>
+
+{% endblock header %}
+
+
+{% block main %}
+<!-- Content -->
+<div class="container">
+
+<!-- page -->
+<div class="main-article">
+    {{ page.content }}
+</div>
+    
+
+</div>
+{% endblock main %}

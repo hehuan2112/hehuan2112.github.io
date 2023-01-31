@@ -1,0 +1,136 @@
+[
+{
+    "slug": "lisrma",
+    "date": "2019 - Present",
+    "thumb": "project/lisrma-thumb.jpg",
+    "title": "Living Evidence Synthesis",
+    "organization": "Multi-site Collaboration",
+    "location": "Rochester, MN, USA / Phoenix, AZ, USA / Boston, MA, USA /  Karachi, Pakistan",
+    "description": "To create and maintain living interactive systematic reviews and meta-analysis (SRMA), we proposed a living evidence synthesis framework (LIvE), which continually updates, incorporate relevant new evidence as it becomes available. The LIvE framework has been suggested as a solution to address the challenge of synthesizing evidence in fields with rapidly moving evidence. I designed the multi-layer system architecture and developed all the modules which cover the whole evidence synthesis workflow from end to end, including data collection, screening, extraction, meta-analysis, and visualization. Several living SRMAs have been released and kept updated based on this framework.",
+    "links": [
+        ["Meta.js", "https://github.com/OHNLP/Meta.js", "demo"],
+        ["Living SRMA", "https://living-evidence.com/", "web"],
+        ["First-line Treatment of Metastatic Renal Cell Carcinoma", "https://rcc.network-meta-analysis.com/RCC.html", "web"],
+        ["Direct Oral Anti-Coagulants compared to Dalteparin for treatment of Cancer Associated Thrombosis", "https://cat.network-meta-analysis.com/", "web"],
+        ["Adjuvant Treatment Options in Renal Cell Carcinoma", "https://adjrcc.network-meta-analysis.com/", "web"],
+        ["Metastatic Castration Sensitive Prostate Cancer", "https://mcspc.living-evidence.com/", "web"]
+    ]
+},
+{
+    "slug": "medtator",
+    "date": "2021 - Present",
+    "thumb": "project/medtator-thumb.jpg",
+    "title": "MedTator: Corpus Development Toolkit",
+    "organization": "Mayo Clinic",
+    "location": "Rochester, MN, USA",
+    "description": "I proposed, designed, and developed MedTator, a lightweight serverless web-based application for corpus development, which implements text annotation, corpus statistics, inter-annotator agreement evaluation, error analysis, corpus visualization, and format conversion to facilitate the creation of gold standard corpus for building natural language processing and machine learning models. In addition to the annotation tool itself, I also developed several scripts to enable further usage of the annotated files for practice uses, such as training named entity recognition / relation identification models, format convertion, and text embeddings.",
+    "links": [
+        ["Paper", "https://pubmed.ncbi.nlm.nih.gov/34983060/", "paper"],
+        ["MedTator Demo", "https://ohnlp.github.io/MedTator/", "demo"]
+    ]
+},
+{
+    "slug": "cv19mcp",
+    "date": "2020 - 2021",
+    "thumb": "project/cv19mcp-thumb.jpg",
+    "title": "Mayo Clinic COVID-19 Map Tracking",
+    "organization": "Mayo Clinic",
+    "location": "Rochester, MN, USA",
+    "description": "I designed the system architecture and implemented both the data pipeline and frontend of the Mayo Clinic's Coronavirus Map tracking tool, which has county-by-county information on COVID-19 cases and trends nationwide and predictive modeling that forecasts where hot spots will emerge over the next 14 days.",
+    "links": [
+        ["News", "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-tracking-tool-now-features-forecasting-for-covid-19-hot-spots/", "web"]
+    ]
+},
+{
+    "slug": "rdsi",
+    "date": "2019 - 2022",
+    "thumb": "project/rdsi-thumb.jpg",
+    "title": "Rare Disease Study Identification",
+    "organization": "Mayo Clinic",
+    "location": "Rochester, MN, USA",
+    "description": "As the clinical studies increase, it's hard to find those studies that focus on specific rare disease topics in our internal IRB system. To address this issue, I design and developed the Rare Disease Study Identification (RDSI) system, which aims to promote the exploration of rare disease studies in existing study repositories by using natural language processing and data visualization techniques. The RDSI system is based on several open-source tools, such as [MetaMapLite](https://github.com/lhncbc/metamaplite) and [MedTagger](https://github.com/OHNLP/MedTagger).",
+    "links": [
+        ["Poster", "https://knowledge.amia.org/72332-amia-1.4602255/t005-1.4604904/t005-1.4604905/3410630-1.4605536/3416638-1.4605533?qr=1", "poster"]
+    ]
+},
+{
+    "slug": "stu-eng-calendar",
+    "date": "2018",
+    "thumb": "project/sec-thumb.png",
+    "title": "Student Engagement Calendar",
+    "organization": "School of e-Learning, Xi'an Jiaotong University",
+    "location": "Xi'an, Shaanxi, China",
+    "description": "A tool embbeded in learning management system. In this tool, I proposed a calendar-like model to encode the temporal attributes of interactions in the long-term learning process. Based on a trained simplified CNN model with learning process data, this tool can predict students' grade point based on their engagement history. We believe that it can help students understand their learning process of multiple courses in a semester, and support instructors to analyze the temporal patterns.",
+    "links": [
+        ["Demo", "https://hehuan2112.github.io/VideoUtilizationCalendar/", "demo"]
+    ]
+},
+{
+    "slug": "vusphere",
+    "date": "2015 - 2017",
+    "thumb": "project/vus-thumb.png",
+    "title": "Video Utilization Sphere and Enrollment Analysis",
+    "organization": "School of e-Learning, Xi'an Jiaotong University",
+    "location": "Xi'an, Shaanxi, China",
+    "description": "To understand the video utilization patterns and the enrollment across the country, I designed and implemented this visual analytic system called VUSphere. It has three linked views: an overview with a spherical layout to show the overall video utilization, a detailed statistics view with 4 panels with 9 tabs, and a comparison view to examine different elements.",
+    "links": [
+        ["Video", "https://vimeo.com/300473466", "video"]
+    ]
+},
+{
+    "slug": "gridfs",
+    "date": "2015 - 2016",
+    "thumb": "project/gridfs-thumb.png",
+    "title": "GFS: GridFS to FUSE System",
+    "organization": "WonderTek Inc.",
+    "location": "Shanghai, China",
+    "description": "To facilitate the efficiency and scalability of small files reading and writing, we designed and implemented a basic file system based on FUSE and MongoDB with refer to prior work in our team. With the characteristics of the MongoDB database, I designed a algorithm and a data structure for mapping from the tree directory structure to the key-value structure and implemented the operations specified by FUSE, such as getattr, create, write, flush, etc. In addition, I visualized the detailed r/w operation sequences to improve the performance.",
+    "links": [
+    ]
+},
+{
+    "slug": "moocbd",
+    "date": "2014 - 2016",
+    "thumb": "project/moocbd-thumb.png",
+    "title": "Big Data Analysis Platform for MOOC2U",
+    "organization": "MOOC2U.com, Open Edutaiment Inc.",
+    "location": "Beijing, China",
+    "description": "An educational data analysis system for MOOC China platform. I designed the architecture of this system and developed most of the modules, including behavior capturer, log collector, analyzer based on Apache Spark, and the visualization. We integrated several common used charts, such as bar chart, map, heatmap, etc., to show how students interacts with this platform. The statistical results of learning log are visualized to gain insights into the learning patterns and trends in MOOC China platform.",
+    "links": [
+    ]
+},
+{
+    "slug": "edts",
+    "date": "2011 - 2012",
+    "thumb": "project/edts-thumb.png",
+    "title": "Educational Data Transfer System",
+    "organization": "Network and Information Center, Xi'an Jiaotong University",
+    "location": "Xi'an, Shaanxi, China",
+    "description": "In order to connnect isolated information islands between information systems of many departments, such as graduate school, department of archives, finance office, employment center etc., I designed and developed this system based on Serice-Oriented-Architecture (SOA) approach and technologies. Data in each isolated system can be synced without modification to existing systems.",
+    "links": [
+    ]
+},
+{
+    "slug": "tp12ok",
+    "date": "2009 - 2010",
+    "thumb": "project/tp12ok-thumb.jpg",
+    "title": "Take a Photo, 1, 2, OK!",
+    "organization": "Network and Information Center, Xi'an Jiaotong University",
+    "location": "Xi'an, Shaanxi, China",
+    "description": "During the freshmen enrollment of each year, taking a photo for ID was a very time-consuming part, especially when there are about 4,000 - 5,000 students enrolled in two days. It takes about 2-3 minutes for each part-time photographer to take a photo that meets standard. As a result, students had to wait in a long queue. To address this issue, I developed a semi-automatic camera system that integrates campus card service, standard PC camera and student information system based on OpenCV and SOA technologies. An intern student can take a good photo within 15 seconds with just 3 mouse clicks, which greatly improves the efficiency and significantly shorten the queue length.",
+    "links": [
+    ]
+},
+{
+    "slug": "ssps",
+    "date": "2008 - 2009",
+    "thumb": "project/ssps-thumb.jpg",
+    "title": "Self-Service Payment System",
+    "organization": "Network and Information Center, Xi'an Jiaotong University",
+    "location": "Xi'an, Shaanxi, China",
+    "description": "At that time, the process of paying various fees required manual services (e.g., network fee, entry fee, etc.), which were not only time-consuming but also cumbersome. I developed a desktop software and a web-based application to help students self-pay on the terminals. The detailed design and are included in my master thesis.",
+    "links": [
+        ["MASTER THESIS PDF", "/file/other/thesis-ssps.pdf", "paper"]
+    ]
+}
+]

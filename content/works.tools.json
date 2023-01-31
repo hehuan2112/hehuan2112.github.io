@@ -1,0 +1,58 @@
+[
+{
+    "slug": "medtator",
+    "title": "MedTator",
+    "thumb": "tool/medtator-thumb.jpg",
+    "homepage": "https://ohnlp.github.io/MedTator/",
+    "repository": "https://github.com/ohnlp/MedTator/",
+    "description": "A Serverless Text Annotation Tool for Corpus Development"
+},
+{
+    "slug": "cv19d",
+    "title": "COVID-19 Dashboard",
+    "thumb": "tool/cv19d-thumb.jpg",
+    "homepage": "https://ohnlp.github.io/covid19tracking/",
+    "repository": "https://github.com/ohnlp/covid19tracking",
+    "description": "Visualizing multi-scale trends of COVID-19"
+},
+{
+    "slug": "mbbo",
+    "title": "Virtual Machine Migration",
+    "thumb": "tool/mbbo-thumb.png",
+    "homepage": "https://hehuan2112.github.io/mbbo-vmm/",
+    "repository": "https://github.com/hehuan2112/mbbo-vmm",
+    "description": "A visualization tool for understanding the migration of virtual machines among the physical machines."
+},
+{
+    "slug": "xjtujs",
+    "title": "XJTU Journal Search",
+    "thumb": "tool/xjtujs-thumb.jpg",
+    "homepage": "https://hehuan2112.github.io/xjtu-journal-search/",
+    "repository": "",
+    "description": "A tool for searching the recommended journals by colleges of XJTU"
+},
+{
+    "slug": "xjtuabs",
+    "title": "Ancient Book Search",
+    "thumb": "tool/xjtuabs-thumb.png",
+    "homepage": "https://hehuan2112.github.io/xjtu-ancient-books/",
+    "repository": "",
+    "description": "A tool for searching ancient books in XJTU library."
+},
+{
+    "slug": "ddlc",
+    "title": "Deadline is Coming!",
+    "thumb": "tool/ddlc-thumb.png",
+    "homepage": "https://github.com/hehuan2112/deadline-calendar",
+    "repository": "https://github.com/hehuan2112/deadline-calendar",
+    "description": "Generating a year calendar of A4-size page with the deadlines of conference in one year I am concerned. "
+},
+{
+    "slug": "",
+    "title": "",
+    "thumb": "",
+    "homepage": "",
+    "repository": "",
+    "description": ""
+}
+]

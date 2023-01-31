@@ -1,0 +1,44 @@
+[
+{
+    "pid": "CN104102707A",
+    "pid2": "ZL201410328449.0",
+    "title": "A method for querying geographical information for MapReduce Framework",
+    "subtitle": "一种面向MapReduce框架的地理归属信息查询方法 / Xi'an Jiaotong University",
+    "authors": "Weizhan Zhang, Huan He, Ni Xue, Qinghua Zheng, Bo Dong"
+},
+{
+    "pid": "CN103390038A",
+    "pid2": "ZL201310298976.7",
+    "title": "A method for constructing and retrieving incremental index based on HBase",
+    "subtitle": "一种基于HBase的构建和检索增量索引的方法 / Xi'an Jiaotong University",
+    "authors": "Qinghua Zheng, Bo Dong, Huan He, Kailei Song, Haipeng Xu, Tian Ma, Yaxing Chen"
+},
+{
+    "pid": "CN104572934A",
+    "pid2": "ZL201410840805.7",
+    "title": "A method for extracing key content of webpages based on DOM",
+    "subtitle": "一种基于DOM的网页关键内容抽取方法 / Xi'an Jiaotong University",
+    "authors": "Bo Dong, Ni Xue, Huan He, Qinghua Zheng, Tian Ma"
+},
+{
+    "pid": "CN104391910A",
+    "pid2": "ZL201410658492.3",
+    "title": "A method for storing and calculating tax statistical report based on HBase",
+    "subtitle": "一种基于HBase的税收统计报表存储与计算的方法 / Xi'an Jiaotong University",
+    "authors": "Qinghua Zheng, Tian Ma, Bing Li, Huan He, Jianfei Ruan, Zhenchao Zhang, Jiansheng Shi, Peiyong Wang, Yunhui Qian"
+},
+{
+    "pid": "CN103400299A",
+    "pid2": "ZL201310272890.7",
+    "title": "A method for detecting network overlapping community based on overlapping point recognition",
+    "subtitle": "基于重叠点识别的网络重叠社团检测方法 / Xi'an Jiaotong University",
+    "authors": "Jun Liu, Haipeng Xu, Bo Dong, Qinghua Zheng, Tian Ma, Huan He, Bing Li"
+},
+{
+    "pid": "CN104123182A",
+    "pid2": "ZL201410344242.2",
+    "title": "A system and method for cross data center Map-Reduce task scheduling based on master-slave architecture",
+    "subtitle": "基于主从架构的MapReduce任务跨数据中心调度系统及方法 / Xi'an Jiaotong University",
+    "authors": "Weizhan Zhang, Jianfei Ruan, Qinghua Zheng, Bo Dong, Hanning Zhang, Huan He"
+}
+]

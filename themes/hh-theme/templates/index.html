@@ -1,0 +1,450 @@
+<!doctype html>
+<html>
+<head>
+<title>Huan He</title>
+<base target="_blank">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta name="HandheldFriendly" content="True" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="Huan He" />
+<meta name="description" content="A personal website for showing what I have done" />
+
+<!-- icon -->
+<link rel="shortcut icon" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/img/favicon.ico" type="image/x-icon">
+
+<!-- css -->
+<link rel="stylesheet" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/css/milligram.min.css">
+<style>
+.text-xlarge {
+  font-size: 1.8em;
+}
+.text-smaller {
+  font-size: smaller;
+}
+.text-news {
+  font-size: smaller;
+}
+.news-date {
+  font-family: 'Courier New', Courier, monospace;
+}
+.col-date {
+  text-align: right;
+}
+.publication, .project {
+  margin-bottom: .5em;
+}
+.publication img, .project img, .patent img {
+  margin: 4px 0 0 0;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+.publication .pub-content {
+  padding-top: 1px;
+}
+.pub-year {
+  border-bottom: 1px solid #cfcfcf;
+}
+.tag-link {
+  font-size: .75em;
+  padding: 3px 5px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.tag-link-paper {
+  color: gray;
+}
+.tag-link-paper:hover {
+  background: rgb(255, 145, 145);
+  color: white;
+}
+.tag-link-web {
+  color: gray;
+}
+.tag-link-web:hover {
+  background: rgb(4, 69, 155);
+  color: white;
+}
+.tag-link-demo {
+  color: gray;
+}
+.tag-link-demo:hover {
+  background: rgb(4, 155, 104);
+  color: white;
+}
+.tag-link-video {
+  color: gray;
+}
+.tag-link-video:hover {
+  background: rgb(0, 153, 255);
+  color: white;
+}
+.tag-link-ppt {
+  color: gray;
+}
+.tag-link-ppt:hover {
+  background: rgb(255, 153, 0);
+  color: white;  
+}
+.tag-link-poster {
+  color: gray;
+}
+.tag-link-poster:hover {
+  background: rgb(248, 88, 7);
+  color: white;  
+}
+.tag-link-pmid {
+  color: #0071bc;
+}
+.tag-link-pmid:hover {
+  color: white;
+  background-color: #1068a2;
+}
+.tag-link-doi {
+  color: grey;
+}
+.tag-link-doi:hover {
+  background: grey;
+  color: white;  
+}
+
+/* plugin for milligram.css */
+.row .column.column-18 {
+    flex: 0 0 18%;
+    max-width: 18%;
+}
+.row .column.column-82 {
+    flex: 0 0 82%;
+    max-width: 82%;
+}
+
+/* for mobile devices */
+@media (max-width: 720px) {
+  h2 {
+    margin-top: 1.5em;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .row .column.column-18 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .row .column.column-82 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .row .column.column-20 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .row .column.column-80 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  .row .column.column-25 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  #info {
+    text-align: center;
+  }
+  #left img {
+    width: 60%;
+  }
+  #left p {
+    width: 100%;
+  }
+  #left .text-news {
+    float: left;
+  }
+  #left {
+    width: 100%;
+    clear: both;
+  }
+  #right {
+    width: 100%;
+    clear: both;
+  }
+  /* images */
+  .publication img, .project img, .patent img {
+    width: 62%;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  .publication, .project {
+    margin-bottom: 1.5em;
+  }
+  .col-date {
+    text-align: center;
+  }
+  .pub-image, .tool-image {
+    text-align: center;
+  }
+  .work-date {
+    text-align: center;
+    margin-top: 1em;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="main-row" class="row">
+    <div id="left" class="column column-18">
+      <div id="info">
+        <img src="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/img/me2.jpg">
+        <p>
+          <span class="text-xlarge">Huan He</span><br>
+          {{ WORKS['me']['email'] }}
+          <br>
+          <span class="text-smaller">
+            {{ WORKS['me']['institution'] }}
+          <br>
+            {{ WORKS['me']['address'] }}
+          </span>
+          <!-- 
+          <span class="text-wish">
+            A large office, good pay, and very little work.
+            Frequent expense-account trips to exotic lands would be a plus.
+          </span> 
+          -->
+        </p>
+      </div>
+      <hr>
+
+      <p>NEWS</p>
+      {% for p in WORKS['news'] %}
+      <div class="text-news">
+        {{ (p['date'] + ": " + p['text'])|md2html }}
+      </div>
+      {% endfor %}
+
+    </div>
+
+
+
+
+    <div id="right" class="column column-82">
+      {{ WORKS['me']['about']|md2html }}
+
+      <h2>Work Experience</h2>
+
+      {% for p in WORKS['work_exp'] %}
+      <div class="row">
+        <div class="work-date column column-20">
+          {{ p['date_start'] }} 
+          - 
+          {{ p['date_end'] }}
+        </div>
+        <div class="column column-80">
+          <b>
+            {{ p['title'] }}
+          </b>, 
+          {{ p['organization'] }}
+        </div>
+      </div>
+      {% endfor %}
+
+
+
+     
+
+      <p></p>
+
+      <h2>Publications</h2>
+
+      {% for y in YEARS %}
+      <h3 class="pub-year">
+        {{ y }}
+      </h3>
+
+      {% for p in WORKS['publications'] %}
+      {% if y == (p['date']|get_year) or (y == 'Before 2018' and (p['date']|get_year) not in YEARS) %}
+      <div class="row publication">
+        <div class="pub-image column column-20">
+          <img class="thumbnail" src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
+        </div>
+        <div class="pub-content column column-80">
+          <b>{{ p['title'] }}</b>
+          <br>
+          {{ p['authors'] | highlight_me }}
+          <br>
+          <i>
+            {{ p['source'] }}, {{ p['date'] }}
+          </i>
+          <br>
+          {% for k in p['links'] %}
+          <a href="{{ k[1] }}" class="tag-link tag-link-{{ k[2] }}">
+            {{ k[0] }}
+          </a>
+          {% endfor %}
+          
+          <br>
+          <span class="text-smaller">&nbsp;</span>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+
+      <p>&nbsp;</p>
+
+
+      
+
+      <h2>Projects</h2>
+
+      {% for p in WORKS['projects'] %}
+      {% if p['title'] != '' %}
+      <div class="row project">
+        <div class="column column-20 col-date">
+          {{ p['date'] }}
+          <br>
+          <img class="thumbnail" src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
+        </div>
+        <div class="column column-80">
+          <b>
+            {{ p['title'] }}
+          </b>
+          <br>
+          <i>
+            {{ p['organization']}}, 
+            {{ p['location'] }}
+          </i>
+          <br>
+
+          {{ p['description']|md2html }}
+
+          Links:
+          {% for k in p['links'] %}
+          <a href="{{ k[1] }}" class="tag-link tag-link-{{ k[2] }}">
+            {{ k[0] }}
+          </a> 
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+
+
+
+      
+
+      <h2>Tools</h2>
+
+      <div class="row project" style="flex-wrap: wrap;">
+        
+        {% for p in WORKS['tools'] %}
+        {% if p['slug'] != '' %}
+        <div class="column column-25">
+          <div class="tool-image">
+            <img class="thumbnail" src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
+          </div>
+          <b>
+            {{ p['title'] }}
+          </b>
+          <br>
+          {{ p['description'] }}
+          <br>
+          Link: 
+          <a href="{{ p['homepage'] }}" 
+            class="tag-link tag-link-demo">
+            Homepage
+          </a> |
+          <a href="{{ p['repository'] }}" 
+            class="tag-link tag-link-demo">
+            Repository
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+      </div>
+
+      <p>&nbsp;</p>
+
+
+
+
+
+      <h2>Patents</h2>
+
+      {% for p in WORKS['patents'] %}
+      <div class="row patent">
+        <div class="column column-20 col-date">
+          {{ p['pid'] }}
+          <br>
+          {{ p['pid2'] }}
+        </div>
+        <div class="column column-80">
+          <b>
+            {{ p['title'] }}
+          </b>
+          <br>
+          <span class="text-smaller">
+            {{ p['subtitle'] }}
+          </span><br>
+          {{ p['authors']| highlight_me }}
+        </div>
+      </div>
+      {% endfor %}
+
+      <p>&nbsp;</p>
+
+
+
+      <h2>Academic &amp; Social Works</h2>
+
+      {% for p in WORKS['academic_exp'] %}
+      <div class="row">
+        <div class="column column-20">
+          {{ p['category'] }}
+        </div>
+        <div class="column column-80">
+          <ul>
+            {% for i in p['items'] %}
+            <li>
+              {{ i }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+
+
+      <p>&nbsp;</p>
+
+
+      <h2>Awards &amp; Scholarship</h2>
+
+      {% for p in WORKS['awards'] %}
+      {% if p['title'] != '' %}
+      <div class="row">
+        <div class="column column-20 col-date">
+          {{ p['date'] }}
+        </div>
+        <div class="column column-80">
+          <b>
+            {{ p['title'] }}
+          </b>
+          <br>
+          {{ p['organization'] }},
+          {{ p['location'] }}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+
+      <p>&nbsp;</p>
+
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>

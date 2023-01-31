@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block meta %}
+<meta name="author" content="{{ article.author.name }}" />
+<meta name="description" content="{{ article.summary|striptags|escape }}" />
+<meta name="keywords" content="{{ article.tags|join(', ')|escape }}">
+{% endblock meta%}
+
+{% block title %}
+    {{ article.title|striptags|escape }} &ndash; {{ SITENAME }}
+{% endblock title %}
+
+{% block header %}
+
+<div class="container">
+    <div class="row">
+        <div class="col py-4">
+
+            <h1 class="header-title">
+                {{ article.title }}
+            </h1>
+            <p class="header-sub-title">
+                {{ article.summary }}
+            </p>
+
+        </div>
+    </div>
+</div>
+
+{% endblock header %}
+
+
+{% block main %}
+<!-- Content -->
+<div class="container">
+
+<!-- Article -->
+<div class="main-article">
+    {{ article.content }}
+</div>
+    
+
+</div>
+{% endblock main %}
