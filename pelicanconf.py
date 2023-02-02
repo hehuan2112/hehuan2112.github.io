@@ -67,6 +67,9 @@ CURRENT_YEAR = datetime.today().strftime('%Y')
 # specify the customized theme
 THEME = "./themes/hh-theme"
 
+# load cache
+LOAD_CONTENT_CACHE = True
+
 # my works and each content
 WORKS = json.load(open('content/works.json'))
 WORKS['news'] = json.load(open('content/works.news.json'))
