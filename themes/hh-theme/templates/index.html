@@ -18,6 +18,23 @@
 <link rel="stylesheet" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/css/milligram.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono">
 <style>
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 .text-xlarge {
   font-size: 1.8em;
 }
@@ -155,79 +172,176 @@
   margin-top: 3em;
   margin-bottom: 2em;
 }
+.navbar-toggler {
+    display: none;
+    z-index: 9;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 57px;
+    height: 42px;
+    padding: 5px 0;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #999999;
+    text-align: center;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgb(42,42,42)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.navbar {
+    display: none;
+    z-index: 5;
+    position: sticky;
+    top: 0px;
+    background: white;
+    cursor: pointer;
+}
+.back-to-top {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #999999;
+    text-align: center;
+    z-index: 5;
+    cursor: pointer;
+}
+.back-to-top:hover {
+    background-color: #d9f1ff;
+}
+.display-block {
+    display: block !important;
+}
+
 /* for mobile devices */
 @media (max-width: 720px) {
-  h2 {
-    margin-top: 1.5em;
-  }
-  .row {
-    display: flex;
-    flex-direction: column;
-  }
-  .row .column.column-18 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .row .column.column-82 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .row .column.column-20 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .row .column.column-80 {
-      flex: 0 0 100%;
-      max-width: 100%;
-  }
-  .row .column.column-25 {
-      flex: 0 0 100%;
-      max-width: 100%;
-  }
-  #info {
-    text-align: center;
-  }
-  #left img {
-    width: 60%;
-  }
-  #left p {
-    width: 100%;
-  }
-  #left .text-news {
-    float: left;
-  }
-  #left {
-    width: 100%;
-    clear: both;
-  }
-  #right {
-    width: 100%;
-    clear: both;
-  }
-  /* images */
-  .publication img, .project img, .patent img {
-    width: 62%;
-    margin: 0 auto;
-    margin-top: 1em;
-  }
-  .publication, .project {
-    margin-bottom: 1.5em;
-  }
-  .col-date {
-    text-align: center;
-  }
-  .pub-image, .tool-image {
-    text-align: center;
-  }
-  .work-date {
-    text-align: center;
-    margin-top: 1em;
-  }
+    .navbar-toggler {
+        display: block;
+    }
+    .navigation {
+        display: none;
+    }
+    .navbar ul {
+        list-style: none;
+    }
+    .navbar li {
+        display: block;
+        font-size: 14px;
+        padding: 0.2em 1em;
+        cursor: pointer;
+        font-family: 'Roboto Mono', Courier, monospace;
+        border-bottom: 1px solid #efefef;
+    }
+
+    .back-to-top {
+        display: block;
+    }
+    h2 {
+        margin-top: 1.5em;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .row .column.column-18 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .row .column.column-82 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .row .column.column-20 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .row .column.column-80 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .row .column.column-25 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #info {
+        text-align: center;
+    }
+    #left img {
+        width: 60%;
+    }
+    #left p {
+        width: 100%;
+    }
+    #left .text-news {
+        float: left;
+    }
+    #left {
+        width: 100%;
+        clear: both;
+    }
+    #right {
+        width: 100%;
+        clear: both;
+    }
+    /* images */
+    .publication img, .project img, .patent img {
+        width: 62%;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+    .publication, .project {
+        margin-bottom: 1.5em;
+    }
+    .col-date {
+        text-align: center;
+    }
+    .pub-image, .tool-image {
+        text-align: center;
+    }
+    .work-date {
+        text-align: center;
+        margin-top: 1em;
+    }
   
 }
 </style>
 </head>
 <body>
+
+<div class="navbar-toggler"
+    onclick="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+</div>
+
+<div class="navbar"></div>
+
+<div class="back-to-top"
+    onclick="backToTop()"
+    title="Back to Page Top">
+    <svg xmlns="http://www.w3.org/2000/svg"
+        width="32px"
+        height="32px"
+        viewBox="0 0 32 32">
+        <polygon points="16,14 6,24 7.4,25.4 16,16.8 24.6,25.4 26,24 "/>
+        <rect x="4" y="8" width="24" height="2"/>
+    </svg>
+</div>
+
+
+<div class="wrapper">
+
 <div class="container">
   <div id="main-row" class="row">
     <div id="left" class="column column-18">
@@ -278,6 +392,11 @@
 
       <div class="navigation">
         <ul class="nav-list">
+          <li class="nav-item">
+            <a target="_self" onclick="onClickNav(this)" href="#news">
+              News
+            </a>
+          </li>
           <li class="nav-item active">
             <a target="_self" onclick="onClickNav(this)" href="#publications">
               Publications
@@ -545,7 +664,29 @@
   </div>
 
 </div>
+
+</div>
+
+
 <script>
+function backToTop() {
+    document.querySelector('.wrapper').scrollTop = 0;
+}
+
+function toggleNavbar() {
+    let navbar = document.querySelector('.navbar');
+    if (navbar.classList.contains('display-block')) {
+        navbar.classList.remove('display-block');
+    } else {
+        navbar.classList.add('display-block');
+    }
+}
+
+function hideNavbar() {
+    let navbar = document.querySelector('.navbar');
+    navbar.classList.remove('display-block');
+}
+
 function onClickNav(obj) {
   console.log(obj);
   let navs = document.getElementsByClassName('nav-item');
@@ -553,33 +694,85 @@ function onClickNav(obj) {
     navs[i].className = 'nav-item';
   }
   obj.parentNode.className = 'nav-item active';
+
+  // hide the bar
+  hideNavbar();
 }
 
-let navs = document.querySelectorAll('.nav-item');
-let secs = document.querySelectorAll('.section');
+var navs = [];
+var secs = [];
 
-function activeNav(nav) {
+function activeNavs(nav_id) {
     navs.forEach((item) => {
-      item.classList.remove('active')
+        item.classList.remove('active');
     });
-    nav.classList.add('active');
+    document.querySelectorAll(`[href='#${nav_id}']`).forEach((item) => {
+        item.parentElement.classList.add('active');
+    });
 }
 
-window.onscroll = () => {
-    
-    secs.forEach(sec => {
-        let scroll = window.scrollY;
+function onScrollContent() {
+    let scroll = document.querySelector('.wrapper').scrollTop;
+    let active_idx = -1;
+
+    if (scroll > 100) {
+        document.querySelector('.back-to-top').classList.add('display-block');
+    } else {
+        document.querySelector('.back-to-top').classList.remove('display-block');
+    }
+
+    for (let i = 0; i < secs.length; i++) {
+        let sec = secs[i];
         let offset = sec.offsetTop;
         let height = sec.offsetHeight;
         let id = sec.getAttribute('id');
+        
+        if (i == 0 && (scroll+300) < secs[i+1].offsetTop) {
+            activeNavs(id);
+            active_idx = 'first';
+            break;
 
-        if (scroll >= offset && scroll < offset + height) {
-            // const target = document.querySelector(`[href='#${id}']`).parentElement;
-            target = document.querySelector(`[href='#${id}']`).parentElement;
-            activeNav(target);
+        } else if (i == (secs.length-1) && scroll > secs[i-1].offsetTop) {
+            activeNavs(id);
+            active_idx = 'last';
+            break;
+
+        } else if ((scroll+300) > offset && (scroll+300) < secs[i+1].offsetTop) {
+            activeNavs(id);
+            active_idx = i;
+            break;
+
+        } else {
+            // nothing to do?
         }
-    })
+    }
+    
+    // console.log(
+    //     "* - " + scroll + " " + 
+    //     '[ ' + 
+    //     secs[0].offsetTop + ", " + 
+    //     secs[1].offsetTop + ", " + 
+    //     secs[2].offsetTop + ", " + 
+    //     secs[3].offsetTop + ", " + 
+    //     secs[4].offsetTop + ", " + 
+    //     secs[5].offsetTop + ", " + 
+    //     secs[6].offsetTop + " " +
+    //     '] ' + 
+    //     active_idx
+    // );
 };
+
+window.onload = function() {
+    // update navbar content
+    document.querySelector('.navbar').innerHTML = document.querySelector('.navigation').innerHTML;
+
+    // bind event
+    document.querySelector('.wrapper').onscroll = onScrollContent;
+
+    // init variables
+    navs = document.querySelectorAll('.nav-item');
+    secs = document.querySelectorAll('.section');
+}
 </script>
 </body>
 </html>
