@@ -370,9 +370,11 @@ body {
         NEWS
       </h4>
       {% for p in WORKS['news'] %}
+      {% if p['date'] != '' and p['text'] != '' %}
       <div class="text-news">
         {{ (p['date'] + ": " + p['text'])|md2html }}
       </div>
+      {% endif %}
       {% endfor %}
 
     </div>
