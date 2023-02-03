@@ -13,6 +13,17 @@
     ]
 },
 {
+    "thumb": "other/rpecnlp-thumb.jpg",
+    "title": "Recommended practices and ethical considerations for natural language processing-assisted observational research: A scoping review",
+    "authors": "Sunyang Fu, Liwei Wang, Sungrim Moon, Nansu Zong, Huan He, Vikas Pejaver, Rose Relevo, Anita Walden, Melissa Haendel, Christopher G. Chute, Hongfang Liu",
+    "date": "07 December 2022",
+    "source": "Clinical and Translational Science",
+    "links": [
+        ["36478394", "https://pubmed.ncbi.nlm.nih.gov/36478394/", "paper"],
+        ["10.1111/cts.13463", "https://doi.org/10.1111/cts.13463", "doi"]
+    ]
+},
+{
     "thumb": "amia22-all/coe-thumb.png",
     "title": "A Hybrid Approach to Semi-automate the Evaluation of the Certainty of Evidence for Living Systematic Reviews and Meta-analysis",
     "authors": "Irbaz Bin Riaz*, Huan He*, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, Mahnoor Islam, M. Hassan Murad, Hongfang Liu",
