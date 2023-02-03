@@ -3,7 +3,7 @@ Category: 2023
 Date: 2023-02-02
 Slug: make-a-website
 Status: draft
-Summary: It takes times to make a website, but sometimes you may not realize it takes very long time.
+Summary: It takes time to make a website, but sometimes you may not realize it takes a very long time.
 
 I work on building a tiny website recently.
 But I'm not a full-time developer, at least my job title is not.
