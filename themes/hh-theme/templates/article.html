@@ -19,9 +19,10 @@
             <h1 class="header-title">
                 {{ article.title }}
             </h1>
-            <p class="header-sub-title">
+            <div class="header-sub-title">
+                {{ article.date.strftime('%Y-%m-%d') }}
                 {{ article.summary }}
-            </p>
+            </div>
 
         </div>
     </div>

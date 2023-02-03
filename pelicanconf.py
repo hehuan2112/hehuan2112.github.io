@@ -6,7 +6,7 @@ import json
 from datetime import datetime
 
 AUTHOR = 'Huan He'
-SITENAME = 'Huan He Box'
+SITENAME = 'Huan He'
 
 # just set this to relative path due to deployment issue
 SITEURL = './'
@@ -59,7 +59,7 @@ ARCHIVES_SAVE_AS = ""
 
 # no need for categorys page
 CATEGORY_SAVE_AS = ""
-CATEGORIES_SAVE_AS = ""
+CATEGORIES_SAVE_AS = "page/blog.html"
 
 # current year of this site
 CURRENT_YEAR = datetime.today().strftime('%Y')

@@ -11,46 +11,51 @@
 <head>
 {% block head %}
 
-    <!-- Required metadata tags -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<!-- Required metadata tags -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Default metadata -->
-    {% block meta %}
-    <meta name="author" content="{{ AUTHOR }}" />
-    <meta name="description" content="{{ SITEDESCRIPTION }}" />
-    {% endblock %}
+<!-- Default metadata -->
+{% block meta %}
+<meta name="author" content="{{ AUTHOR }}" />
+<meta name="description" content="{{ SITEDESCRIPTION }}" />
+{% endblock %}
 
-    <!-- Title -->
-    <title>
-    {% block title %}
-        {{ SITETITLE }}
-    {% endblock title %}
-    </title>
-    
-    <!-- Icon -->
-    <link rel="shortcut icon" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/img/favicon.ico" type="image/x-icon">
+<!-- Title -->
+<title>
+{% block title %}
+{{ SITETITLE }}
+{% endblock title %}
+</title>
 
-    <!-- Search engine -->
-    {% if page in hidden_pages %}
-        <meta name="robots" content="noindex, nofollow" />
-    {% else %}
-        <meta name="robots" content="{{ ROBOTS }}" />
-    {% endif %}
+<!-- Icon -->
+<link rel="shortcut icon" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/img/favicon.ico" type="image/x-icon">
 
-    <!-- Global Styles -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.min.css">
-    <!-- Theme Styles -->
-    <link rel="stylesheet" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/css/style.css">
+<!-- Search engine -->
+{% if page in hidden_pages %}
+<meta name="robots" content="noindex, nofollow" />
+{% else %}
+<meta name="robots" content="{{ ROBOTS }}" />
+{% endif %}
+
+<!-- Global Styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<!-- Theme Styles -->
+<link rel="stylesheet" href="{{ page_name | pg2path }}/{{ THEME_STATIC_DIR }}/css/style.css">
 
 {% endblock head %}
 </head>
 
 <!-- Body -->
-<body class="d-flex flex-column" data-spy="scroll" data-target="#toc" data-offset="0" style="position: relative;">
+<body class="d-flex flex-column" 
+    data-spy="scroll" 
+    data-target="#toc" 
+    data-offset="0" 
+    style="position: relative;">
 
     <!-- Navigation -->
     <nav class="flex-shrink-0 navbar navbar-expand-md navbar-expand-lg navbar-dark bg-main-theme-dark text-light shadow-sm">
@@ -94,10 +99,84 @@
                         Home <span class="sr-only">(current)</span>
                     </a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" 
+                        href="{{ page_name | pg2path }}/index.html#news">
+                        <i class="bi bi-newspaper"></i>
+                        News
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" 
+                        href="{{ page_name | pg2path }}/index.html#publications">
+                        <i class="bi bi-journal-richtext"></i>
+                        Publications
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" 
+                        href="{{ page_name | pg2path }}/index.html#projects">
+                        <i class="bi bi-journal-code"></i>
+                        Projects
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" 
+                        href="{{ page_name | pg2path }}/index.html#tools">
+                        <i class="bi bi-tools"></i>
+                        Tools
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" 
+                        href="{{ page_name | pg2path }}/index.html#patents">
+                        <i class="bi bi-file-lock"></i>
+                        Patents
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" 
+                        href="{{ page_name | pg2path }}/index.html#work_exp">
+                        <i class="bi bi-buildings"></i>
+                        Work Experience
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" 
+                        href="{{ page_name | pg2path }}/index.html#community_services">
+                        <i class="bi bi-people"></i>
+                        Community Services
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" 
+                        href="{{ page_name | pg2path }}/index.html#awards">
+                        <i class="bi bi-award"></i>
+                        Awards
+                    </a>
+                </li>
+
                 <li class="nav-item {{ output_file | pg2act_nav('page/album.html') }}">
                     <a class="nav-link" 
                     href="{{ page_name | pg2path }}/page/album.html">
+                        <i class="bi bi-images"></i>
                         Album
+                    </a>
+                </li>
+                
+                <li class="nav-item {{ output_file | pg2act_nav('page/blog.html') }}">
+                    <a class="nav-link" 
+                    href="{{ page_name | pg2path }}/page/blog.html">
+                        <i class="bi bi-chat-text"></i>
+                        Blog
                     </a>
                 </li>
                 
@@ -143,8 +222,8 @@
                     <div class="row">
                         {% for link in LINKS %}
                         <div class="col col-md-6">
-                            <a href="{{ link[0] }}">
-                                {{ link[1] }}
+                            <a href="{{ link[1] }}">
+                                {{ link[0] }}
                             </a>
                         </div>
                         {% endfor %}

@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}
+Blog &ndash; {{ SITENAME }}
+{% endblock title %}
+
+{% block header %}
+<div class="container">
+    <div class="row">
+        <div class="col py-4">
+            
+            <h1 class="header-title">
+                My Blogs
+            </h1>
+        </div>
+
+    </div>
+</div>
+{% endblock header %}
+
+
+{% block main %}
+<div class="container">
+{% for category, articles in categories|sort_mycates %}
+<div class="row">
+    <div class="col">
+        <h2>
+            {{ category }}
+        </h2>
+
+        {% for article in articles %}
+        <div class="article-item">
+            <div>
+                <a class="m-0" href="{{ page_name | pg2path }}/{{ article.url }}">
+                    <span class="small">{{ article.date.strftime('%m/%d/%Y') }}</span> 
+                    {{ article.title }}
+                </a>
+            </div>
+            <div class="article-item-summary small">
+                {{ article.summary }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+</div>
+
+
+
+{% endblock main %}

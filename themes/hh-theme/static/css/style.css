@@ -40,6 +40,7 @@ nav .form-control:focus {
 
 .nav-link {
     color: #F5F5EC !important;
+    text-align: left;
 }
 
 .nav-link:hover {
@@ -58,7 +59,9 @@ ol,
 ul {
     margin: 0.5rem 0;
 }
-
+code {
+    color: #136efb;
+}
 blockquote {
     background: #f9f9f9;
     border-left: 3px solid #ccc;
@@ -68,9 +71,9 @@ blockquote {
     font-size: smaller;
 }
 
-/* img {
-    display: block;
-} */
+img {
+    max-width: 100%;
+}
 
 header a {
     color: #cacaca;
@@ -247,10 +250,10 @@ li.tag-2 {
     font-size: 1em;
 }
 .bg-main-theme {
-    background-color: #ebb269;
+    background-color: #87beed;
 }
 .bg-main-theme-dark {
-    background-color: #ec7d16;
+    background-color: #409eef;
 }
 .badge-paper {
     background-color: #2c6e11;
@@ -284,4 +287,14 @@ li.tag-2 {
   .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
+  }
+  .article-item {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1em;
+    border-left: 2px solid #cacaca;
+  }
+  .article-item-summary p {
+    text-indent: 1.5em;
+    font-style: italic;
   }

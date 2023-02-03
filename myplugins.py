@@ -4,6 +4,15 @@ from pelican import signals
 
 REGEX_YEAR = r"\b(\d{4})\b"
 
+###########################################################
+# Filters
+###########################################################
+def filter_sort_mycates(categories, desc=True):
+    '''
+    Sort categories 
+    '''
+    return sorted(categories, key=lambda v: v[0], reverse=True)
+
 
 def filter_md2html(s):
     '''
@@ -59,6 +68,12 @@ def add_all_filters(pelican):
     pelican.env.filters.update({"md2html": filter_md2html})
     pelican.env.filters.update({"get_year": filter_get_year})
     pelican.env.filters.update({"highlight_me": filter_highlight_me})
+    pelican.env.filters.update({"sort_mycates": filter_sort_mycates})
+
+
+###########################################################
+# Plugin for make special pages
+###########################################################
 
 
 def register():
