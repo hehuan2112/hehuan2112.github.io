@@ -489,7 +489,8 @@ body {
       {% if y == (p['date']|get_year) or (y == 'Before 2018' and (p['date']|get_year) not in YEARS) %}
       <div class="row publication">
         <div class="pub-image column column-20">
-          <img class="thumbnail" src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
+          <img class="thumbnail lozad" 
+            data-src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
         </div>
         <div class="pub-content column column-80">
           <b>{{ p['title'] }}</b>
@@ -529,7 +530,8 @@ body {
         <div class="column column-20 col-date">
           {{ p['date'] }}
           <br>
-          <img class="thumbnail" src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
+          <img class="thumbnail lozad" 
+            data-src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
         </div>
         <div class="column column-80">
           <b>
@@ -569,7 +571,8 @@ body {
         {% if p['slug'] != '' %}
         <div class="column column-25">
           <div class="tool-image">
-            <img class="thumbnail" src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
+            <img class="thumbnail lozad" 
+              data-src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
           </div>
           <b>
             {{ p['title'] }}
@@ -708,7 +711,7 @@ body {
 
 </div>
 
-
+<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 <script>
 function backToTop() {
     document.querySelector('.wrapper').scrollTop = 0;
@@ -813,6 +816,10 @@ window.onload = function() {
     // init variables
     navs = document.querySelectorAll('.nav-item');
     secs = document.querySelectorAll('.section');
+
+    // lazy load
+    const observer = lozad();
+    observer.observe();
 }
 </script>
 </body>
