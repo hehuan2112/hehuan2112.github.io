@@ -405,7 +405,8 @@ body {
       <p></p>
 
 
-      <span id="publications"></span>
+      <span id="publications"
+        class="section-header"></span>
 
       <div class="navigation">
         <ul class="nav-list">
@@ -475,11 +476,6 @@ body {
       </div>
 
 
-
-
-
-      <span class="section-header">
-      </span>
 
       {% for y in YEARS %}
       <h3 class="pub-year">
@@ -756,6 +752,14 @@ function activeNavs(nav_id) {
     });
 }
 
+function onClickContent() {
+  let navbar = document.querySelector('.navbar');
+    if (navbar.classList.contains('display-block')) {
+        navbar.classList.remove('display-block');
+    } else {
+    }
+}
+
 function onScrollContent() {
     let scroll = document.querySelector('.wrapper').scrollTop;
     let active_idx = -1;
@@ -792,19 +796,19 @@ function onScrollContent() {
         }
     }
     
-    // console.log(
-    //     "* - " + scroll + " " + 
-    //     '[ ' + 
-    //     secs[0].offsetTop + ", " + 
-    //     secs[1].offsetTop + ", " + 
-    //     secs[2].offsetTop + ", " + 
-    //     secs[3].offsetTop + ", " + 
-    //     secs[4].offsetTop + ", " + 
-    //     secs[5].offsetTop + ", " + 
-    //     secs[6].offsetTop + " " +
-    //     '] ' + 
-    //     active_idx
-    // );
+    console.log(
+        "* - " + scroll + " " + 
+        '[ ' + 
+        secs[0].offsetTop + ", " + 
+        secs[1].offsetTop + ", " + 
+        secs[2].offsetTop + ", " + 
+        secs[3].offsetTop + ", " + 
+        secs[4].offsetTop + ", " + 
+        secs[5].offsetTop + ", " + 
+        secs[6].offsetTop + " " +
+        '] ' + 
+        active_idx
+    );
 };
 
 window.onload = function() {
@@ -814,9 +818,12 @@ window.onload = function() {
     // bind event
     document.querySelector('.wrapper').onscroll = onScrollContent;
 
+    // bind event for click
+    document.querySelector('.wrapper').onclick = onClickContent;
+
     // init variables
     navs = document.querySelectorAll('.nav-item');
-    secs = document.querySelectorAll('.section');
+    secs = document.querySelectorAll('.section-header');
 
     // lazy load
     const observer = lozad();
