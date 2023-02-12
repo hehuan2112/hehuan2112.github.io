@@ -10,4 +10,4 @@ Summary: Memory of life
 
 # 2013
 
-![XJTU DLC Lab Members](../image/xjtudlc-lab-2013.png)
+![XJTU DLC Lab Members](../image/xjtudlc-lab-2013.jpg)
