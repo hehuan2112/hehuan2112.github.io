@@ -73,6 +73,12 @@ body {
   border-radius: 3px;
   text-decoration: none;
 }
+.tag-link-cite {
+  color: gray;
+}
+.tag-link-cite:hover {
+  color: blue;
+}
 .tag-link-paper {
   color: gray;
 }
@@ -484,25 +490,50 @@ body {
 
       {% for p in WORKS['publications'] %}
       {% if y == (p['date']|get_year) or (y == 'Before 2018' and (p['date']|get_year) not in YEARS) %}
-      <div class="row publication">
+      <div id="pub-{{ loop.index0 }}"
+        class="row publication">
         <div class="pub-image column column-20">
           <img class="thumbnail lozad" 
             data-src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
         </div>
         <div class="pub-content column column-80">
-          <b>{{ p['title'] }}</b>
+          <b class="pub-title">
+            {{ p['title'] }}
+          </b>
           <br>
-          {{ p['authors'] | highlight_me }}
+          
+          <span class="pub-authors">
+            {{ p['authors'] | highlight_me }}
+          </span>
           <br>
+
           <i>
-            {{ p['source'] }}, {{ p['date'] }}
+            <span class="pub-source">
+              {{ p['source'] }}
+            </span>
+            ,
+            <span class="pub-date">
+              {{ p['date'] }}
+            </span>
           </i>
           <br>
+
           {% for k in p['links'] %}
           <a href="{{ k[1] }}" class="tag-link tag-link-{{ k[2] }}">
             {{ k[0] }}
           </a>
           {% endfor %}
+          <span class="tag-link tag-link-split">
+            |
+          </span>
+          <a target="_self"
+            class="tag-link tag-link-cite"
+            title="cite this work"
+            href="javascript:void(0);"
+            onclick="cite_pub({{ loop.index0 }});">
+            <i class="bi bi-quote"></i>
+            Cite
+          </a>
           
           <br>
           <span class="text-smaller">&nbsp;</span>
@@ -708,8 +739,113 @@ body {
 
 </div>
 
+<!-- Lazy Load -->
 <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+<!-- Citation.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/citation-js/0.6.7/citation.min.js" integrity="sha512-N+LDFMa9owHXGS+CyMrBvuxq2QuGl3fiB/7cys3aUEL7K6P1soHGqsS0sjHXZpwNd9Kz0m3R4IPy1HYRi6ROEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
+const Cite = require('citation-js');
+// const csl = new Cite.CSL.Engine();
+// csl.configure('https://raw.githubusercontent.com/citation-style-language/styles/master/vancouver.csl');
+
+// console.log(csl);
+
+function cite_pub(pub_idx) {
+  // console.log("* cite_pub", pub_idx);
+
+  // get title
+  let title = document.querySelector('#pub-'+pub_idx+' .pub-title').innerText;
+  let authors = document.querySelector('#pub-'+pub_idx+' .pub-authors').innerText;
+  let source = document.querySelector('#pub-'+pub_idx+' .pub-source').innerText;
+  let date = document.querySelector('#pub-'+pub_idx+' .pub-date').innerText;
+
+  // simple one
+  let output = authors + ' "' + title + '." ' + source + ', ' + date;
+  copy_text_to_clipboard(output);
+
+  const ref = new Cite({
+    title: title,
+    year: get_year(date),
+    author: authors_str_to_json_fmt(authors),
+    journal: source,
+    issued: {
+      raw: date
+    }
+  });
+
+  let str = ref.format('bibliography', {
+    format: 'text', 
+    template: 'vancouver', 
+    lang: 'en-US', 
+    append: '\n'
+  });
+
+  console.log('* ref:', str)
+}
+
+function copy_text_to_clipboard(stringToCopy) {
+
+    // Create a temporary textarea element to hold the string
+    const textarea = document.createElement('textarea');
+    textarea.value = stringToCopy;
+
+    // Add the textarea element to the page
+    document.body.appendChild(textarea);
+
+    // Select the contents of the textarea
+    textarea.select();
+
+    // Copy the selected text to the clipboard
+    document.execCommand('copy');
+
+    // Remove the textarea from the page
+    document.body.removeChild(textarea);
+}
+
+function get_year(dateStr) {
+  const yearRegex = /(\d{4})/;
+  const year = yearRegex.exec(dateStr)[1];
+  return year;
+}
+
+function _authors_str_to_list(authors) {
+  let ps = authors.split(',');
+  let aus = [];
+  for (let i = 0; i < ps.length; i++) {
+    const p = ps[i];
+    let p2 = p.trim();
+    aus.push(p2);
+  }
+  return aus; 
+}
+
+function authors_str_to_bibtex_fmt(authors) {
+  let aus = _authors_str_to_list(authors);
+  return aus.join(' and ');
+}
+
+function authors_str_to_json_fmt(authors) {
+  let aus = _authors_str_to_list(authors);
+  let js = [];
+  for (let i = 0; i < aus.length; i++) {
+    const a = aus[i];
+    js.push(get_author_given_family_name(a));
+  }
+  return js;
+}
+
+function get_author_given_family_name(fullName) {
+  const nameParts = fullName.split(' ');
+
+  // Get the family name (last name) and given name (first name)
+  const familyName = nameParts.pop();
+  const givenName = nameParts.join(' ');
+  return {
+    "given": givenName,
+    "family": familyName
+  }
+}
+ 
 function backToTop() {
     document.querySelector('.wrapper').scrollTop = 0;
 }
@@ -796,19 +932,19 @@ function onScrollContent() {
         }
     }
     
-    console.log(
-        "* - " + scroll + " " + 
-        '[ ' + 
-        secs[0].offsetTop + ", " + 
-        secs[1].offsetTop + ", " + 
-        secs[2].offsetTop + ", " + 
-        secs[3].offsetTop + ", " + 
-        secs[4].offsetTop + ", " + 
-        secs[5].offsetTop + ", " + 
-        secs[6].offsetTop + " " +
-        '] ' + 
-        active_idx
-    );
+    // console.log(
+    //     "* - " + scroll + " " + 
+    //     '[ ' + 
+    //     secs[0].offsetTop + ", " + 
+    //     secs[1].offsetTop + ", " + 
+    //     secs[2].offsetTop + ", " + 
+    //     secs[3].offsetTop + ", " + 
+    //     secs[4].offsetTop + ", " + 
+    //     secs[5].offsetTop + ", " + 
+    //     secs[6].offsetTop + " " +
+    //     '] ' + 
+    //     active_idx
+    // );
 };
 
 window.onload = function() {
