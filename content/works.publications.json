@@ -1,5 +1,22 @@
 [
 {
+    "thumb": "jamaonc23/mcspc-thumb.jpg",
+    "title": "First-line Systemic Treatment Options for Metastatic Castration-Sensitive Prostate Cancer: A Living Systematic Review and Network Meta-analysis",
+    "authors": "Irbaz Bin Riaz, MD, PhD, Syed Arsalan Ahmed Naqvi, Huan He, Noureen Asghar, Rabbia Siddiqi, Hongfang Liu, Parminder Singh, Daniel S. Childs, Praful Ravi, Syed A. Hussain, Mohammad Hassan Murad, Stephen A. Boorjian, Christopher Sweeney, Eliezer M. Van Allen, Alan H. Bryce",
+    "date": "March 2, 2023",
+    "source": "JAMA Oncology",
+    "links": [
+        ["36862387", "https://pubmed.ncbi.nlm.nih.gov/36862387/", "pmid"],
+        ["PMC9982744", "https://pubmed.ncbi.nlm.nih.gov/36862387/", "pmid"],
+        ["10.1001/jamaoncol.2022.7762", "https://dx.doi.org/10.1001/jamaoncol.2022.7762", "doi"]
+    ]
+},
+
+
+
+
+
+{
     "thumb": "amia22-all/mt-thumb.png",
     "title": "Towards User-centered Corpus Development: Lessons Learnt from Designing and Developing MedTator",
     "authors": "Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu, Sungrim Moon, Kurt Miller, Hongfang Liu",

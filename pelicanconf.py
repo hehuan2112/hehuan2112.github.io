@@ -4,6 +4,7 @@ For a simple conference
 """
 import json
 from datetime import datetime
+from myplugins import filter_get_year
 
 AUTHOR = 'Huan He'
 SITENAME = 'Huan He'
@@ -33,8 +34,8 @@ PLUGINS = [
 ]
 
 # Social widget if needed.
-SOCIAL = (('https://twitter.com/', '#'),
-          ('https://facebook.com/', '#'),)
+# SOCIAL = (('https://twitter.com/', '#'),
+#           ('https://facebook.com/', '#'),)
 
 # we don't need pagination as there is no blog
 DEFAULT_PAGINATION = False
@@ -87,6 +88,7 @@ LINKS = [
 ]
 
 # YEARS
-YEARS = ['%s' % y for y in range(2018, 2022 + 1)]
+YEAR_LATEST = int(filter_get_year(WORKS['publications'][0]['date']))
+YEARS = ['%s' % y for y in range(2018, YEAR_LATEST + 1)]
 YEARS.reverse()
 YEARS.append('Before 2018')
