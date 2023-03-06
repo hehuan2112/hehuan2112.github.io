@@ -4,7 +4,7 @@ For a simple conference
 """
 import json
 from datetime import datetime
-from myplugins import filter_get_year
+import re
 
 AUTHOR = 'Huan He'
 SITENAME = 'Huan He'
@@ -88,7 +88,19 @@ LINKS = [
 ]
 
 # YEARS
-YEAR_LATEST = int(filter_get_year(WORKS['publications'][0]['date']))
+REGEX_YEAR = r"\b(\d{4})\b"
+def get_year(date_str):
+    '''
+    Get the year in a string
+    '''
+    ms = re.findall(REGEX_YEAR, date_str)
+
+    if len(ms) == 0:
+        return ''
+    else:
+        return ms[0]
+
+YEAR_LATEST = int(get_year(WORKS['publications'][0]['date']))
 YEARS = ['%s' % y for y in range(2018, YEAR_LATEST + 1)]
 YEARS.reverse()
 YEARS.append('Before 2018')
