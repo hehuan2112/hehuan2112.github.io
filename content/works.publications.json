@@ -11,6 +11,69 @@
         ["10.1001/jamaoncol.2022.7762", "https://dx.doi.org/10.1001/jamaoncol.2022.7762", "doi"]
     ]
 },
+{
+    "thumb": "amiais23/NMA-thumb.jpg",
+    "title": "Towards Real-time Visual Exploration of Network Meta-analysis Results",
+    "authors": "Huan He, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, Mahnoor Islam, M. Hassan Murad, Hongfang Liu",
+    "date": "March 13-17, 2023",
+    "source": "AMIA 2023 Informatics Summit",
+    "links": [
+        ["Podium Abstract", "/file/amiais23/NMA-abstract.pdf", "paper"],
+        ["Slide", "/file/amiais23/NMA-slide.pdf", "slide"]
+    ]
+},
+{
+    "thumb": "amiais23/MTEA-thumb.jpg",
+    "title": "Visualizing and Understanding the Errors of Information Extraction Results",
+    "authors": "Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu, Sungrim Moon, Kurt Miller, Hongfang Liu",
+    "date": "March 13-17, 2023",
+    "source": "AMIA 2023 Informatics Summit",
+    "links": [
+        ["Abstract", "/file/amiais23/MTEA-abstract.pdf", "paper"],
+        ["Slide", "/file/amiais23/MTEA-slide.pdf", "slide"]
+    ]
+},
+{
+    "thumb": "amiais23/CDTUI-thumb.jpg",
+    "title": "Towards High Efficiency Eligibility Assessment for Clinical Trial Accrual",
+    "authors": "Huan He, Andrew Wen, Sunyang Fu, Sijia Liu, Kurt Miller, Michael Lin, Robert Gehrke, Carmen Vodislav, Kathryn Cook, David Strauss, Dania Helgeson, Thomas Kingsley, Alexander Ryu, Hongfang Liu",
+    "date": "March 13-17, 2023",
+    "source": "AMIA 2023 Informatics Summit",
+    "links": [
+        ["Abstract", "/file/amiais23/CDTUI-abstract.pdf", "paper"],
+        ["Poster", "/file/amiais23/CDTUI-poster.jpg", "poster"]
+    ]
+},
+{
+    "thumb": "amiais23/CDT-thumb.jpg",
+    "title": "A Cohort Discovery and Exploration System for Clinical Trial Accrual",
+    "authors": "Andrew Wen, Huan He, Sunyang Fu, Sijia Liu, Kurt Miller, Robert Gehrke, Carmen Vodislav, Michael Lin, Kathryn Cook, David Strauss, Dania Helgeson, Thomas Kingsley, Alexander Ryu, Hongfang Liu",
+    "date": "March 13-17, 2023",
+    "source": "AMIA 2023 Informatics Summit",
+    "links": [
+        ["Podium Abstract", "/file/amiais23/CDT-paper.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amiais23/CDTNA-thumb.jpg",
+    "title": "Needs Assessment of a Cohort Exploration Tool for Clinical Research Coordinators at a Large Academic Medical Center",
+    "authors": "Thomas Kingsley, Sunyang Fu, Huan He, Michael Lin, Robert Gehrke, Carmen Vodislav, Sijia Liu, Andrew Wen, Dania Helgeson, David Strauss, Kathryn Cook, Alexander Ryu, Hongfang Liu",
+    "date": "March 13-17, 2023",
+    "source": "AMIA 2023 Informatics Summit",
+    "links": [
+        ["Podium Abstract", "/file/amiais23/CDTNA-paper.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amiais23/FH-thumb.jpg",
+    "title": "Open-Source Family History Extraction and Normalization Resources",
+    "authors": "Liwei Wang, Huan He, Sungrim Moon, Andrew Wen, Kevin J. Peterson, Hongfang Liu",
+    "date": "March 13-17, 2023",
+    "source": "AMIA 2023 Informatics Summit",
+    "links": [
+        ["Podium Abstract", "/file/amiais23/FH-paper.pdf", "paper"]
+    ]
+},
 
 
 
@@ -177,27 +240,27 @@
     ]
 },
 {
-    "thumb": "amiais22-all/dp-thumb.png",
+    "thumb": "amiais22/dp-thumb.png",
     "title": "Design Principles Towards Higher Efficiency in Multi-document Annotation",
     "authors": "Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu, Hongfang Liu",
     "date": "March 21 - 24, 2022",
     "source": "AMIA Informatics Summit 2022 Poster, Chicago, IL, USA",
     "links": [
-        ["PDF", "/file/amiais22-all/dp-paper.pdf", "paper"],
+        ["PDF", "/file/amiais22/dp-paper.pdf", "paper"],
         ["PDF (AMIA Knowledge Center)", "https://knowledge.amia.org/75287-amia-1.4633888/t006-1.4635103/t006-1.4635104/2167-1.4635297/2167-1.4635298", "paper"],
-        ["Poster", "/file/amiais22-all/dp-poster.pdf", "poster"]
+        ["Poster", "/file/amiais22/dp-poster.pdf", "poster"]
     ]
 },
 {
-    "thumb": "amiais22-all/mt-thumb.png",
+    "thumb": "amiais22/mt-thumb.png",
     "title": "MedTator: A Lightweight Interactive Multi-Document Annotation Tool",
     "authors": "Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu, Hongfang Liu",
     "date": "March 21 - 24, 2022",
     "source": "AMIA Informatics Summit 2022 System Demonstration, Chicago, IL, USA",
     "links": [
-        ["PDF", "/file/amiais22-all/mt-paper.pdf", "paper"],
+        ["PDF", "/file/amiais22/mt-paper.pdf", "paper"],
         ["PDF (AMIA Knowledge Center)", "https://knowledge.amia.org/75287-amia-1.4633888/t007-1.4635083/t007-1.4635084/2165-1.4635094/2165-1.4635095", "paper"],
-        ["Slide", "/file/amiais22-all/mt-slide.pdf", "ppt"],
+        ["Slide", "/file/amiais22/mt-slide.pdf", "ppt"],
         ["Demo", "https://ohnlp.github.io/MedTator/", "demo"],
         ["Poster on ICHI 2022", "https://doi.org/10.1109/ICHI54592.2022.00099", "paper"]
     ]
