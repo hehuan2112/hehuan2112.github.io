@@ -26,6 +26,9 @@ body {
     margin: 0;
     overflow: hidden;
 }
+.button, button {
+  height: 2em;
+}
 .wrapper {
     width: 100%;
     height: 100%;
@@ -135,6 +138,12 @@ body {
   background: grey;
   color: white;  
 }
+.tag-link-hover-show {
+  display: none;
+}
+.pub-content:hover .tag-link-hover-show {
+  display: inline;
+}
 
 /* plugin for milligram.css */
 .row .column.column-18 {
@@ -238,6 +247,148 @@ body {
 }
 .display-block {
     display: block !important;
+}
+
+/* for dialog */
+/**************************\
+  Basic Modal Styles
+\**************************/
+
+.modal {
+  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__container {
+  background-color: #fff;
+  padding: 10px;
+  max-width: 500px;
+  max-height: 100vh;
+  border-radius: 4px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: #00449e;
+  box-sizing: border-box;
+}
+
+.modal__close {
+  background: transparent;
+  border: 0;
+}
+
+.modal__header .modal__close:before { content: "\2715"; }
+
+.modal__content {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: rgba(0,0,0,.8);
+}
+
+.modal__btn {
+  font-size: .875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #e6e6e6;
+  color: rgba(0,0,0,.8);
+  border-radius: .25rem;
+  border-style: none;
+  border-width: 0;
+  cursor: pointer;
+  text-transform: none;
+  overflow: visible;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.modal__btn-primary {
+  background-color: #00449e;
+  color: #fff;
+}
+
+
+
+/**************************\
+  Demo Animation Style
+\**************************/
+@keyframes mmfadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes mmfadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
+
+@keyframes mmslideIn {
+  from { transform: translateY(15%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes mmslideOut {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10%); }
+}
+
+.micromodal-slide {
+  display: none;
+}
+
+.micromodal-slide.is-open {
+  display: block;
+}
+
+.micromodal-slide[aria-hidden="false"] .modal__overlay {
+  animation: mmfadeIn .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="false"] .modal__container {
+  animation: mmslideIn .3s cubic-bezier(0, 0, .2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal__overlay {
+  animation: mmfadeOut .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal__container {
+  animation: mmslideOut .3s cubic-bezier(0, 0, .2, 1);
+}
+
+.micromodal-slide .modal__container,
+.micromodal-slide .modal__overlay {
+  will-change: transform;
+}
+
+.citation-text {
+  padding: 5px;
 }
 
 /* for mobile devices */
@@ -491,7 +642,8 @@ body {
       {% for p in WORKS['publications'] %}
       {% if y == (p['date']|get_year) or (y == 'Before 2018' and (p['date']|get_year) not in YEARS) %}
       <div id="pub-{{ loop.index0 }}"
-        class="row publication">
+        class="row publication"
+        pub_type="{{ p['type'] }}">
         <div class="pub-image column column-20">
           <img class="thumbnail lozad" 
             data-src="{{ page_name | pg2path }}/file/{{ p['thumb'] }}">
@@ -509,26 +661,31 @@ body {
 
           <i>
             <span class="pub-source">{{ p['source'] }}</span>,
+            {% if p['type'] == 'conference' %}
+            <span class="pub-place">{{ p['place'] }}</span>,
+            {% endif %}
             <span class="pub-date">{{ p['date'] }}</span>
           </i>
           <br>
 
+          <span class="pub-links">
           {% for k in p['links'] %}
-          <a href="{{ k[1] }}" class="tag-link tag-link-{{ k[2] }}">
+          <a href="{{ k[1] }}" 
+            class="tag-link tag-link-{{ k[2] }}"
+            data_type="{{ k[2] }}">
             {{ k[0] }}
           </a>
           {% endfor %}
-          <!-- <span class="tag-link tag-link-split">
-            |
           </span>
+          
           <a target="_self"
-            class="tag-link tag-link-cite"
+            class="tag-link tag-link-cite tag-link-hover-show"
             title="cite this work"
             href="javascript:void(0);"
             onclick="cite_pub({{ loop.index0 }});">
             <i class="bi bi-quote"></i>
             Cite
-          </a> -->
+          </a> 
           
           <br>
           <span class="text-smaller">&nbsp;</span>
@@ -732,13 +889,61 @@ body {
 
 </div>
 
+<div class="modal micromodal-slide" id="modal-citation" aria-hidden="true">
+  <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+    <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-citation-title">
+      <!-- <header class="modal__header">
+        <h2 class="modal__title" id="modal-citation-title">
+          Micromodal
+        </h2>
+        <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+      </header> -->
+      <main class="modal__content" id="modal-citation-content">
+        <div id="citation_content"
+          class="citation-text">
+
+        </div>
+      </main>
+      <footer class="modal__footer">
+        
+        <button class="modal__btn" 
+          data-micromodal-close 
+          aria-label="Close this dialog window">
+          Close
+        </button>
+        |
+
+        <button class="modal__btn modal__btn-primary"
+          onclick="copy_cite_to_clipboard()">
+          <i class="bi bi-clipboard-check"></i>
+          Copy
+        </button>
+
+        <span id="modal_btn_msg">
+        </span>
+
+        <span>
+          |
+        </span>
+        <span>
+          Format: NLM
+        </span>
+      </footer>
+    </div>
+  </div>
+</div>
+
 </div>
 
 <!-- Lazy Load -->
 <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 <!-- Citation.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/citation-js/0.6.7/citation.min.js" integrity="sha512-N+LDFMa9owHXGS+CyMrBvuxq2QuGl3fiB/7cys3aUEL7K6P1soHGqsS0sjHXZpwNd9Kz0m3R4IPy1HYRi6ROEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- dialog -->
+<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
 <script>
+MicroModal.init();
+
 const Cite = require('citation-js');
 // const csl = new Cite.CSL.Engine();
 // csl.configure('https://raw.githubusercontent.com/citation-style-language/styles/master/vancouver.csl');
@@ -749,33 +954,95 @@ function cite_pub(pub_idx) {
   // console.log("* cite_pub", pub_idx);
 
   // get title
+  let type = document.querySelector('#pub-'+pub_idx).attributes['pub_type'].value;
   let title = document.querySelector('#pub-'+pub_idx+' .pub-title').innerText;
   let authors = document.querySelector('#pub-'+pub_idx+' .pub-authors').innerText;
   let source = document.querySelector('#pub-'+pub_idx+' .pub-source').innerText;
   let date = document.querySelector('#pub-'+pub_idx+' .pub-date').innerText;
+  let links = _get_links_by_pub_idx(pub_idx);
+
+  // other information
+  let place = '';
+  if (document.querySelector('#pub-'+pub_idx+' .pub-place') != null) {
+    place = document.querySelector('#pub-'+pub_idx+' .pub-place').innerText;
+  }
 
   // simple one
   let output = authors + ' "' + title + '." ' + source + ', ' + date;
-  copy_text_to_clipboard(output);
+  // copy_text_to_clipboard(output);
 
-  const ref = new Cite({
-    title: title,
-    year: get_year(date),
-    author: authors_str_to_json_fmt(authors),
-    journal: source,
-    issued: {
-      raw: date
+  // const ref = new Cite({
+  //   title: title,
+  //   year: get_year(date),
+  //   author: authors_str_to_json_fmt(authors),
+  //   journal: source,
+  //   issued: {
+  //     raw: date
+  //   }
+  // });
+
+  // let str = ref.format('bibliography', {
+  //   format: 'text', 
+  //   template: 'vancouver', 
+  //   lang: 'en-US', 
+  //   append: '\n'
+  // });
+
+  // console.log('* ref:', str)
+  // NLM format
+  let str = authors_str_to_nlm_fmt(authors) + '. ' +
+    title + ". " + 
+    source + '. ' +
+    (type == 'conference'? place : '') + ', ' +
+    date + '. ' + 
+    _get_ids_from_links(links);
+
+  // update citation text
+  document.querySelector('#citation_content').innerText = str;
+
+  // show modal
+  MicroModal.show('modal-citation');
+}
+
+function _get_links_by_pub_idx(pub_idx) {
+  let tmps = document.querySelectorAll('#pub-' + pub_idx + ' .pub-links a');
+  let links = [];
+  for (let i = 0; i < tmps.length; i++) {
+    const tmp = tmps[i];
+    let data_type = tmp.getAttribute('data_type');
+    let text = tmp.innerText.trim();
+    let link = tmp.href;
+
+    links.push({
+      data_type: data_type,
+      text: text,
+      link: link
+    });
+  }
+  return links;
+}
+
+function _get_ids_from_links(links) {
+  var ret = [];
+  for (let i = 0; i < links.length; i++) {
+    const tmp = links[i];
+    if (tmp.data_type == 'pmid') {
+      ret.push('PMID: ' + tmp.text);
+    } else if (tmp.data_type == 'pmcid') {
+      ret.push('PMCID: ' + tmp.text);
+    } else if (tmp.data_type == 'doi') {
+      ret.push('doi: ' + tmp.text);
+    } else {
+      // pass
     }
-  });
+  }
+  return ret.join('. ');
+}
 
-  let str = ref.format('bibliography', {
-    format: 'text', 
-    template: 'vancouver', 
-    lang: 'en-US', 
-    append: '\n'
-  });
-
-  console.log('* ref:', str)
+function copy_cite_to_clipboard() {
+  var cite_str = document.querySelector('#citation_content').innerText;
+  copy_text_to_clipboard(cite_str);
+  show_modal_btn_msg('Copied!');
 }
 
 function copy_text_to_clipboard(stringToCopy) {
@@ -797,6 +1064,20 @@ function copy_text_to_clipboard(stringToCopy) {
     document.body.removeChild(textarea);
 }
 
+function show_modal_btn_msg(msg, flag_auto_hide) {
+  if (typeof(flag_auto_hide)=='undefined') {
+    flag_auto_hide = true;
+  }
+  document.querySelector('#modal_btn_msg').innerText = msg;
+  if (flag_auto_hide) {
+    setTimeout('clear_modal_btn_msg()', 3000);
+  }
+}
+
+function clear_modal_btn_msg() {
+  document.querySelector('#modal_btn_msg').innerText = '';
+}
+
 function get_year(dateStr) {
   const yearRegex = /(\d{4})/;
   const year = yearRegex.exec(dateStr)[1];
@@ -814,6 +1095,39 @@ function _authors_str_to_list(authors) {
   return aus; 
 }
 
+function _get_first_chars_of_tokens(s) {
+  let ps = s.split(' ');
+  let cs = [];
+  for (let i = 0; i < ps.length; i++) {
+    const p = ps[i];
+    cs.push(p.charAt(0));
+  }
+  return cs.join('').toLocaleUpperCase();
+}
+
+function _get_author_given_family_name(fullName) {
+  const nameParts = fullName.split(' ');
+
+  // Get the family name (last name) and given name (first name)
+  const familyName = nameParts.pop();
+  const givenName = nameParts.join(' ');
+  return {
+    "given": givenName,
+    "family": familyName
+  }
+}
+
+function authors_str_to_nlm_fmt(authors) {
+  let aus = _authors_str_to_list(authors);
+  let js = [];
+  for (let i = 0; i < aus.length; i++) {
+    const a = aus[i];
+    let name = _get_author_given_family_name(a);
+    js.push(name.family + ' ' + _get_first_chars_of_tokens(name.given));
+  }
+  return js.join(', ');
+}
+
 function authors_str_to_bibtex_fmt(authors) {
   let aus = _authors_str_to_list(authors);
   return aus.join(' and ');
@@ -824,21 +1138,9 @@ function authors_str_to_json_fmt(authors) {
   let js = [];
   for (let i = 0; i < aus.length; i++) {
     const a = aus[i];
-    js.push(get_author_given_family_name(a));
+    js.push(_get_author_given_family_name(a));
   }
   return js;
-}
-
-function get_author_given_family_name(fullName) {
-  const nameParts = fullName.split(' ');
-
-  // Get the family name (last name) and given name (first name)
-  const familyName = nameParts.pop();
-  const givenName = nameParts.join(' ');
-  return {
-    "given": givenName,
-    "family": familyName
-  }
 }
  
 function backToTop() {

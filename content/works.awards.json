@@ -7,9 +7,15 @@
 },
 {
     "date": "2020",
-    "title": "Best Poster Awards",
+    "title": "Best Poster Research Award",
     "organization": "IEEE VIS 2020",
-    "location": ""
+    "location": "Virtual"
+},
+{
+    "date": "2018",
+    "title": "Outstanding Member Award",
+    "organization": "Shaanxi Provincial Key Lab of Big Data Knowledge Engineering, Xi'an Jiaotong University",
+    "location": "Xi'an, Shaanxi, China"
 },
 {
     "date": "2015",
@@ -19,20 +25,20 @@
 },
 {
     "date": "2010",
-    "title": "The 2nd Class Prize of Innovation Cup",
+    "title": "Second Prize of Innovation Cup",
     "organization": "Xi'an Jiaotong University",
     "location": "Xi'an, Shaanxi, China"
 },
 {
     "date": "2009",
-    "title": "The 3rd Class Prize of Science and Technology Award of Shaanxi Provincial Higher Education",
+    "title": "Third Prize of Science and Technology Award of Shaanxi Higher Education",
     "organization": "Minister of Education",
     "location": "Xi'an, Shaanxi, China"
 },
 {
     "date": "2005",
-    "title": "College Scholarship",
-    "organization": "Higher Education Press",
+    "title": "Third Prize of Mathematical Contest in Modeling",
+    "organization": "China Society for Industrial and Applied Mathematics (CSIAM)",
     "location": "Beijing, China"
 },
 {

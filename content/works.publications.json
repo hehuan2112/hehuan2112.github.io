@@ -5,9 +5,10 @@
     "authors": "Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Huan He, Noureen Asghar, Rabbia Siddiqi, Hongfang Liu, Parminder Singh, Daniel S. Childs, Praful Ravi, Syed A. Hussain, Mohammad Hassan Murad, Stephen A. Boorjian, Christopher Sweeney, Eliezer M. Van Allen, Alan H. Bryce",
     "date": "March 2, 2023",
     "source": "JAMA Oncology",
+    "type": "journal",
     "links": [
         ["36862387", "https://pubmed.ncbi.nlm.nih.gov/36862387/", "pmid"],
-        ["PMC9982744", "https://pubmed.ncbi.nlm.nih.gov/36862387/", "pmid"],
+        ["PMC9982744", "https://pubmed.ncbi.nlm.nih.gov/36862387/", "pmcid"],
         ["10.1001/jamaoncol.2022.7762", "https://dx.doi.org/10.1001/jamaoncol.2022.7762", "doi"]
     ]
 },
@@ -17,6 +18,8 @@
     "authors": "Huan He, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, Mahnoor Islam, M. Hassan Murad, Hongfang Liu",
     "date": "March 13-17, 2023",
     "source": "AMIA 2023 Informatics Summit",
+    "type": "conference",
+    "place": "Seattle, WA",
     "links": [
         ["Podium Abstract", "/file/amiais23/NMA-abstract.pdf", "paper"],
         ["Slide", "/file/amiais23/NMA-slide.pdf", "slide"]
@@ -28,6 +31,8 @@
     "authors": "Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu, Sungrim Moon, Kurt Miller, Hongfang Liu",
     "date": "March 13-17, 2023",
     "source": "AMIA 2023 Informatics Summit",
+    "type": "conference",
+    "place": "Seattle, WA",
     "links": [
         ["Abstract", "/file/amiais23/MTEA-abstract.pdf", "paper"],
         ["Slide", "/file/amiais23/MTEA-slide.pdf", "slide"]
@@ -39,6 +44,8 @@
     "authors": "Huan He, Andrew Wen, Sunyang Fu, Sijia Liu, Kurt Miller, Michael Lin, Robert Gehrke, Carmen Vodislav, Kathryn Cook, David Strauss, Dania Helgeson, Thomas Kingsley, Alexander Ryu, Hongfang Liu",
     "date": "March 13-17, 2023",
     "source": "AMIA 2023 Informatics Summit",
+    "type": "conference",
+    "place": "Seattle, WA",
     "links": [
         ["Abstract", "/file/amiais23/CDTUI-abstract.pdf", "paper"],
         ["Poster", "/file/amiais23/CDTUI-poster.jpg", "poster"]
@@ -50,6 +57,8 @@
     "authors": "Andrew Wen, Huan He, Sunyang Fu, Sijia Liu, Kurt Miller, Robert Gehrke, Carmen Vodislav, Michael Lin, Kathryn Cook, David Strauss, Dania Helgeson, Thomas Kingsley, Alexander Ryu, Hongfang Liu",
     "date": "March 13-17, 2023",
     "source": "AMIA 2023 Informatics Summit",
+    "type": "conference",
+    "place": "Seattle, WA",
     "links": [
         ["Podium Abstract", "/file/amiais23/CDT-paper.pdf", "paper"]
     ]
@@ -60,6 +69,8 @@
     "authors": "Thomas Kingsley, Sunyang Fu, Huan He, Michael Lin, Robert Gehrke, Carmen Vodislav, Sijia Liu, Andrew Wen, Dania Helgeson, David Strauss, Kathryn Cook, Alexander Ryu, Hongfang Liu",
     "date": "March 13-17, 2023",
     "source": "AMIA 2023 Informatics Summit",
+    "type": "conference",
+    "place": "Seattle, WA",
     "links": [
         ["Podium Abstract", "/file/amiais23/CDTNA-paper.pdf", "paper"]
     ]
@@ -70,6 +81,8 @@
     "authors": "Liwei Wang, Huan He, Sungrim Moon, Andrew Wen, Kevin J. Peterson, Hongfang Liu",
     "date": "March 13-17, 2023",
     "source": "AMIA 2023 Informatics Summit",
+    "type": "conference",
+    "place": "Seattle, WA",
     "links": [
         ["Podium Abstract", "/file/amiais23/FH-paper.pdf", "paper"]
     ]
@@ -85,6 +98,8 @@
     "authors": "Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu, Sungrim Moon, Kurt Miller, Hongfang Liu",
     "date": "Nov 5 - 9, 2022",
     "source": "AMIA 2022 Annual Symposium",
+    "type": "conference",
+    "place": "Washington, D.C.",
     "links": [
         ["PDF", "/file/amia22-all/mt-paper.pdf", "paper"],
         ["PDF (AMIA Knowledge Center)", "https://knowledge.amia.org/76677-amia-1.4637602/f006-1.4642154/f006-1.4642155/613-1.4642384/613-1.4642385", "paper"],
@@ -98,6 +113,8 @@
     "authors": "Irbaz Bin Riaz*, Huan He*, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, Mahnoor Islam, M. Hassan Murad, Hongfang Liu",
     "date": "Nov 5 - 9, 2022",
     "source": "AMIA 2022 Annual Symposium",
+    "type": "conference",
+    "place": "Washington, D.C.",
     "links": [
         ["PDF", "/file/amia22-all/coe-paper.pdf", "paper"],
         ["PDF (AMIA Knowledge Center)", "https://knowledge.amia.org/76677-amia-1.4637602/f007-1.4641746/f007-1.4641747/1139-1.4641883/1139-1.4641884", "paper"]
@@ -109,6 +126,8 @@
     "authors": "Liwei Wang, Sungrim Moon, Sicheng Zhou, Huan He, Hongfang Liu",
     "date": "Nov 5 - 9, 2022",
     "source": "AMIA 2022 Annual Symposium",
+    "type": "conference",
+    "place": "Washington, D.C.",
     "links": [
         ["PDF (AMIA Knowledge Center Link)", "https://knowledge.amia.org/76677-amia-1.4637602/f008-1.4640715/f008-1.4640716/530-1.4640816/530-1.4640817", "paper"]
     ]
@@ -118,10 +137,12 @@
     "title": "Sublanguage Characteristics of Clinical Documents",
     "authors": "Sungrim Moon, Huan He, Hongfang Liu",
     "date": "Dec 6-8, 2022",
-    "source": "Proceedings of 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pp. 3280-3286",
+    "source": "2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pp. 3280-3286",
+    "type": "conference",
+    "place": "Washington, D.C.",
     "links": [
         ["IEEE Xplore", "https://ieeexplore.ieee.org/document/9995620", "paper"],
-        ["10.1109/BIBM55620.2022.9995620", "https://dx.doi.org/10.1109/BIBM55620.2022.9995620", "paper"]
+        ["10.1109/BIBM55620.2022.9995620", "https://dx.doi.org/10.1109/BIBM55620.2022.9995620", "doi"]
     ]
 },
 {
@@ -130,8 +151,9 @@
     "authors": "Sunyang Fu, Liwei Wang, Sungrim Moon, Nansu Zong, Huan He, Vikas Pejaver, Rose Relevo, Anita Walden, Melissa Haendel, Christopher G. Chute, Hongfang Liu",
     "date": "07 December 2022",
     "source": "Clinical and Translational Science",
+    "type": "journal",
     "links": [
-        ["36478394", "https://pubmed.ncbi.nlm.nih.gov/36478394/", "paper"],
+        ["36478394", "https://pubmed.ncbi.nlm.nih.gov/36478394/", "pmid"],
         ["10.1111/cts.13463", "https://doi.org/10.1111/cts.13463", "doi"]
     ]
 },
@@ -141,6 +163,7 @@
     "authors": "Syed Arsalan Ahmed Naqvi, Sarosh Fatima, Noureen Asghar, Hafsah Ijaz, Ahsan Ayaz, Huan He, Muhammad Husnain, Rajshekar Chakraborty, Irbaz Riaz, Mohammed A. Aljama",
     "date": "Dec. 10 - 13, 2022",
     "source": "The 64th ASH Annual Meeting and Exposition (Oral and Poster), New Orleans, Louisiana",
+    "type": "conference",
     "links": [
         ["Paper Link", "https://ash.confex.com/ash/2022/webprogram/Paper170869.html", "paper"],
         ["Poster", "", "poster"]
@@ -152,6 +175,8 @@
     "authors": "Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu, Sungrim Moon, Kurt Miller, Hongfang Liu",
     "date": "Nov 5, 2022",
     "source": "The 13th Workshop on Visual Analytics in Healthcare (VAHC 2022), AMIA 2022 Annual Symposium",
+    "type": "conference",
+    "place": "Washington, D.C.",
     "links": [
         ["PDF", "/file/vahc22-all/mtea-paper.pdf", "paper"],
         ["Poster", "/file/vahc22-all/mtea-poster.pdf", "poster"]
@@ -163,6 +188,8 @@
     "authors": "Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Sijia Liu, Hongfang Liu",
     "date": "Oct. 14 - 16, 2022",
     "source": "OHDSI Symposium 2022",
+    "type": "conference",
+    "place": "Rockville, MD",
     "links": [
         ["Showcase Link", "https://www.ohdsi.org/2022showcase-42/", "demo"],
         ["PDF", "/file/other/ohdsi22-andrew-paper.pdf", "paper"],
@@ -174,7 +201,9 @@
     "title": "Visualization of Text Annotations for Corpus Development",
     "authors": "Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu, Sungrim Moon, Kurt Miller, Hongfang Liu",
     "date": "Oct. 16 - 21, 2022",
-    "source": "IEEE VIS 2022 (Poster)",
+    "source": "IEEE VIS 2022",
+    "type": "conference",
+    "place": "Oklahoma City, OK",
     "links": [
         ["PDF", "/file/vis22-all/mt-paper.pdf", "paper"],
         ["Poster", "/file/vis22-all/mt-poster.pdf", "poster"],
@@ -186,7 +215,9 @@
     "title": "Visual Exploration of Pairwise Meta-Analysis Results in Real Time",
     "authors": "Huan He*, Irbaz Bin Riaz*, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, Mahnoor Islam, M. Hassan Murad, Hongfang Liu",
     "date": "Oct. 16 - 21, 2022",
-    "source": "IEEE VIS 2022 (Poster)",
+    "source": "IEEE VIS 2022",
+    "type": "conference",
+    "place": "Oklahoma City, OK",
     "links": [
         ["PDF", "/file/vis22-all/rtpma-paper.pdf", "paper"],
         ["Poster", "/file/vis22-all/rtpma-poster.pdf", "poster"],
@@ -200,6 +231,7 @@
     "authors": "Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Huan He, Noureen Asghar, Rabbia Siddiqi, K.Z.R. Khakwani, Hongfang Liu, Syed A.Hussain, Parminder Singh, M. Hassan Murad, Alan Haruo Bryce",
     "date": "Sep. 9 - 13, 2022",
     "source": "Annals of Oncology (2022) 33 (suppl_7): S616-S652 (ESMO Congress 2022)",
+    "type": "journal",
     "links": [
         ["Poster", "https://oncologypro.esmo.org/meeting-resources/esmo-congress/mixed-treatment-comparisons-evaluating-contemporary-therapies-in-metastatic-castration-sensitive-prostate-cancer-mcspc-a-living-systematic-review", "poster"],
         ["Living SRMA", "https://mcspc.living-evidence.com/", "demo"]
@@ -211,6 +243,7 @@
     "authors": "Liwei Wang, Sunyang Fu, Andrew Wen, Xiaoyang Ruan, Huan He, Sijia Liu, Sungrim Moon, Michelle Mai, Irbaz B Riaz, Nan Wang, Ping Yang, Hua Xu, Jeremy L Warner , Hongfang Liu",
     "date": "2022 July",
     "source": "JCO Clinical Cancer Informatics, 6:e2200006",
+    "type": "journal",
     "links": [
         ["PDF", "javascript:void(0);", "paper"],
         ["35917480", "https://pubmed.ncbi.nlm.nih.gov/35917480/", "pmid"],
@@ -222,7 +255,9 @@
     "title": "Effects of Information Masking in the Task-Specific Finetuning of a Transformers-Based Clinical Question-Answering Framework",
     "authors": "Sungrim Moon, Huan He, Jungwei W. Fan",
     "date": "June 11 - 14, 2022",
-    "source": "IEEE 10th International Conference on Healthcare Informatics (ICHI), Rochester, MN, USA",
+    "source": "IEEE 10th International Conference on Healthcare Informatics (ICHI 2022)",
+    "type": "conference",
+    "place": "Rochester, MN",
     "links": [
         ["IEEE Xplore", "https://ieeexplore.ieee.org/document/9874588", "paper"],
         ["10.1109/ICHI54592.2022.00017", "https://doi.org/10.1109/ICHI54592.2022.00017", "doi"]
@@ -233,7 +268,9 @@
     "title": "Treatment of cancer associated thrombosis: A living interactive systematic review and bayesian network meta-analysis",
     "authors": "Qurat Ul Ain Riaz Sipra, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Huan He, Hongfang Liu, Alan Haruo Bryce, M. Hassan Murad, Robert McBane",
     "date": "June 3-7, 2022",
-    "source": "Journal of Clinical Oncology 40, no. 16_suppl (June 01, 2022) e24070-e24070 (2022 ASCO Annual Meeting, Chicago, IL)",
+    "source": "Journal of Clinical Oncology 40, no. 16_suppl (June 01, 2022) e24070-e24070 (2022 ASCO Annual Meeting)",
+    "type": "conference",
+    "place": "Chicago, IL",
     "links": [
         ["Poster Link", "https://oncologypro.esmo.org/meeting-resources/esmo-congress/mixed-treatment-comparisons-evaluating-contemporary-therapies-in-metastatic-castration-sensitive-prostate-cancer-mcspc-a-living-systematic-review", "paper"],
         ["10.1200/JCO.2022.40.16_suppl.e24070", "https://doi.org/10.1200/JCO.2022.40.16_suppl.e24070", "doi"]
@@ -244,7 +281,9 @@
     "title": "Design Principles Towards Higher Efficiency in Multi-document Annotation",
     "authors": "Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu, Hongfang Liu",
     "date": "March 21 - 24, 2022",
-    "source": "AMIA Informatics Summit 2022 Poster, Chicago, IL, USA",
+    "source": "AMIA Informatics Summit 2022",
+    "type": "conference",
+    "place": "Chicago, IL",
     "links": [
         ["PDF", "/file/amiais22/dp-paper.pdf", "paper"],
         ["PDF (AMIA Knowledge Center)", "https://knowledge.amia.org/75287-amia-1.4633888/t006-1.4635103/t006-1.4635104/2167-1.4635297/2167-1.4635298", "paper"],
@@ -256,13 +295,15 @@
     "title": "MedTator: A Lightweight Interactive Multi-Document Annotation Tool",
     "authors": "Huan He, Sunyang Fu, Liwei Wang, Andrew Wen, Sijia Liu, Hongfang Liu",
     "date": "March 21 - 24, 2022",
-    "source": "AMIA Informatics Summit 2022 System Demonstration, Chicago, IL, USA",
+    "source": "AMIA Informatics Summit 2022",
+    "type": "conference",
+    "place": "Chicago, IL",
     "links": [
         ["PDF", "/file/amiais22/mt-paper.pdf", "paper"],
         ["PDF (AMIA Knowledge Center)", "https://knowledge.amia.org/75287-amia-1.4633888/t007-1.4635083/t007-1.4635084/2165-1.4635094/2165-1.4635095", "paper"],
         ["Slide", "/file/amiais22/mt-slide.pdf", "ppt"],
         ["Demo", "https://ohnlp.github.io/MedTator/", "demo"],
-        ["Poster on ICHI 2022", "https://doi.org/10.1109/ICHI54592.2022.00099", "paper"]
+        ["Poster on ICHI 2022", "https://doi.org/10.1109/ICHI54592.2022.00099", "poster"]
     ]
 },
 {
@@ -270,9 +311,10 @@
     "title": "Quantifying Absolute Benefit for Adjuvant Treatment Options in Renal Cell Carcinoma: A Living Interactive Systematic Review and Network Meta-analysis",
     "authors": "Irbaz Bin Riaz, Qurat Ul Ain Riaz Sipra, Syed Arsalan Ahmed Naqvi, Huan He, Rabbia Siddiqi, Mahnoor Islam, Noureen Asghar, Waleed Ikram, Wenxin Xu, Hongfong Liu, Parminder Singh, Thai Huu Ho, Mehmet Asim Bilen, Yousef Zakharia, Alan Haruo Bryce, Mohammad Hassan Murad",
     "date": "2022 May 07",
-    "source": "Crit Rev Oncol Hematol. 103706 Epub",
+    "source": "Critical Reviews in Oncology Hematology. 103706 Epub",
+    "type": "journal",
     "links": [
-        ["35537621", "https://pubmed.ncbi.nlm.nih.gov/35537621/", "paper"],
+        ["35537621", "https://pubmed.ncbi.nlm.nih.gov/35537621/", "pmid"],
         ["10.1016/j.critrevonc.2022.103706", "https://doi.org/10.1093/10.1016/j.critrevonc.2022.103706", "paper"],
         ["Living SRMA", "", "demo"]
     ]
@@ -283,11 +325,12 @@
     "authors": "Huan He, Sunyang Fu, Liwei Wang, Sijia Liu, Andrew Wen, Hongfang Liu",
     "date": "15 March 2022",
     "source": "Bioinformatics, Volume 38, Issue 6, Pages 1776-1778",
+    "type": "journal",
     "links": [
         ["PDF", "/file/bioinfo-22/mt-paper.pdf", "paper"],
         ["Supplementary File", "/file/bioinfo-22/mt-supp.pdf", "paper"],
-        ["34983060", "https://pubmed.ncbi.nlm.nih.gov/34983060/", "paper"],
-        ["10.1093/bioinformatics/btab880", "https://doi.org/10.1093/bioinformatics/btab880", "paper"],
+        ["34983060", "https://pubmed.ncbi.nlm.nih.gov/34983060/", "pmid"],
+        ["10.1093/bioinformatics/btab880", "https://doi.org/10.1093/bioinformatics/btab880", "doi"],
         ["Demo", "https://ohnlp.github.io/MedTator/", "demo"],
         ["GitHub", "https://github.com/OHNLP/MedTator", "demo"]
     ]
@@ -303,7 +346,9 @@
     "title": "Interactive Visual Exploration of Pairwise Meta-Analysis Results",
     "authors": "Huan He*, Irbaz Bin Riaz*, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, Mahnoor Islam, M. Hassan Murad, Hongfang Liu",
     "date": "Oct. 24 - 29, 2021",
-    "source": "IEEE VIS 2021 Virtual (Poster)",
+    "source": "IEEE VIS 2021",
+    "type": "conference",
+    "place": "Virtual",
     "links": [
         ["PDF", "/file/vis21-all/lisr-paper.pdf", "paper"],
         ["Poster", "/file/vis21-all/lisr-poster.pdf", "poster"]
@@ -314,7 +359,9 @@
     "title": "COVID-19 Dashboard: Tracking the Regional Pandemic Trend",
     "authors": "Huan He, Andrew Wen, Liwei Wang, Ming Huang, Yanshan Wang, Hongfang Liu",
     "date": "Oct. 24 - 29, 2021",
-    "source": "IEEE VIS 2021 Virtual (Poster)",
+    "source": "IEEE VIS 2021 Virtual",
+    "type": "conference",
+    "place": "Virtual",
     "links": [
         ["PDF", "/file/vis21-all/cv19d-paper.pdf", "paper"],
         ["Poster", "/file/vis21-all/cv19d-poster.pdf", "poster"],
@@ -324,24 +371,27 @@
     ]
 },
 {
-    "thumb": "amia21-all/qa-thumb.png",
-    "title": "Development of a Clinical Question-Answering Corpus with Realistic Multi-Answer Challenges",
-    "authors": "Sungrim Moon, Huan He, Jungwei W. Fan",
-    "date": "Oct. 26 - Nov 3, 2021",
-    "source": "AMIA 2021 Annual Symposium, San Diego, CA, USA",
-    "links": [
-        ["Poster", "/file/amia21-all/qa-poster.pdf", "poster"]
-    ]
-},
-{
     "thumb": "other/mcp21-cat-thumb.png",
     "title": "Direct Oral Anticoagulants Compared With Dalteparin for Treatment of Cancer-Associated Thrombosis: A Living, Interactive Systematic Review and Network Meta-analysis",
     "authors": "Irbaz Bin Riaz, Harry E Fuentes, Syed Arsalan Ahmed Naqvi, Huan He, Qurat-Ul-Ain Riaz Sipra, Alfonso J Tafur, Leslie Padranos, Waldemar E Wysokinski, Ariela L Marshall, Per Olav Vandvik, Victor Montori, Alan H Bryce, Hongfang Liu, Robert G Badgett, Mohammad Hassan Murad, Robert D McBane 2nd",
     "date": "2021 Jun 22",
-    "source": "Mayo Clin Proc. 2022 Feb;97(2):308-324",
+    "source": "Mayo Clinic Proceedings. 2022 Feb;97(2):308-324",
+    "type": "journal",
     "links": [
-        ["34172290", "https://pubmed.ncbi.nlm.nih.gov/34172290/", "paper"],
-        ["10.1016/j.mayocp.2020.10.041", "https://doi.org/10.1016/j.mayocp.2020.10.041", "paper"]
+        ["34172290", "https://pubmed.ncbi.nlm.nih.gov/34172290/", "pmid"],
+        ["10.1016/j.mayocp.2020.10.041", "https://doi.org/10.1016/j.mayocp.2020.10.041", "doi"]
+    ]
+},
+{
+    "thumb": "amia21-all/qa-thumb.png",
+    "title": "Development of a Clinical Question-Answering Corpus with Realistic Multi-Answer Challenges",
+    "authors": "Sungrim Moon, Huan He, Jungwei W. Fan",
+    "date": "Oct. 26 - Nov 3, 2021",
+    "source": "AMIA 2021 Annual Symposium",
+    "type": "conference",
+    "place": "San Diego, CA",
+    "links": [
+        ["Poster", "/file/amia21-all/qa-poster.pdf", "poster"]
     ]
 },
 {
@@ -349,7 +399,9 @@
     "title": "An Interactive Data Extraction System to Create the Living Systematic Reviews and Meta-Analysis",
     "authors": "Irbaz Bin Riaz*, Huan He*, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, M. Hassan Murad, Hongfang Liu",
     "date": "Oct. 26 - Nov 3, 2021",
-    "source": "AMIA 2021 Annual Symposium, San Diego, CA, USA",
+    "source": "AMIA 2021 Annual Symposium",
+    "type": "conference",
+    "place": "San Diego, CA",
     "links": [
         ["PDF", "/file/amia21-all/extractor-paper.pdf", "paper"],
         ["Poster", "/file/amia21-all/extractor-poster.pdf", "poster"]
@@ -360,7 +412,9 @@
     "title": "A Hybrid Approach to Semi-Automate the Screening Process for Living Systematic Reviews and Meta-Analysis",
     "authors": "Huan He*, Irbaz Bin Riaz*, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, M. Hassan Murad, Hongfang Liu",
     "date": "Oct. 26 - Nov 3, 2021",
-    "source": "AMIA 2021 Annual Symposium, San Diego, CA, USA",
+    "source": "AMIA 2021 Annual Symposium",
+    "type": "conference",
+    "place": "San Diego, CA",
     "links": [
         ["PDF", "/file/amia21-all/screener-paper.pdf", "paper"],
         ["Slide", "/file/amia21-all/screener-slide.pdf", "ppt"]
@@ -371,7 +425,9 @@
     "title": "Patient Asynchronous Response to Coronavirus Disease 2019 (COVID-19): A Retrospective Analysis of Patient Portal Messages",
     "authors": "Ming Huang, Aditya Khurana, George Mastorakos, Andrew Wen, Huan He, Liwei Wang, Sijia Liu, Yanshan Wang, Julie E Prigge, Brian A Costello, Nilay D Shah, Henry H Ting, Christi A Patten, Jung-wei Fan, Hongfang Liu",
     "date": "Oct. 26 - Nov 3, 2021",
-    "source": "AMIA 2021 Annual Symposium, San Diego, CA, USA",
+    "source": "AMIA 2021 Annual Symposium",
+    "type": "conference",
+    "place": "San Diego, CA",
     "links": [
         ["PDF (AMIA Knowledge Center)", "https://knowledge.amia.org/74229-amia-1.4622266/t004-1.4626008/t004-1.4626009/3577618-1.4626298/3577618-1.4626299", "paper"]
     ]
@@ -381,10 +437,11 @@
     "title": "Adjuvant Tyrosine Kinase Inhibitors in Renal Cell Carcinoma: A Concluded Living Systematic Review and Meta-Analysis",
     "authors": "Irbaz Bin Riaz, Rabbia Siddiqi, Mahnoor Islam, Huan He, Anum Riaz, Noureen Asghar, Syed Arsalan Ahmed Naqvi, Jeremy L Warner, Mohammad H.Murad, Manish Kohli",
     "date": "2021 May",
-    "source": "JCO Clin Cancer Inform. 2021 May;5:588-599",
+    "source": "JCO Clinical Cancer Informatics. 2021 May;5:588-599",
+    "type": "journal",
     "links": [
-        ["34043431", "https://pubmed.ncbi.nlm.nih.gov/34043431/", "paper"],
-        ["10.1200/CCI.21.00035", "https://doi.org/10.1200/CCI.21.00035", "paper"],
+        ["34043431", "https://pubmed.ncbi.nlm.nih.gov/34043431/", "pmid"],
+        ["10.1200/CCI.21.00035", "https://doi.org/10.1200/CCI.21.00035", "doi"],
         ["Living SRMA", "https://adjrcc.living-evidence.com/ADJRCC.html", "demo"]
     ]
 },
@@ -394,9 +451,10 @@
     "authors": "Irbaz Bin Riaz, Huan He, Alexander J.Ryu, Rabbia Siddiqi, Syed Arsalan Ahmed Naqvi, Yuan Yao, MuhammadHusnain, Deepa Maheswari Narasimhulu, Jessey Mathew, Qurat Ul Ain Riaz Sipra, Per Olav Vandvik, Richard W.Joseph, Hongfang Liu, Zhen Wang, VitalyHerasevich, ParminderSingh, Syed A.Hussain, Thai H.Ho, Alan H.Bryce, Lance C.Pagliaro, Mohammad H.Murad, Brian A.Costello",
     "date": "December 2021",
     "source": "European Urology, Volume 80, Issue 6, Pages 712-723",
+    "type": "journal",
     "links": [
-        ["33824031", "https://pubmed.ncbi.nlm.nih.gov/33824031/", "paper"],
-        ["10.1016/j.eururo.2021.03.016", "https://doi.org/10.1016/j.eururo.2021.03.016", "paper"],
+        ["33824031", "https://pubmed.ncbi.nlm.nih.gov/33824031/", "pmid"],
+        ["10.1016/j.eururo.2021.03.016", "https://doi.org/10.1016/j.eururo.2021.03.016", "doi"],
         ["Living SRMA", "https://rcc.network-meta-analysis.com/RCC.html", "paper"]
     ]
 },
@@ -405,9 +463,10 @@
     "title": "An aberration detection-based approach for sentinel syndromic surveillance of COVID-19 and other novel influenza-like illnesses",
     "authors": "Andrew Wen, Liwei Wang, Huan He, Sijia Liu, Sunyang Fu, Sunghwan Sohn, Jacob A Kugel, Vinod C Kaggal, Ming Huang, Yanshan Wang, Feichen Shen, Jungwei Fan, Hongfang Liu",
     "date": "2021 Jan",
-    "source": "J Biomed Inform. 2021 Jan;113:103660",
+    "source": "Journal of Biomedical Informatics. 2021 Jan;113:103660",
+    "type": "journal",
     "links": [
-        ["33321199", "https://pubmed.ncbi.nlm.nih.gov/33321199/", "paper"]
+        ["33321199", "https://pubmed.ncbi.nlm.nih.gov/33321199/", "pmid"]
     ]
 },
 
@@ -421,9 +480,10 @@
     "title": "Clinical concept extraction: A methodology review",
     "authors": "Sunyang Fu, David Chen, Huan He, Sijia Liu, Sungrim Moon, Kevin J Peterson, Feichen Shen, Liwei Wang, Yanshan Wang, Andrew Wen, Yiqing Zhao, Sunghwan Sohn, Hongfang Liu",
     "date": "2020 Sep",
-    "source": "J Biomed Inform. 2020 Sep;109:103526",
+    "source": "Journal of Biomedical Informatics. 2020 Sep;109:103526",
+    "type": "journal",
     "links": [
-        ["32768446", "https://pubmed.ncbi.nlm.nih.gov/32768446/", "paper"]
+        ["32768446", "https://pubmed.ncbi.nlm.nih.gov/32768446/", "pmid"]
     ]
 },
 {
@@ -431,7 +491,9 @@
     "title": "Visual Analysis of COVID-19 Community Surveillance",
     "authors": "Huan He, Liwei Wang, Andrew Wen, Ming Huang, Yanshan Wang, Hongfang Liu",
     "date": "Oct. 25-30, 2020",
-    "source": "IEEE VIS 2020 (Poster), Virtual Conference",
+    "source": "IEEE VIS 2020",
+    "type": "conference",
+    "place": "Virtual",
     "links": [
         ["PDF", "/file/vis20-all/COVID19.pdf", "paper"],
         ["Demo", "", "demo"]
@@ -442,7 +504,9 @@
     "title": "Visual Exploration of Network Meta-Analysis Data",
     "authors": "Huan He, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, M. Hassan Murad, Hongfang Liu",
     "date": "Oct. 25-30, 2020",
-    "source": "IEEE VIS 2020 (Best Poster Award), Virtual Conference",
+    "source": "IEEE VIS 2020 (Best Poster Award)",
+    "type": "conference",
+    "place": "Virtual",
     "links": [
         ["PDF", "/file/vis20-all/NMA.pdf", "paper"],
         ["Demo", "https://rcc.network-meta-analysis.com/", "demo"]
@@ -454,6 +518,8 @@
     "authors": "Huan He, Sijia Liu, Liwei Wang, Andrew Wen, Ming Huang, Yanshan Wang, Hongfang Liu",
     "date": "November 14 - 18, 2020",
     "source": "AMIA 2020 Workshop / The 11th workshop on Visual Analytics in Healthcare (VAHC 2020)",
+    "type": "conference",
+    "place": "Virtual",
     "links": [
         ["PDF", "/file/vahc20-all/paper.pdf", "paper"],
         ["Slide", "/file/vahc20-all/slide.pdf", "ppt"],
@@ -465,7 +531,9 @@
     "title": "Identifying Rare Disease Studies by Natural Language Processing",
     "authors": "Huan He, Feichen Shen, Michael Lin, Hongfang Liu",
     "date": "Nov 14-18, 2020",
-    "source": "AMIA 2020 Annual Symposium (Virtual)",
+    "source": "AMIA 2020 Annual Symposium",
+    "type": "conference",
+    "place": "Virtual",
     "links": [
         ["PDF", "/file/amia20-all/RDSI.pdf", "paper"]
     ]
@@ -475,7 +543,9 @@
     "title": "A Living Network Meta-Analysis of First Line Treatment of Metastatic Kidney Cancer",
     "authors": "Irbaz Bin Riaz, Huan He, Yiqing Zhao, Rabbia Siddiqi, Vitaly Herasevich,  Per Olav Vandvik, Victor Montori, Allan Bryce, M. Hassan Murad, Hongfang Liu",
     "date": "Nov 14-18, 2020",
-    "source": "AMIA 2020 Annual Symposium (Virtual)",
+    "source": "AMIA 2020 Annual Symposium",
+    "type": "conference",
+    "place": "Virtual",
     "links": [
         ["PDF", "/file/amia20-all/LNMA.pdf", "paper"]
     ]
@@ -485,10 +555,11 @@
     "title": "Characterizing Chronic Pain Episodes in Clinical Text at Two Health Care Systems: Comprehensive Annotation and Corpus Analysis",
     "authors": "Luke A Carlson, Molly M Jeffery, Sunyang Fu, Huan He, Rozalina G McCoy, Yanshan Wang, William Michael Hooten, Jennifer St Sauver, Hongfang Liu, Jungwei Fan",
     "date": "2020 Nov",
-    "source": "JMIR Med Inform. 2020 Nov 16;8(11):e18659. doi: 10.2196/18659.",
+    "source": "JMIR Medical Informatics. 2020 Nov 16;8(11):e18659. doi: 10.2196/18659.",
+    "type": "journal",
     "links": [
-        ["33108311", "https://pubmed.ncbi.nlm.nih.gov/33108311/", "paper"],
-        ["10.2196/18659", "https://doi.org/10.1016/10.2196/18659", "paper"]
+        ["33108311", "https://pubmed.ncbi.nlm.nih.gov/33108311/", "pmid"],
+        ["10.2196/18659", "https://doi.org/10.1016/10.2196/18659", "doi"]
     ]
 },
 {
@@ -496,10 +567,12 @@
     "title": "Annotating Chronic Pain Episodes in EHR Text: Guideline Development and Corpus Analysis",
     "authors": "Luke A. Carlson, Molly M. Jeffery, Sunyang Fu, Huan He, Rozalina G. McCoy, Yanshan Wang, W. Michael Hooten, Jennifer St. Sauver, Hongfang Liu, Junwei Fan",
     "date": "Nov 14-18, 2020",
-    "source": "AMIA 2020 Annual Symposium (Virtual)",
+    "source": "AMIA 2020 Annual Symposium",
+    "type": "conference",
+    "place": "Virtual",
     "links": [
         ["PDF", "/file/amia20-all/PAIN.pdf", "paper"],
-        ["33108311", "https://pubmed.ncbi.nlm.nih.gov/33108311/", "paper"]
+        ["33108311", "https://pubmed.ncbi.nlm.nih.gov/33108311/", "pmid"]
     ]
 },
 {
@@ -508,9 +581,10 @@
     "authors": "Liwei Wang, Janet E. Olson, Suzette J. Bielinski, Jennifer L. St. Sauver, Sunyang Fu, Huan He, Mine S. Cicek, Matthew A. Hathcock, James R. Cerhan, Hongfang Liu",
     "date": "03 June 2020",
     "source": "Frontiers in Genetics",
+    "type": "journal",
     "links": [
         ["PDF", "/file/fgene/paper.pdf", "paper"],
-        ["32582289", "https://pubmed.ncbi.nlm.nih.gov/32582289/", "paper"]
+        ["32582289", "https://pubmed.ncbi.nlm.nih.gov/32582289/", "pmid"]
     ]
 },
 
@@ -523,10 +597,12 @@
     "title": "Unsupervised Conditional Adversarial Network for Tax Evasion Detection",
     "authors": "Rongzhe Wei, Bo Dong, Xulyu Zhu, Jianfei Ruan, Qinghua Zheng, Huan He",
     "date": "Dec. 9-12, 2019",
-    "source": "IEEE Big Data 2019, Los Angeles, CA, USA",
+    "source": "IEEE Big Data 2019",
+    "type": "conference",
+    "place": "Los Angeles, CA",
     "links": [
         ["PDF", "/file/bigdata19-all/BigD755_8641.pdf", "paper"],
-        ["10.1109/BigData47090.2019.9005656", "https://doi.org/10.1109/BigData47090.2019.9005656", "paper"]
+        ["10.1109/BigData47090.2019.9005656", "https://doi.org/10.1109/BigData47090.2019.9005656", "doi"]
     ]
 },
 {
@@ -534,10 +610,11 @@
     "title": "TEDM-PU :A Tax Evasion Detection Method Based on Positive and Unlabeled Learning",
     "authors": "Yingchao Wu, Qinghua Zheng, Yuda Gao, Bo Dong, Rongzhe Wei, Fa Zhang, Huan He",
     "date": "Dec. 9-12, 2019",
-    "source": "IEEE Big Data 2019, Los Angeles, CA, USA",
+    "source": "IEEE Big Data 2019",
+    "place": "Los Angeles, CA",
     "links": [
         ["PDF", "/file/bigdata19-all/BigD295_1129.pdf", "paper"],
-        ["10.1109/BigData47090.2019.9006325", "https://doi.org/10.1109/BigData47090.2019.9006325", "paper"]
+        ["10.1109/BigData47090.2019.9006325", "https://doi.org/10.1109/BigData47090.2019.9006325", "doi"]
     ]
 },
 {
@@ -545,10 +622,12 @@
     "title": "ABR-HIC: Attention Based Bidirectional RNN for Hierarchical Industry Classification",
     "authors": "Rongzhe Wei, Bo Dong, Kuanzheng Yang, Huan He, Qinghua Zheng, Jianfei Ruan",
     "date": "Dec. 9-12, 2019",
-    "source": "IEEE Big Data 2019, Los Angeles, CA, USA",
+    "source": "IEEE Big Data 2019",
+    "type": "conference",
+    "place": "Los Angeles, CA",
     "links": [
         ["PDF", "/file/bigdata19-all/BigD461_4020.pdf", "paper"],
-        ["10.1109/BigData47090.2019.9006526", "https://doi.org/10.1109/BigData47090.2019.9006526", "paper"]
+        ["10.1109/BigData47090.2019.9006526", "https://doi.org/10.1109/BigData47090.2019.9006526", "doi"]
     ]
 },
 {
@@ -557,6 +636,7 @@
     "authors": "Huan He, supervised by Prof. Qinghua Zheng",
     "date": "July, 29, 2019",
     "source": "Ph.D Dissertation, at Xi'an Jiaotong Univeristy",
+    "type": "thesis",
     "links": [
         ["PDF (Image Compressed)", "/file/phd-diss/paper.pdf", "paper"],
         ["Slide (Image Compressed)", "/file/phd-diss/slide.pdf", "ppt"]
@@ -567,10 +647,12 @@
     "title": "Visual Analysis of the Time Management of Learning Multiple Courses in Online Learning Environments",
     "authors": "Huan He, Bo Dong, Qinghua Zheng, Dehai Di, Yating Lin",
     "date": "Oct 20-25, 2019",
-    "source": "Proceedings of IEEE VIS 2019 (VAST 2019), Vancouver, Canada",
+    "source": "IEEE VIS 2019",
+    "type": "conference",
+    "place": "Vancouver, Canada",
     "links": [
         ["PDF", "/file/vis19-all/paper.pdf", "paper"],
-        ["10.1109/VISUAL.2019.8933778", "https://doi.org/10.1109/VISUAL.2019.8933778", "paper"]
+        ["10.1109/VISUAL.2019.8933778", "https://doi.org/10.1109/VISUAL.2019.8933778", "doi"]
     ]
 },
 {
@@ -578,10 +660,12 @@
     "title": "ATTENet: Detecting and Explaining Suspicious Tax Evasion Groups",
     "authors": "Qinghua Zheng, Yating Lin, Huan He, Jianfei Ruan, Bo Dong",
     "date": "August 10-16, 2019",
-    "source": "The 28th International Joint Conference on Artificial Intelligence Demo Track (IJCAI 2019), Macao, China",
+    "source": "The 28th International Joint Conference on Artificial Intelligence Demo Track (IJCAI 2019)",
+    "type": "conference",
+    "place": "Macao, China",
     "links": [
         ["PDF", "/file/ijcai19-attenet/paper.pdf", "paper"],
-        ["10.24963/ijcai.2019/964", "https://doi.org/10.24963/ijcai.2019/964", "paper"]
+        ["10.24963/ijcai.2019/964", "https://doi.org/10.24963/ijcai.2019/964", "doi"]
     ]
 },
 {
@@ -590,10 +674,11 @@
     "authors": "Huan He, Qinghua Zheng, Dehai Di, Bo Dong",
     "date": "2019",
     "source": "IEEE Access",
+    "type": "journal",
     "links": [
         ["PDF", "/file/access19-ols/paper.pdf", "paper"],
         ["Slide", "/file/access19-ols/slide.pdf", "paper"],
-        ["10.1109/ACCESS.2019.2910589", "https://doi.org/10.1109/ACCESS.2019.2910589", "paper"]
+        ["10.1109/ACCESS.2019.2910589", "https://doi.org/10.1109/ACCESS.2019.2910589", "doi"]
     ]
 },
 {
@@ -601,10 +686,12 @@
     "title": "LearnerExp: Exploring and Explaining the Time Management of Online Learning Activity",
     "authors": "Huan He, Qinghua Zheng, Bo Dong",
     "date": "May 13-17, 2019",
-    "source": "2019 The Web Conference Demonstration Track (WWW 2019), San Francisco, CA USA",
+    "source": "2019 The Web Conference Demonstration Track (WWW 2019)",
+    "type": "conference",
+    "place": "San Francisco, CA",
     "links": [
         ["PDF", "/file/www19/learnerexp-paper.pdf", "paper"],
-        ["10.1145/3308558.3314140", "https://doi.org/10.1145/3308558.3314140", "paper"],
+        ["10.1145/3308558.3314140", "https://doi.org/10.1145/3308558.3314140", "doi"],
         ["Video", "/file/www19/learnerexp-video.mp4", "video"],
         ["Demo", "https://hehuan2112.github.io/LearnerExp/", "paper"]
     ]
@@ -614,9 +701,11 @@
     "title": "TaxVis: A Visual System for Detecting Tax Evasion Group",
     "authors": "Hongchao Yu, Huan He, Qinghua Zheng, Bo Dong",
     "date": "May 13-17, 2019",
-    "source": "2019 The Web Conference Demonstration Track (WWW 2019), San Francisco, CA USA",
+    "source": "2019 The Web Conference Demonstration Track (WWW 2019)",
+    "type": "conference",
+    "place": "San Francisco, CA",
     "links": [
-        ["10.1145/3308558.3314144", "https://doi.org/10.1145/3308558.3314144", "paper"],
+        ["10.1145/3308558.3314144", "https://doi.org/10.1145/3308558.3314144", "doi"],
         ["Video", "https://youtu.be/46M0talBclo", "video"]
     ]
 },
@@ -625,10 +714,12 @@
     "title": "VUC: Visualizing Daily Video Utilization to Promote Student Engagement in Online Distance Education",
     "authors": "Huan He, Bo Dong, Qinghua Zheng, Guobin Li",
     "date": "May 17-19, 2019",
-    "source": "2019 ACM Global Computing Education Conference (CompEd 2019), Chengdu, China",
+    "source": "2019 ACM Global Computing Education Conference (CompEd 2019)",
+    "type": "conference",
+    "place": "Chengdu, China",
     "links": [
         ["PDF", "/file/comped19-vuc/paper.pdf", "paper"],
-        ["10.1145/3300115.3309514", "https://doi.org/10.1145/3300115.3309514", "paper"],
+        ["10.1145/3300115.3309514", "https://doi.org/10.1145/3300115.3309514", "doi"],
         ["Demo", "https://hehuan2112.github.io/VideoUtilizationCalendar/", "demo"]
     ]
 },
@@ -642,7 +733,9 @@
     "title": "VUSphere: Visual Analysis of Video Utilization in Online Distance Education",
     "authors": "Huan He, Qinghua Zheng, Bo Dong",
     "date": "Oct 21-26, 2018",
-    "source": "Proceedings of IEEE VIS 2018 (VAST 2018), Berlin, Germany",
+    "source": "IEEE VIS 2018",
+    "type": "conference",
+    "place": "Berlin, Germany",
     "links": [
         ["PDF", "/file/vis18-vusphere/paper.pdf", "paper"],
         ["VIDEO (Fast Forward)", "/file/vis18-vusphere/ffvp.mp4", "paper"],
@@ -657,11 +750,13 @@
     "title": "Measuring Student's Utilization of Video Resources and its Effect on Academic Performance",
     "authors": "Huan He, Qinghua Zheng, Bo Dong, Hongchao Yu",
     "date": "July 9-13, 2018",
-    "source": "Proceedings of IEEE 18th International Conference on Advanced Learning Technologies (ICALT), Mumbai, India, pp. 196-198",
+    "source": "IEEE 18th International Conference on Advanced Learning Technologies (ICALT 2018)",
+    "type": "conference",
+    "place": "Mumbai, India",
     "links": [
         ["PDF", "/file/icalt18-auwr/paper.pdf", "paper"],
         ["Slide", "/file/icalt18-auwr/slide.pdf", "paper"],
-        ["10.1109/ICALT.2018.00053", "https://doi.org/10.1109/ICALT.2018.00053", "paper"]
+        ["10.1109/ICALT.2018.00053", "https://doi.org/10.1109/ICALT.2018.00053", "doi"]
     ]
 },
 {
@@ -669,11 +764,13 @@
     "title": "Using Face Recognition to Detect 'Ghost Writer' Cheating in Examination (Best Paper Award Honorable Mention)",
     "authors": "Huan He, Qinghua Zheng, Rui Li, Bo Dong",
     "date": "June 28-30, 2018",
-    "source": "Proceedings of The 12th International Conference on E-learning and Games (Edutainment), Xi'an, China, pp. 389-397",
+    "source": "12th International Conference on E-learning and Games (Edutainment)",
+    "type": "conference",
+    "place": "Xi'an, China",
     "links": [
         ["PDF", "/file/edutainment18-sifr/paper.pdf", "paper"],
         ["Slide", "/file/edutainment18-sifr/slide.pdf", "paper"],
-        ["10.1007/978-3-030-23712-7_54", "https://doi.org/10.1007/978-3-030-23712-7_54", "paper"]
+        ["10.1007/978-3-030-23712-7_54", "https://doi.org/10.1007/978-3-030-23712-7_54", "doi"]
     ]
 },
 
@@ -688,6 +785,7 @@
     "authors": "Huan He, Qinghua Zheng, Bo Dong",
     "date": "May 17, 2017",
     "source": "Sciencepaper Online",
+    "type": "report",
     "links": [
         ["PDF", "/file/other/2017-spo-mooclog.pdf", "paper"],
         ["201705-1114", "http://www.paper.edu.cn/releasepaper/content/201705-1114", "paper"]
@@ -699,12 +797,14 @@
     "title": "Probabilistic Modeling Towards Understanding the Power Law Distribution of Video Viewing Behavior in Large-Scale e-Learning",
     "authors": "Ni Xue, Huan He*, Jun Liu, Qinghua Zheng, Tian Ma, Jianfei Ruan, Bo Dong",
     "date": "Aug 20 - 22, 2015",
-    "source": "Proceedings of 2015 IEEE Trustcom/BigDataSE/ISPA, Helsinki, pp. 136-142",
+    "source": "2015 IEEE Trustcom/BigDataSE/ISPA",
+    "type": "conference",
+    "place": "Helsinki, Finland",
     "links": [
         ["PDF", "/file/trustcom15-pvbm/paper.pdf", "paper"],
         ["DEMO", "https://hehuan2112.github.io/trustcom15-pvbm/", "paper"],
         ["Slides", "/file/trustcom15-pvbm/slide.pdf", "ppt"],
-        ["10.1109/Trustcom.2015.572", "https://doi.org/10.1109/Trustcom.2015.572", "paper"]
+        ["10.1109/Trustcom.2015.572", "https://doi.org/10.1109/Trustcom.2015.572", "doi"]
     ]
 },
 {
@@ -712,10 +812,12 @@
     "title": "Big Log Analysis for e-Learning Ecosystem",
     "authors": "Qinghua Zheng, Huan He, Tian Ma, Ni Xue, Bing Li, Bo Dong",
     "date": "November 5-7, 2014",
-    "source": "Proceedings of IEEE 11th International Conference on e-Business Engineering (ICEBE), Guangzhou, China, pp. 258-263",
+    "source": "IEEE 11th International Conference on e-Business Engineering (ICEBE 2014)",
+    "type": "conference",
+    "place": "Guangzhou, China",
     "links": [
         ["PDF", "/file/icebe14-biglog/paper.pdf", "paper"],
-        ["10.1109/ICEBE.2014.51", "https://doi.org/10.1109/ICEBE.2014.51", "paper"]
+        ["10.1109/ICEBE.2014.51", "https://doi.org/10.1109/ICEBE.2014.51", "doi"]
     ]
 },
 {
@@ -724,6 +826,7 @@
     "authors": "Honglei Liu, Yiming Li, Huan He, Bo Han",
     "date": "2012",
     "source": "The Chinese Journal of ICT in Education (中国教育信息化), 2012 (3) : 57-60",
+    "type": "journal",
     "links": [
         ["PDF", "/file/other/2012-cjie-fwss.pdf", "paper"],
         ["1673-8454(2012)03-0057-04", "http://www.ict.edu.cn/ebooks/b1/text/n20140307_4799.shtml", "paper"]
@@ -735,6 +838,7 @@
     "authors": "Huan He, Bo Han, Yiming Li, Dehai Di",
     "date": "2011",
     "source": "Experimental Technology and Management (实验技术与管理) 2011 (5) :229-231",
+    "type": "journal",
     "links": [
         ["PDF", "/file/other/2011-etm-ssps.pdf", "paper"],
         ["1002-4956(2011)05-0229-03", "http://mall.cnki.net/magazine/Article/SYJL201105075.htm", "paper"]
@@ -746,6 +850,7 @@
     "authors": "Yiming Li, Huan He, Lei Han, Jie Yang, Bo Han",
     "date": "2011",
     "source": "Experimental Technology and Management (实验技术与管理) 2011 (5) :216-218",
+    "type": "journal",
     "links": [
         ["PDF", "/file/other/2011-etm-vc.pdf", "paper"],
         ["1002-4956(2011)05-0216-03", "http://mall.cnki.net/magazine/Article/SYJL201105071.htm", "paper"]
