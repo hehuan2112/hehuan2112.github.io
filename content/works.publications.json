@@ -101,6 +101,7 @@
     "type": "conference",
     "place": "Washington, D.C.",
     "links": [
+        ["37128369", "https://pubmed.ncbi.nlm.nih.gov/37128369/", "pmid"],
         ["PDF", "/file/amia22-all/mt-paper.pdf", "paper"],
         ["PDF (AMIA Knowledge Center)", "https://knowledge.amia.org/76677-amia-1.4637602/f006-1.4642154/f006-1.4642155/613-1.4642384/613-1.4642385", "paper"],
         ["Slide", "/file/amia22-all/mt-slide.pdf", "ppt"],
