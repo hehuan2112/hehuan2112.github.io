@@ -7,6 +7,10 @@ Welcome! and thank you so much for viewing my online CV! You can visit the [hehu
 It has been a super big update since 2023!
 I learned to use [Pelican](https://getpelican.com/) to manage the HTML rendering and to make a easy-to-write enviroment for me. 
 
+# Development
+
+Once all dependent packages are installed, run `pelican -r -l` to start a development server for testing.
+
 # Deployment
 
 To deploy the generated static site on GitHub Pages, the following steps should be followed:
