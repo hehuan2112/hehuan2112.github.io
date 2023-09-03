@@ -1,5 +1,41 @@
 [
 {
+    "thumb": "jamia/ocad134-thumb.jpg",
+    "title": "An open natural language processing (NLP) framework for EHR-based clinical research: a case demonstration using the National COVID Cohort Collaborative (N3C)",
+    "authors": "Sijia Liu, Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Robert Miller, Andrew Williams, Daniel Harris, Ramakanth Kavuluru, Mei Liu, Noor Abu-el-Rub, Dalton Schutte, Rui Zhang, Masoud Rouhizadeh, John D Osborne, Yongqun He, Umit Topaloglu, Stephanie S Hong, Joel H Saltz, Thomas Schaffter, Emily Pfaff, Christopher G Chute, Tim Duong, Melissa A Haendel, Rafael Fuentes, Peter Szolovits, Hua Xu, Hongfang Liu",
+    "date": "August 14, 2023",
+    "source": "Journal of the American Medical Informatics Association",
+    "type": "journal",
+    "links": [
+        ["37555837", "https://pubmed.ncbi.nlm.nih.gov/37555837/", "pmid"],
+        ["10.1093/jamia/ocad134", "https://dx.doi.org/10.1093/jamia/ocad134", "doi"]
+    ]
+},
+{
+    "thumb": "npj/impact-thumb.jpg",
+    "title": "The IMPACT framework and implementation for accessible in silico clinical phenotyping in the digital era",
+    "authors": "Andrew Wen, Huan He, Sunyang Fu, Sijia Liu, Kurt Miller, Liwei Wang, Kirk E. Roberts, Steven D. Bedrick, William R. Hersh & Hongfang Liu",
+    "date": "July 21, 2023",
+    "source": "npj Digital Medicine",
+    "type": "journal",
+    "links": [
+        ["37479735", "https://pubmed.ncbi.nlm.nih.gov/37479735/", "pmid"],
+        ["PMC10362064", "https://www.ncbi.nlm.nih.gov/pmc/articles/pmc10362064/", "pmcid"],
+        ["10.1038/s41746-023-00878-9", "https://dx.doi.org/10.1038/s41746-023-00878-9", "doi"]
+    ]
+},
+{
+    "thumb": "jmir/cqmqa-thumb.jpg",
+    "title": "Extractive Clinical Question-Answering With Multianswer and Multifocus Questions: Data Set Development and Evaluation Study",
+    "authors": "Sungrim Moon, Huan He, Heling Jia, Hongfang Liu, Jungwei Wilfred Fan",
+    "date": "June 20, 2023",
+    "source": "JMIR AI",
+    "type": "journal",
+    "links": [
+        ["10.2196/41818", "https://dx.doi.org/10.2196/41818", "doi"]
+    ]
+},
+{
     "thumb": "jamaonc23/mcspc-thumb.jpg",
     "title": "First-line Systemic Treatment Options for Metastatic Castration-Sensitive Prostate Cancer: A Living Systematic Review and Network Meta-analysis",
     "authors": "Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Huan He, Noureen Asghar, Rabbia Siddiqi, Hongfang Liu, Parminder Singh, Daniel S. Childs, Praful Ravi, Syed A. Hussain, Mohammad Hassan Murad, Stephen A. Boorjian, Christopher Sweeney, Eliezer M. Van Allen, Alan H. Bryce",
@@ -8,8 +44,22 @@
     "type": "journal",
     "links": [
         ["36862387", "https://pubmed.ncbi.nlm.nih.gov/36862387/", "pmid"],
-        ["PMC9982744", "https://pubmed.ncbi.nlm.nih.gov/36862387/", "pmcid"],
+        ["PMC9982744", "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9982744/", "pmcid"],
         ["10.1001/jamaoncol.2022.7762", "https://dx.doi.org/10.1001/jamaoncol.2022.7762", "doi"]
+    ]
+},
+
+{
+    "thumb": "jmir/familyhis-thumb.jpg",
+    "title": "Acquisition of a Lexicon for Family History Information: Bidirectional Encoder Representations From Transformers–Assisted Sublanguage Analysis",
+    "authors": "Liwei Wang, Huan He, Andrew Wen, Sungrim Moon, Sunyang Fu, Kevin J Peterson, Xuguang Ai, Sijia Liu, Ramakanth Kavuluru, Hongfang Liu",
+    "date": "April 13, 2023",
+    "source": "npj Digital Medicine",
+    "type": "journal",
+    "links": [
+        ["37368483", "https://pubmed.ncbi.nlm.nih.gov/37368483/", "pmid"],
+        ["PMC10337517", "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10337517/", "pmcid"],
+        ["10.2196/48072", "https://dx.doi.org/10.2196/48072", "doi"]
     ]
 },
 {
