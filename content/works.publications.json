@@ -1,5 +1,31 @@
 [
 {
+    "thumb": "amia23-all/live-thumb.jpg",
+    "title": "A Living Interactive Evidence Synthesis Framework and Applications for Creating and Maintaining Living Systematic Reviews and Meta-Analysis",
+    "authors": "Huan He, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, Mahnoor Islam, M. Hassan Murad, Hongfang Liu",
+    "date": "Nov 11, 2023",
+    "source": "AMIA 2023 Annual Symposium",
+    "type": "conference",
+    "place": "New Orleans, LA",
+    "links": [
+        ["Abstract", "/file/amia23-all/live-abstract.pdf", "paper"],
+        ["Poster", "/file/amia23-all/live-poster.pdf", "Poster"]
+    ]
+},
+{
+    "thumb": "amia23-all/MTEA-thumb.jpg",
+    "title": "Visual Exploration of the Results and Errors of Information Extraction",
+    "authors": "Huan He, Sunyang Fu, Andrew Wen, Liwei Wang, Sungrim Moon, Kurt Miller, Hongfang Liu",
+    "date": "Nov 11, 2023",
+    "source": "AMIA 2023 Annual Symposium",
+    "type": "conference",
+    "place": "New Orleans, LA",
+    "links": [
+        ["Abstract", "/file/amia23-all/MTEA-abstract.pdf", "paper"],
+        ["Poster", "/file/amia23-all/MTEA-poster.pdf", "Poster"]
+    ]
+},
+{
     "thumb": "jamia/ocad134-thumb.jpg",
     "title": "An open natural language processing (NLP) framework for EHR-based clinical research: a case demonstration using the National COVID Cohort Collaborative (N3C)",
     "authors": "Sijia Liu, Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Robert Miller, Andrew Williams, Daniel Harris, Ramakanth Kavuluru, Mei Liu, Noor Abu-el-Rub, Dalton Schutte, Rui Zhang, Masoud Rouhizadeh, John D Osborne, Yongqun He, Umit Topaloglu, Stephanie S Hong, Joel H Saltz, Thomas Schaffter, Emily Pfaff, Christopher G Chute, Tim Duong, Melissa A Haendel, Rafael Fuentes, Peter Szolovits, Hua Xu, Hongfang Liu",
