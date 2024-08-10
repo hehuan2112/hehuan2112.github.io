@@ -1,5 +1,17 @@
 [
 {
+    "thumb": "jamia/ocae101-thumb.png",
+    "title": "A taxonomy for advancing systematic error analysis in multi-site electronic health record-based clinical concept extraction",
+    "authors": "Sunyang Fu, Liwei Wang, Huan He, Andrew Wen, Nansu Zong, Anamika Kumari, Feifan Liu, Sicheng Zhou, Rui Zhang, Chenyu Li, Yanshan Wang, Jennifer St Sauver, Hongfang Liu, Sunghwan Sohn",
+    "date": "May 14, 2024",
+    "source": "Journal of the American Medical Informatics Association, Volume 31, Issue 7",
+    "type": "journal",
+    "links": [
+        ["38742455", "https://pubmed.ncbi.nlm.nih.gov/38742455/", "pmid"],
+        ["10.1093/jamia/ocae101", "https://doi.org/10.1093/jamia/ocae101", "doi"]
+    ]
+},
+{
     "thumb": "ichi24/kamino-thumb.png",
     "title": "Kamino: A Scalable Architecture to Support Medical AI Research Using Large Real World Data",
     "authors": "Fongci Lin, Patrick Yang, Huan He, Jimin Huang, Roger Gagne, Daniel Rice, Nathan Price, Will Byron, Yan Hu, Donn Felker, Will Button, Deniella Meeker, Allen Hsiao, Hua Xu, Charles, Torre Jr, Wade Schulz",
