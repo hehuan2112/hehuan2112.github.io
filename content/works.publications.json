@@ -20,7 +20,9 @@
     "type": "conference",
     "place": "Orlando, FL",
     "links": [
-        ["Abstract", "/file/ichi24/kamino.pdf", "paper"]
+        ["Abstract", "/file/ichi24/kamino.pdf", "paper"],
+        ["IEEE Xplore", "https://ieeexplore.ieee.org/document/10628766", "paper"],
+        ["10.1109/ICHI61247.2024.00072", "https://doi.org/10.1109/ICHI61247.2024.00072", "doi"]
     ]
 },
 {
