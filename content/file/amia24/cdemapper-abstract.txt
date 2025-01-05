@@ -1,0 +1,16 @@
+CDEMapper: Enhancing NIH Common Data Element Normalization using Large Language Models
+
+Presentation Time: 11:45 AM - 12:00 PM
+
+Abstract Keywords: Large Language Models (LLMs), Interoperability and Health Information Exchange, Controlled Terminologies, Ontologies, and Vocabularies
+Primary Track: Applications
+Programmatic Theme: Clinical Research Informatics
+
+In biomedical research, standardizing the gathering and dissemination of Common Data Elements (CDEs) plays a pivotal role in improving data interoperability and enabling the reuse of scientific data. However, widespread adoption of CDEs has been hindered by challenges such as a lack of awareness, a preference for creating new CDEs rather than harmonizing existing ones, and the complexity involved in selecting appropriate CDEs. To address these challenges, we developed a publicly available, user-friendly tool named CDEMapper, which leverages Large Language Models (LLMs) to improve the efficiency of mapping study variables to NIH CDEs. CDEMapper integrates 23,041 CDEs through indexing and semantic embedding techniques, simplifying the mapping process with advanced search and re-ranking services. Our evaluation results demonstrate significant improvements in mapping accuracy with the incorporation of GPT-4.0, especially in handling multiple-to-one mapping challenges, compared to traditional string-matching algorithms like BM25. This indicates that utilizing LLMs can effectively enhance the accuracy and efficiency of CDE mapping, providing strong support for data standardization and sharing in biomedical research.
+
+Speaker(s):
+Jimin Huang, MS
+Yale University
+
+Author(s):
+Jimin Huang, MS - Yale University; Yan Wang, PhD - Yale University; Huan He, Ph.D. - Yale University; Fongci Lin, PhD - Yale University; Yan Hu - UTHealth Science Center Houston; Qianqian Xie, PhD - Yale University; Pritham Ram, MS - Yale University; Xiaoqian Jiang, PhD - University of Texas Health Science Center at Houston; Hua Xu, Ph.D - Yale University; Na Hong, PhD - Yale University;

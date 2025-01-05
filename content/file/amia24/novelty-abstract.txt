@@ -1,0 +1,16 @@
+A New Approach to Detecting Semantic Novelty of Biomedical Literature
+
+Presentation Time: 04:00 PM - 04:15 PM
+
+Abstract Keywords: Data Mining, Natural Language Processing, Knowledge Representation and Information Modeling
+Primary Track: Applications
+Programmatic Theme: Academic Informatics / LIEAF
+
+Rapid biomedical publication growth challenges comprehending the evolving scientific landscape. Traditional measures of novelty are usually based on the occurrence of new words or the analysis of citation networks, while the actual text contents of publications are less utilized and underestimated. To address this gap, we propose a novel embedding-based methodology to detect semantic novelty in literature and analyze the research trend evolution. The preliminary evaluation results indicate that our semantic novelty metric is significantly correlated with citations and exhibited higher scores for Nobel-winning papers within PubMed. Moreover, by visualizing the semantic novelty evolution, our method shows the potential of tracing and analyzing the emerging research trends and trajectories in specific fields.
+
+Speaker(s):
+Xueqing Peng, PhD
+Yale University
+
+Author(s):
+Xueqing Peng, PhD - Yale University; Yutong Xie, BA - University of Michigan; Huan He, Ph.D. - Yale University; Yan Hu - UTHealth Science Center Houston; Kalpana Raja, PhD, MRSB, CSci - School of Medicine, Yale University; Fongci Lin, PhD - Yale University; Qijia Liu, Student - University of Michigan; Jeffrey Zhang, PhD - Yale University; Qingyu Chen, PhD - Yale University; Qiaozhu Mei, Ph.D - University of Michigan; Hua Xu, Ph.D - Yale University;

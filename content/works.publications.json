@@ -1,5 +1,128 @@
 [
 {
+    "thumb": "amia24/novelty-thumb.jpg",
+    "title": "A New Approach to Detecting Semantic Novelty of Biomedical Literature",
+    "authors": "Xueqing peng, Yutong Xie, Huan He, Yan Hu, Kalpana Raja, Fongci Lin, Qijia Liu, Jeffrey Zhang, Qingyu Chen, Qiaozhu Mei, Hua Xu",
+    "date": "Nov 11, 2024",
+    "source": "AMIA 2024 Annual Symposium",
+    "type": "conference",
+    "place": "San Francisco, CA",
+    "links": [
+        ["Podium Abstract", "/file/amia24/novelty-abstract.txt", "paper"]
+    ]
+},
+{
+    "thumb": "amia24/cdemapper-thumb.png",
+    "title": "CDEMapper: Enhancing NIH Common Data Element Normalization using Large Language Models",
+    "authors": "Jimin Huang, Yan Wang, Huan He, Fongci Lin, Yan Hu, Qianqian Xie, Pritham Ram, Xiaoqian Jiang, Hua Xu, Na Hong",
+    "date": "Nov 11, 2024",
+    "source": "AMIA 2024 Annual Symposium",
+    "type": "conference",
+    "place": "San Francisco, CA",
+    "links": [
+        ["Podium Abstract", "/file/amia24/cdemapper-abstract.txt", "paper"]
+    ]
+},
+{
+    "thumb": "amia24/datamed-thumb.png",
+    "title": "DataMed 2.0: A Discovery Index for Finding Biomedical Datasets",
+    "authors": "Kalpana Raja, Huan He, Ryan Denlinger, Maxwell Wibert, Xueqing Peng, Jeffrey Zhang, Christopher Gilman, Kijana Richmond, Lucila Ohno-Machado, Hua Xu",
+    "date": "Nov 11, 2024",
+    "source": "AMIA 2024 Annual Symposium",
+    "type": "conference",
+    "place": "San Francisco, CA",
+    "links": [
+        ["Podium Abstract", "/file/amia24/datamed-abstract.txt", "paper"]
+    ]
+},
+{
+    "thumb": "amia24/mellama-thumb.png",
+    "title": "Me LLaMA: Foundation Large Language Models for Medical Applications",
+    "authors": "Qianqian Xie, Qingyu Chen, Aokun chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina K. Keloth, Xingyu Zhou, Huan He, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
+    "date": "Nov 11, 2024",
+    "source": "AMIA 2024 Annual Symposium",
+    "type": "conference",
+    "place": "San Francisco, CA",
+    "links": [
+        ["Podium Abstract", "/file/amia24/mellama-abstract.txt", "paper"]
+    ]
+},
+{
+    "thumb": "amia24/llmde-thumb.png",
+    "title": "Leveraging Large Language Models for Data Extraction in Living Systematic Reviews and Meta-analyses",
+    "authors": "Muhammad Ali Khan, Umair Ayub, Syed Arsalan Ahmed Naqvi, Kaneez Zahra Rubab Khakwani, Zaryab bin Riaz Sipra, Sihan Zhou, Huan He, Seyyed Amir Hossein, Hasan Bashar, Bryan Rumble, Danielle S. Bitterman, Jeremy Warner, Jia Zhou, Chitta Baral, Jeanne M. Palmer, M. Hassan Murad, Irbaz Riaz",
+    "date": "Nov 11, 2024",
+    "source": "AMIA 2024 Annual Symposium",
+    "type": "conference",
+    "place": "San Francisco, CA",
+    "links": [
+        ["Podium Abstract", "/file/amia24/llmde-abstract.txt", "paper"]
+    ]
+},
+{
+    "thumb": "amia24/ctllm-thumb.png",
+    "title": "Me LLaMA: Foundation Large Language Models for Medical Applications",
+    "authors": "Qianqian Xie, Qingyu Chen, Aokun chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina K. Keloth, Xingyu Zhou, Huan He, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
+    "date": "Nov 11, 2024",
+    "source": "AMIA 2024 Annual Symposium",
+    "type": "conference",
+    "place": "San Francisco, CA",
+    "links": [
+        ["Poster Abstract", "/file/amia24/ctllm-abstract.txt", "paper"]
+    ]
+},
+{
+    "thumb": "amia24/topicmap-thumb.png",
+    "title": "Towards Enhanced Topic Discovery on Semantic Maps for Biomedical Literature Exploration",
+    "authors": "Bin Choi, Brian Ondov, Huan He, Hua Xu",
+    "date": "Nov 9, 2024",
+    "source": "The 15th Workshop on Visual Analytics in Healthcare (VAHC 2024) in conjunction with AMIA 2024 Annual Symposium",
+    "type": "conference",
+    "place": "San Francisco, CA",
+    "links": [
+        ["Poster", "/file/amia24/topicmap-poster.jpg", "paper"],
+        ["Full-text", "/file/amia24/topicmap-abstract.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amia24/vecoe-thumb.png",
+    "title": "Visual Explanation of the Assessment of Certainty of Evidence for Systematic Review and Meta-analysis",
+    "authors": "Syed Arsalan Ahmed Naqvi, Kunwer Sufyan Faisal, Manal Imran, Muhammad Ali Khan, Kaneez Zahra Rubab Khakwani, M. Hassan Murad, Huan He, Irbaz Bin Riaz",
+    "date": "Nov 9, 2024",
+    "source": "The 15th Workshop on Visual Analytics in Healthcare (VAHC 2024) in conjunction with AMIA 2024 Annual Symposium",
+    "type": "conference",
+    "place": "San Francisco, CA",
+    "links": [
+        ["Paper", "/file/amia24/vecoe-abstract.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amia24/pda-thumb.png",
+    "title": "A Patient Decision Aid Tool to Support Shared Decision-Making",
+    "authors": "Syed Arsalan Ahmed Naqvi, Kunwer Sufyan Faisal, Manal Imran, Muhammad Ali Khan, Kaneez Zahra Rubab Khakwani, M. Hassan Murad, Huan He, Irbaz Bin Riaz",
+    "date": "Nov 9, 2024",
+    "source": "The 15th Workshop on Visual Analytics in Healthcare (VAHC 2024) in conjunction with AMIA 2024 Annual Symposium",
+    "type": "conference",
+    "place": "San Francisco, CA",
+    "links": [
+        ["Poster", "/file/amia24/pda-poster.jpg", "paper"]
+    ]
+},
+{
+    "thumb": "amia24/ici-thumb.png",
+    "title": "Visual Exploration of the Pairwise Meta-analysis of Toxicity of Immune Checkpoint Inhibitors",
+    "authors": "Syed Arsalan Ahmed Naqvi, Kunwer Sufyan Faisal, Manal Imran, Muhammad Ali Khan, Kaneez Zahra Rubab Khakwani, M. Hassan Murad, Huan He, Irbaz Bin Riaz",
+    "date": "Nov 9, 2024",
+    "source": "The 15th Workshop on Visual Analytics in Healthcare (VAHC 2024) in conjunction with AMIA 2024 Annual Symposium",
+    "type": "conference",
+    "place": "San Francisco, CA",
+    "links": [
+        ["Poster", "/file/amia24/ici-poster.jpg", "paper"]
+    ]
+},
+
+
+{
     "thumb": "jamia/ocae101-thumb.png",
     "title": "A taxonomy for advancing systematic error analysis in multi-site electronic health record-based clinical concept extraction",
     "authors": "Sunyang Fu, Liwei Wang, Huan He, Andrew Wen, Nansu Zong, Anamika Kumari, Feifan Liu, Sicheng Zhou, Rui Zhang, Chenyu Li, Yanshan Wang, Jennifer St Sauver, Hongfang Liu, Sunghwan Sohn",
