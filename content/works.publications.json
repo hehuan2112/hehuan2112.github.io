@@ -60,15 +60,15 @@
     ]
 },
 {
-    "thumb": "amia24/mellama-thumb.png",
-    "title": "Me LLaMA: Foundation Large Language Models for Medical Applications",
-    "authors": "Qianqian Xie, Qingyu Chen, Aokun chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina K. Keloth, Xingyu Zhou, Huan He, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
+    "thumb": "amia24/ctllm-thumb.png",
+    "title": "Topic Analysis of the Global Clinical Trials using Large Language Model",
+    "authors": "Zhiyuan Cao, Qinhan Hu, Dingwei Zhan, Siyan Guo, Huan He, Hua Xu",
     "date": "Nov 11, 2024",
     "source": "AMIA 2024 Annual Symposium",
     "type": "conference",
     "place": "San Francisco, CA",
     "links": [
-        ["Poster Abstract", "/file/amia24/mellama-abstract.txt", "paper"]
+        ["Poster Abstract", "/file/amia24/ctllm-abstract.txt", "paper"]
     ]
 },
 {
