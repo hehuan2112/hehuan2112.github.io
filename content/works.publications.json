@@ -60,7 +60,7 @@
     ]
 },
 {
-    "thumb": "amia24/ctllm-thumb.png",
+    "thumb": "amia24/mellama-thumb.png",
     "title": "Me LLaMA: Foundation Large Language Models for Medical Applications",
     "authors": "Qianqian Xie, Qingyu Chen, Aokun chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina K. Keloth, Xingyu Zhou, Huan He, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
     "date": "Nov 11, 2024",
@@ -68,11 +68,11 @@
     "type": "conference",
     "place": "San Francisco, CA",
     "links": [
-        ["Poster Abstract", "/file/amia24/ctllm-abstract.txt", "paper"]
+        ["Poster Abstract", "/file/amia24/mellama-abstract.txt", "paper"]
     ]
 },
 {
-    "thumb": "amia24/topicmap-thumb.png",
+    "thumb": "amia24/topicmap-thumb.jpg",
     "title": "Towards Enhanced Topic Discovery on Semantic Maps for Biomedical Literature Exploration",
     "authors": "Bin Choi, Brian Ondov, Huan He, Hua Xu",
     "date": "Nov 9, 2024",
