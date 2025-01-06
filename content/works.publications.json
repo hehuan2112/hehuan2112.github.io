@@ -123,6 +123,21 @@
 
 
 {
+    "thumb": "jmir/cdohnlp-thumb.jpg",
+    "title": "A Case Demonstration of the Open Health Natural Language Processing Toolkit From the National COVID-19 Cohort Collaborative and the Researching COVID to Enhance Recovery Programs for a Natural Language Processing System for COVID-19 or Postacute Sequelae of SARS CoV-2 Infection: Algorithm Development and Validation",
+    "authors": "Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Sijia Liu, David A Hanauer, Daniel R Harris, Ramakanth Kavuluru, Rui Zhang, Karthik Natarajan, Nishanth P Pavinkurve, Janos Hajagos, Sritha Rajupet, Veena Lingam, Mary Saltz, Corey Elowsky, Richard A Moffitt, Farrukh M Koraishy, Matvey B Palchuk, Jordan Donovan, Lora Lingrey, Garo Stone-DerHagopian, Robert T Miller, Andrew E Williams, Peter J Leese, Paul I Kovach, Emily R Pfaff, Mikhail Zemmel, Robert D Pates, Nick Guthe, Melissa A Haendel, Christopher G Chute, Hongfang Liu, National COVID Cohort Collaborative, RECOVER Initiative",
+    "date": "September 14, 2024",
+    "source": "JMIR medical informatics, Volume 12, e49997",
+    "type": "journal",
+    "links": [
+        ["39250782", "https://pubmed.ncbi.nlm.nih.gov/39250782/", "pmid"],
+        ["PMC11420592", "https://pmc.ncbi.nlm.nih.gov/articles/PMC11420592/", "pmcid"],
+        ["10.2196/49997", "https://doi.org/10.2196/49997", "doi"]
+    ]
+},
+
+
+{
     "thumb": "jamia/ocae101-thumb.png",
     "title": "A taxonomy for advancing systematic error analysis in multi-site electronic health record-based clinical concept extraction",
     "authors": "Sunyang Fu, Liwei Wang, Huan He, Andrew Wen, Nansu Zong, Anamika Kumari, Feifan Liu, Sicheng Zhou, Rui Zhang, Chenyu Li, Yanshan Wang, Jennifer St Sauver, Hongfang Liu, Sunghwan Sohn",
