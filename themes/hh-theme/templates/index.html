@@ -993,7 +993,7 @@ function cite_pub(pub_idx) {
   let str = authors_str_to_nlm_fmt(authors) + '. ' +
     title + ". " + 
     source + '. ' +
-    (type == 'conference'? (place + ',') : '') +
+    (type == 'conference'? (place + ', ') : '') +
     date + '. ' + 
     _get_ids_from_links(links);
 
