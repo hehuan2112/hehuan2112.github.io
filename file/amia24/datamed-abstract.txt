@@ -1,0 +1,15 @@
+DataMed 2.0: A Discovery Index for Finding Biomedical Datasets
+
+Presentation Time: 10:15 AM - 10:30 AM
+
+Abstract Keywords: Data Mining, Data Sharing, Information Visualization
+Primary Track: Applications
+
+Recent growth in data science continues to accumulate data in various repositories within the biomedical domain. The tremendous growth of data challenges the researchers to find the relevant ones from all repositories. DataMed, a data discovery index, indexes the data from various repositories. In the current study, we developed a new web interface and included many advanced features such as a visualization interface. We release DataMed 2.0 for finding the biomedical datasets from NIH-endorsed repositories.
+
+Speaker(s):
+Kalpana Raja, PhD, MRSB, CSci
+School of Medicine, Yale University
+
+Author(s):
+Huan He, Ph.D. - Yale University; Ryan Denlinger, PhD - Section for Biomedical Informatics and Data Science, School of Medicine, Yale University; Maxwell Wibert, BA - Section for Biomedical Informatics and Data Science, School of Medicine, Yale University; Xueqing Peng, PhD - Yale University; Jeffrey Zhang, PhD - Yale University; Christopher Gilman, BS - Section for Biomedical Informatics and Data Science, School of Medicine, Yale University; Kijana Richmond, BA - Section for Biomedical Informatics and Data Science, School of Medicine, Yale University; Hua Xu, Ph.D - Yale University;
