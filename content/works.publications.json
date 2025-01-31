@@ -1,5 +1,21 @@
 [
 {
+    "thumb": "jamia/ocae325-thumb.png",
+    "title": "Collaborative large language models for automated data extraction in living systematic reviews",
+    "authors": "Muhammad Ali Khan, Umair Ayub, Syed Arsalan Ahmed Naqvi, Kaneez Zahra Rubab Khakwani, Zaryab Bin Riaz Sipra, Ammad Raina, Sihan Zhou, Huan He, Amir Saeidi, Bashar Hasan, Robert Bryan Rumble, Danielle S Bitterman, Jeremy L Warner, Jia Zou, Amye J Tevaarwerk, Konstantinos Leventakos, Kenneth L Kehl, Jeanne M Palmer, Mohammad Hassan Murad, Chitta Baral, Irbaz Bin Riaz",
+    "date": "Jan 21, 2025",
+    "source": "Journal of the American Medical Informatics Association, ocae325",
+    "type": "journal",
+    "links": [
+        ["39836495", "https://pubmed.ncbi.nlm.nih.gov/39836495/", "pmid"],
+        ["10.1093/jamia/ocae325", "https://doi.org/10.1093/jamia/ocae325", "doi"]
+    ]
+},
+
+
+
+
+{
     "thumb": "amia24/novelty-thumb.jpg",
     "title": "A New Approach to Detecting Semantic Novelty of Biomedical Literature",
     "authors": "Xueqing Peng, Yutong Xie, Huan He, Yan Hu, Kalpana Raja, Fongci Lin, Qijia Liu, Jeffrey Zhang, Qingyu Chen, Qiaozhu Mei, Hua Xu",
