@@ -1,0 +1,300 @@
+/*! 
+ * Theme for my website
+ * Author: hehuan2112.github.io 
+ */
+
+html,
+body {
+    /* make sure footer is at the bottom */
+    height: 100%;
+}
+a {
+    color: #044e9c;
+}
+a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+nav .form-control:focus {
+    box-shadow: unset;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: unset !important;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-toggler {
+    min-height: 42px;
+}
+
+.nav-icon {
+    margin-top: -0.2rem;
+    margin-right: 0.5rem;
+}
+
+.nav-link {
+    color: #F5F5EC !important;
+    text-align: left;
+}
+
+.nav-link:hover {
+    color: #F5F5EC !important;
+}
+
+.nav-item.active {
+    color: #F5F5EC !important;
+    border-bottom: 2px #fffcf0 solid;
+}
+
+p,
+pre,
+dl,
+ol,
+ul {
+    margin: 0.5rem 0;
+}
+code {
+    color: #136efb;
+}
+blockquote {
+    background: #f9f9f9;
+    border-left: 3px solid #ccc;
+    margin: 1em 0;
+    padding: 0 0.5rem;
+    border-radius: 0.25rem;
+    font-size: smaller;
+}
+
+img {
+    max-width: 100%;
+}
+
+header a {
+    color: #cacaca;
+}
+
+header a:hover {
+    color: #121212;
+    text-decoration: none;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #F5F5EC;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 0.5rem 1rem;
+}
+
+.card-link+.card-link {
+    margin-left: 0.5rem;
+}
+
+.footnote {
+    font-size: smaller;
+}
+
+.badge {
+    font-weight: unset;
+}
+
+.img-caption {
+    display: block;
+    color: #6c757d !important;
+    text-align: center !important;
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.highlight,
+.highlighttable .linenodiv {
+    border-radius: 0.25rem !important;
+    text-align: left;
+    overflow: auto;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+
+ul.checklist {
+    list-style-type: none;
+    padding-left: inherit;
+}
+
+span .modified-date {
+    display: none;
+}
+
+span:hover .post-date {
+    display: none;
+}
+
+span:hover .modified-date {
+    display: inline;
+}
+
+nav[data-toggle=toc] .nav-link.active,
+nav[data-toggle=toc] .nav-link.active:focus,
+nav[data-toggle=toc] .nav-link.active:hover {
+    color: #007bff;
+}
+
+nav[data-toggle=toc] .nav>li>a {
+    font-weight: unset;
+    font-size: unset;
+}
+
+nav[data-toggle=toc] .nav .nav>li>a {
+    font-size: unset;
+}
+
+#atstbx :last-child {
+    margin-right: 0;
+}
+
+#accordionList .card-header {
+    padding: 0;
+}
+
+.collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.collapsible-link::before {
+    content: '+';
+    position: absolute;
+    top: 30%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '-';
+}
+
+ul.tagcloud {
+    list-style: none;
+    display: flex;
+}
+
+ul.tagcloud li {
+    display: inline-block;
+    padding: 0 0.25rem;
+}
+
+li.tag-1 {
+    font-size: 150%;
+}
+
+li.tag-2 {
+    font-size: 120%;
+}
+
+.at-resp-share-element .at-share-btn {
+    margin: 2px 2px !important;
+}
+.featurette-divider {
+    margin: 5rem 0;
+}
+.text-white {
+    color: white !important;
+}
+.text-align-center {
+    text-align: center !important;
+}
+
+/* for theme */
+.header-title {
+    font-size: 2.4em;
+}
+.header-sub-title {
+    font-size: 0.8em;
+}
+.main-article h1,
+.main-article h2,
+.main-article h3,
+.main-article h4,
+.main-article h5,
+.main-article h6 {
+    margin-top: 1em;
+}
+
+.main-article h1 {
+    font-size: 1.5em;
+}
+.main-article h2 {
+    font-size: 1.25em;
+}
+.main-article h3 {
+    font-size: 1.1em;
+}
+.main-article h4 {
+    font-size: 1em;
+}
+.main-article p {
+    font-size: 1em;
+}
+.bg-main-theme {
+    background-color: #87beed;
+}
+.bg-main-theme-dark {
+    background-color: #409eef;
+}
+.badge-paper {
+    background-color: #2c6e11;
+}
+.badge-podium {
+    background-color: #70aff3;
+}
+.badge-poster {
+    background-color: #f5b1a0;
+}
+.badge-demo {
+    background-color: #e9f584;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center !important;
+  }
+  .marketing h2 {
+    font-weight: 400;
+    text-align: center !important;
+  }
+  .marketing h3 {
+    font-weight: 400;
+    text-align: center !important;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  .article-item {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1em;
+    border-left: 2px solid #cacaca;
+  }
+  .article-item-summary p {
+    text-indent: 1.5em;
+    font-style: italic;
+  }
