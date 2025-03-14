@@ -1,5 +1,18 @@
 [
 {
+    "thumb": "npj/mellama-thumb.jpg",
+    "title": "Medical foundation large language models for comprehensive text analysis and beyond",
+    "authors": "Qianqian Xie, Qingyu Chen, Aokun Chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina Keloth, Xinyu Zhou, Lingfei Qian, Huan He, Dennis Shung, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
+    "date": "March 5, 2025",
+    "source": "npj Digital Medicine",
+    "type": "journal",
+    "links": [
+        ["40044845", "https://pubmed.ncbi.nlm.nih.gov/40044845/", "pmid"],
+        ["PMC11882967", "https://pmc.ncbi.nlm.nih.gov/articles/PMC11882967/", "pmcid"],
+        ["10.1038/s41746-025-01533-1", "https://doi.org/10.1038/s41746-025-01533-1", "doi"]
+    ]
+},
+{
     "thumb": "jamia/ocae325-thumb.png",
     "title": "Collaborative large language models for automated data extraction in living systematic reviews",
     "authors": "Muhammad Ali Khan, Umair Ayub, Syed Arsalan Ahmed Naqvi, Kaneez Zahra Rubab Khakwani, Zaryab Bin Riaz Sipra, Ammad Raina, Sihan Zhou, Huan He, Amir Saeidi, Bashar Hasan, Robert Bryan Rumble, Danielle S Bitterman, Jeremy L Warner, Jia Zou, Amye J Tevaarwerk, Konstantinos Leventakos, Kenneth L Kehl, Jeanne M Palmer, Mohammad Hassan Murad, Chitta Baral, Irbaz Bin Riaz",
