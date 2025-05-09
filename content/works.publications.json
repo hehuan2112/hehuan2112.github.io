@@ -1,5 +1,17 @@
 [
 {
+    "thumb": "jco/mcrpc-thumb.png",
+    "title": "Systemic Therapy in Patients With Metastatic Castration-Resistant Prostate Cancer: ASCO Guideline Update",
+    "authors": "Rohan Garje, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, R. Bryan Rumble, Mary-Ellen Taplin, Terry M. Kungel, Daniel Herchenhorn, Tian Zhang, Kathryn E. Beckermann, Neha Vapiwala, Michael A. Carducci, Paul Celano, Sebastien J. Hotte, Arnab Basu, Hala Borno, Alan H. Bryce, Peng Wang, Elizabeth Wulff-Burchfield, Lisa Bodei, Andrew Loblaw, Robert J. Hamilton, Hamid Emamekhoo, Thomas A. Hope, Huan He, M. Hassan Murad, Hongfang Liu, James Elbert Williams, Rahul A. Parikh",
+    "date": "May 2, 2025",
+    "source": "Journal of Clinical Oncology",
+    "type": "journal",
+    "links": [
+        ["40315400", "https://pubmed.ncbi.nlm.nih.gov/40315400/", "pmid"],
+        ["10.1200/JCO-25-00007", "https://ascopubs.org/doi/10.1200/JCO-25-00007", "doi"]
+    ]
+},
+{
     "thumb": "npj/mellama-thumb.jpg",
     "title": "Medical foundation large language models for comprehensive text analysis and beyond",
     "authors": "Qianqian Xie, Qingyu Chen, Aokun Chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina Keloth, Xinyu Zhou, Lingfei Qian, Huan He, Dennis Shung, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
