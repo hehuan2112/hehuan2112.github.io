@@ -12,6 +12,18 @@
     ]
 },
 {
+    "thumb": "jamia/cdemapper-thumb.jpg",
+    "title": "CDEMapper: enhancing National Institutes of Health common data element use with large language models",
+    "authors": "Yan Wang, Jimin Huang, Huan He, Vincent Zhang, Yujia Zhou, Xubing Hao, Pritham Ram, Lingfei Qian, Qianqian Xie, Ruey-Ling Weng, Fongci Lin, Yan Hu, Licong Cui, Xiaoqian Jiang, Hua Xu, Na Hong",
+    "date": "May 7, 2025",
+    "source": "Journal of the American Medical Informatics Association, ocaf064",
+    "type": "journal",
+    "links": [
+        ["40332956", "https://pubmed.ncbi.nlm.nih.gov/40332956/", "pmid"],
+        ["10.1093/jamia/ocaf064", "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocaf064/8126535", "doi"]
+    ]
+},
+{
     "thumb": "npj/mellama-thumb.jpg",
     "title": "Medical foundation large language models for comprehensive text analysis and beyond",
     "authors": "Qianqian Xie, Qingyu Chen, Aokun Chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina Keloth, Xinyu Zhou, Lingfei Qian, Huan He, Dennis Shung, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
