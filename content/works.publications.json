@@ -24,6 +24,19 @@
     ]
 },
 {
+    "thumb": "natcomm/benchmarking-thumb.jpg",
+    "title": "Benchmarking large language models for biomedical natural language processing applications and recommendations",
+    "authors": "Qingyu Chen, Yan Hu, Xueqing Peng, Qianqian Xie, Qiao Jin, Aidan Gilson, Maxwell B Singer, Xuguang Ai, Po-Ting Lai, Zhizheng Wang, Vipina K Keloth, Kalpana Raja, Jimin Huang, Huan He, Fongci Lin, Jingcheng Du, Rui Zhang, W Jim Zheng, Ron A Adelman, Zhiyong Lu, Hua Xu",
+    "date": "Apr 6, 2025",
+    "source": "Nature Communication",
+    "type": "journal",
+    "links": [
+        ["40188094", "https://pubmed.ncbi.nlm.nih.gov/40188094/", "pmid"],
+        ["PMC11972378", "https://pmc.ncbi.nlm.nih.gov/articles/PMC11972378/", "pmcid"],
+        ["10.1038/s41467-025-56989-2", "https://doi.org/10.1038/s41467-025-56989-2", "doi"]
+    ]
+},
+{
     "thumb": "npj/mellama-thumb.jpg",
     "title": "Medical foundation large language models for comprehensive text analysis and beyond",
     "authors": "Qianqian Xie, Qingyu Chen, Aokun Chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina Keloth, Xinyu Zhou, Lingfei Qian, Huan He, Dennis Shung, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
