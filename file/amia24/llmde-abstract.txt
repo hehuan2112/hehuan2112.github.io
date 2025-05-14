@@ -1,0 +1,16 @@
+Leveraging Large Language Models for Data Extraction in Living Systematic Reviews and Meta-analyses
+
+Presentation Time: 04:45 PM - 05:00 PM
+
+Abstract Keywords: Clinical Decision Support, Clinical Guidelines, Deep Learning
+Primary Track: Applications
+Programmatic Theme: Clinical Informatics
+
+We maintain living, interactive systematic reviews (LISRs) to synthesize up-to-date evidence as soon as the new evidence becomes available. Data extraction for systematic reviews and meta-analyses (SRMAs) is time-consuming, resource-intensive, and prone to errors and hence completed by two reviewers in practice. Automating this step can tremendously enhance the efficiency of evidence synthesis informing clinical practice guidelines in a timely manner. To address this need, we propose a pipeline that leverages collaborative capabilities of large language models (LLMs) to automate data extraction for living systematic reviews.
+
+Speaker(s):
+Muhammad Ali Khan, M.B.B.S.
+Mayo Clinic
+
+Author(s):
+Muhammad Ali Khan, M.B.B.S. - Mayo Clinic; Umair Ayub, PhD - Mayo Clinic; Syed Arsalan Ahmed Naqvi, M.B.B.S - Mayo Clinic; Kaneez Zahra Rubab Khakwani, M.B.B.S. - University of Arizona; Zaryab bin Riaz Sipra, M.B.B.S. - Rashid Latif Medical College, Pakistan; Sihan Zhou, PhD. - Mayo Clinic; Huan He, Ph.D. - Yale University; Seyyed Amir Hossein, MS - Mayo Clinic; Hasan Bashar, M.B.B.S - Mayo Clinic; Bryan Rumble, MSc - American Society of Clinical Oncology; Danielle S. Bitterman, MD - Dana Farber Cancer Institute; Jeremy Warner, MD, MS - Brown University; Jia Zou, PhD - Arizona State University; Chitta Baral, PhD - Arizona State University; Jeanne M. Palmer, MD - Mayo Clinic; M. Hassan Murad, M.D. - Mayo Clinic; Irbaz Riaz, MD - Mayo Clinic;
