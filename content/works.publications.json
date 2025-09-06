@@ -751,6 +751,7 @@
     "type": "conference",
     "place": "San Diego, CA",
     "links": [
+        ["PDF", "/file/amia21-all/ptpt-abstract.pdf", "paper"],
         ["PDF (AMIA Knowledge Center)", "https://knowledge.amia.org/74229-amia-1.4622266/t004-1.4626008/t004-1.4626009/3577618-1.4626298/3577618-1.4626299", "paper"]
     ]
 },
