@@ -184,7 +184,8 @@
     "type": "conference",
     "place": "San Francisco, CA",
     "links": [
-        ["Poster", "/file/amia24/pda-poster.jpg", "paper"]
+        ["Poster", "/file/amia24/pda-poster.jpg", "poster"],
+        ["Abstract", "/file/amia24/pda-abstract.pdf", "paper"]
     ]
 },
 {
