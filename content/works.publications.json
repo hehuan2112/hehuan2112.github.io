@@ -235,7 +235,7 @@
 {
     "thumb": "ichi24/kamino-thumb.png",
     "title": "Kamino: A Scalable Architecture to Support Medical AI Research Using Large Real World Data",
-    "authors": "Fongci Lin, Patrick Yang, Huan He, Jimin Huang, Roger Gagne, Daniel Rice, Nathan Price, Will Byron, Yan Hu, Donn Felker, Will Button, Deniella Meeker, Allen Hsiao, Hua Xu, Charles Torre Jr, Wade Schulz",
+    "authors": "Fongci Lin, Patrick Yang, Huan He, Jimin Huang, Roger Gagne, Daniel Rice, Nathan Price, Will Byron, Yan Hu, Donn Felker, Will Button, Deniella Meeker, Allen Hsiao, Hua Xu, Charles Jr Torre, Wade Schulz",
     "date": "Jun 4, 2024",
     "source": "IEEE 12th International Conference on Healthcare Informatics (ICHI 2024) Best Paper Award in industry track",
     "type": "conference",
@@ -275,7 +275,7 @@
 {
     "thumb": "jamia/ocad134-thumb.jpg",
     "title": "An open natural language processing (NLP) framework for EHR-based clinical research: a case demonstration using the National COVID Cohort Collaborative (N3C)",
-    "authors": "Sijia Liu, Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Robert Miller, Andrew Williams, Daniel Harris, Ramakanth Kavuluru, Mei Liu, Noor Abu-el-Rub, Dalton Schutte, Rui Zhang, Masoud Rouhizadeh, John D Osborne, Yongqun He, Umit Topaloglu, Stephanie S Hong, Joel H Saltz, Thomas Schaffter, Emily R Pfaff, Christopher G. Chute, Tim Duong, Melissa A. Haendel, Rafael Fuentes, Peter Szolovits, Hua Xu, Hongfang Liu",
+    "authors": "Sijia Liu, Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Robert T Miller, Andrew Williams, Daniel R Harris, Ramakanth Kavuluru, Mei Liu, Noor Abu-el-Rub, Dalton Schutte, Rui Zhang, Masoud Rouhizadeh, John D Osborne, Yongqun He, Umit Topaloglu, Stephanie S Hong, Joel H Saltz, Thomas Schaffter, Emily R Pfaff, Christopher G. Chute, Tim Duong, Melissa A. Haendel, Rafael Fuentes, Peter Szolovits, Hua Xu, Hongfang Liu",
     "date": "August 14, 2023",
     "source": "Journal of the American Medical Informatics Association",
     "type": "journal",
