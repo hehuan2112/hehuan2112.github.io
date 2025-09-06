@@ -2,7 +2,7 @@
 {
     "thumb": "jco/mcrpc-thumb.png",
     "title": "Systemic Therapy in Patients With Metastatic Castration-Resistant Prostate Cancer: ASCO Guideline Update",
-    "authors": "Rohan Garje, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, R. Bryan Rumble, Mary-Ellen Taplin, Terry M. Kungel, Daniel Herchenhorn, Tian Zhang, Kathryn E. Beckermann, Neha Vapiwala, Michael A. Carducci, Paul Celano, Sebastien J. Hotte, Arnab Basu, Hala Borno, Alan H. Bryce, Peng Wang, Elizabeth Wulff-Burchfield, Lisa Bodei, Andrew Loblaw, Robert J. Hamilton, Hamid Emamekhoo, Thomas A. Hope, Huan He, M. Hassan Murad, Hongfang Liu, James Elbert Williams, Rahul A. Parikh",
+    "authors": "Rohan Garje, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Robert Bryan Rumble, Mary-Ellen Taplin, Terry M. Kungel, Daniel Herchenhorn, Tian Zhang, Kathryn E. Beckermann, Neha Vapiwala, Michael A. Carducci, Paul Celano, Sebastien J. Hotte, Arnab Basu, Hala Borno, Alan H. Bryce, Peng Wang, Elizabeth Wulff-Burchfield, Lisa Bodei, Andrew Loblaw, Robert J. Hamilton, Hamid Emamekhoo, Thomas A. Hope, Huan He, M. Hassan Murad, Hongfang Liu, James Elbert Williams, Rahul A. Parikh",
     "date": "May 2, 2025",
     "source": "Journal of Clinical Oncology",
     "type": "journal",
@@ -14,7 +14,7 @@
 {
     "thumb": "npj/sdohllm-thumb.jpg",
     "title": "Social determinants of health extraction from clinical notes across institutions using large language models",
-    "authors": "Vipina K Keloth, Salih Selek, Qingyu Chen, Christopher Gilman, Sunyang Fu, Yifang Dang, Xinghan Chen, Xinyue Hu, Yujia Zhou, Huan He, Jungwei W Fan, Karen Wang, Cynthia Brandt, Cui Tao, Hongfang Liu, Hua Xu",
+    "authors": "Vipina K. Keloth, Salih Selek, Qingyu Chen, Christopher Gilman, Sunyang Fu, Yifang Dang, Xinghan Chen, Xinyue Hu, Yujia Zhou, Huan He, Jungwei W. Fan, Karen Wang, Cynthia Brandt, Cui Tao, Hongfang Liu, Hua Xu",
     "date": "May 17, 2025",
     "source": "npj Digital Medicine",
     "type": "journal",
@@ -39,7 +39,7 @@
 {
     "thumb": "natcomm/benchmarking-thumb.jpg",
     "title": "Benchmarking large language models for biomedical natural language processing applications and recommendations",
-    "authors": "Qingyu Chen, Yan Hu, Xueqing Peng, Qianqian Xie, Qiao Jin, Aidan Gilson, Maxwell B Singer, Xuguang Ai, Po-Ting Lai, Zhizheng Wang, Vipina K Keloth, Kalpana Raja, Jimin Huang, Huan He, Fongci Lin, Jingcheng Du, Rui Zhang, W Jim Zheng, Ron A Adelman, Zhiyong Lu, Hua Xu",
+    "authors": "Qingyu Chen, Yan Hu, Xueqing Peng, Qianqian Xie, Qiao Jin, Aidan Gilson, Maxwell B Singer, Xuguang Ai, Po-Ting Lai, Zhizheng Wang, Vipina K. Keloth, Kalpana Raja, Jimin Huang, Huan He, Fongci Lin, Jingcheng Du, Rui Zhang, W Jim Zheng, Ron A Adelman, Zhiyong Lu, Hua Xu",
     "date": "Apr 6, 2025",
     "source": "Nature Communication",
     "type": "journal",
@@ -52,7 +52,7 @@
 {
     "thumb": "npj/mellama-thumb.jpg",
     "title": "Medical foundation large language models for comprehensive text analysis and beyond",
-    "authors": "Qianqian Xie, Qingyu Chen, Aokun Chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina Keloth, Xinyu Zhou, Lingfei Qian, Huan He, Dennis Shung, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
+    "authors": "Qianqian Xie, Qingyu Chen, Aokun Chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina K. Keloth, Xinyu Zhou, Lingfei Qian, Huan He, Dennis Shung, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
     "date": "March 5, 2025",
     "source": "npj Digital Medicine",
     "type": "journal",
@@ -65,7 +65,7 @@
 {
     "thumb": "jamia/ocae325-thumb.png",
     "title": "Collaborative large language models for automated data extraction in living systematic reviews",
-    "authors": "Muhammad Ali Khan, Umair Ayub, Syed Arsalan Ahmed Naqvi, Kaneez Zahra Rubab Khakwani, Zaryab Bin Riaz Sipra, Ammad Raina, Sihan Zhou, Huan He, Amir Saeidi, Bashar Hasan, Robert Bryan Rumble, Danielle S Bitterman, Jeremy L Warner, Jia Zou, Amye J Tevaarwerk, Konstantinos Leventakos, Kenneth L Kehl, Jeanne M Palmer, Mohammad Hassan Murad, Chitta Baral, Irbaz Bin Riaz",
+    "authors": "Muhammad Ali Khan, Umair Ayub, Syed Arsalan Ahmed Naqvi, Kaneez Zahra Rubab Khakwani, Zaryab Bin Riaz Sipra, Ammad Raina, Sihan Zhou, Huan He, Amir Saeidi, Bashar Hasan, Robert Bryan Rumble, Danielle S. Bitterman, Jeremy L Warner, Jia Zhou, Amye J Tevaarwerk, Konstantinos Leventakos, Kenneth L Kehl, Jeanne M. Palmer, M. Hassan Murad, Chitta Baral, Irbaz Bin Riaz",
     "date": "Jan 21, 2025",
     "source": "Journal of the American Medical Informatics Association, ocae325",
     "type": "journal",
@@ -117,7 +117,7 @@
 {
     "thumb": "amia24/mellama-thumb.png",
     "title": "Me LLaMA: Foundation Large Language Models for Medical Applications",
-    "authors": "Qianqian Xie, Qingyu Chen, Aokun chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina K. Keloth, Xingyu Zhou, Huan He, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
+    "authors": "Qianqian Xie, Qingyu Chen, Aokun Chen, Cheng Peng, Yan Hu, Fongci Lin, Xueqing Peng, Jimin Huang, Jeffrey Zhang, Vipina K. Keloth, Xinyu Zhou, Huan He, Lucila Ohno-Machado, Yonghui Wu, Hua Xu, Jiang Bian",
     "date": "Nov 11, 2024",
     "source": "AMIA 2024 Annual Symposium",
     "type": "conference",
@@ -129,7 +129,7 @@
 {
     "thumb": "amia24/llmde-thumb.png",
     "title": "Leveraging Large Language Models for Data Extraction in Living Systematic Reviews and Meta-analyses",
-    "authors": "Muhammad Ali Khan, Umair Ayub, Syed Arsalan Ahmed Naqvi, Kaneez Zahra Rubab Khakwani, Zaryab bin Riaz Sipra, Sihan Zhou, Huan He, Seyyed Amir Hossein, Hasan Bashar, Bryan Rumble, Danielle S. Bitterman, Jeremy Warner, Jia Zhou, Chitta Baral, Jeanne M. Palmer, M. Hassan Murad, Irbaz Riaz",
+    "authors": "Muhammad Ali Khan, Umair Ayub, Syed Arsalan Ahmed Naqvi, Kaneez Zahra Rubab Khakwani, Zaryab Bin Riaz Sipra, Sihan Zhou, Huan He, Seyyed Amir Hossein, Hasan Bashar, Bryan Rumble, Danielle S. Bitterman, Jeremy L Warner, Jia Zhou, Chitta Baral, Jeanne M. Palmer, M. Hassan Murad, Irbaz Riaz",
     "date": "Nov 11, 2024",
     "source": "AMIA 2024 Annual Symposium",
     "type": "conference",
@@ -204,7 +204,7 @@
 {
     "thumb": "jmir/cdohnlp-thumb.jpg",
     "title": "A Case Demonstration of the Open Health Natural Language Processing Toolkit From the National COVID-19 Cohort Collaborative and the Researching COVID to Enhance Recovery Programs for a Natural Language Processing System for COVID-19 or Postacute Sequelae of SARS CoV-2 Infection: Algorithm Development and Validation",
-    "authors": "Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Sijia Liu, David A Hanauer, Daniel R Harris, Ramakanth Kavuluru, Rui Zhang, Karthik Natarajan, Nishanth P Pavinkurve, Janos Hajagos, Sritha Rajupet, Veena Lingam, Mary Saltz, Corey Elowsky, Richard A Moffitt, Farrukh M Koraishy, Matvey B Palchuk, Jordan Donovan, Lora Lingrey, Garo Stone-DerHagopian, Robert T Miller, Andrew E Williams, Peter J Leese, Paul I Kovach, Emily R Pfaff, Mikhail Zemmel, Robert D Pates, Nick Guthe, Melissa A Haendel, Christopher G Chute, Hongfang Liu, National COVID Cohort Collaborative, RECOVER Initiative",
+    "authors": "Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Sijia Liu, David A Hanauer, Daniel R Harris, Ramakanth Kavuluru, Rui Zhang, Karthik Natarajan, Nishanth P Pavinkurve, Janos Hajagos, Sritha Rajupet, Veena Lingam, Mary Saltz, Corey Elowsky, Richard A Moffitt, Farrukh M Koraishy, Matvey B Palchuk, Jordan Donovan, Lora Lingrey, Garo Stone-DerHagopian, Robert T Miller, Andrew E Williams, Peter J Leese, Paul I Kovach, Emily R Pfaff, Mikhail Zemmel, Robert D Pates, Nick Guthe, Melissa A. Haendel, Christopher G. Chute, Hongfang Liu, National COVID Cohort Collaborative, RECOVER Initiative",
     "date": "September 14, 2024",
     "source": "JMIR medical informatics, Volume 12, e49997",
     "type": "journal",
@@ -231,7 +231,7 @@
 {
     "thumb": "ichi24/kamino-thumb.png",
     "title": "Kamino: A Scalable Architecture to Support Medical AI Research Using Large Real World Data",
-    "authors": "Fongci Lin, Patrick Yang, Huan He, Jimin Huang, Roger Gagne, Daniel Rice, Nathan Price, Will Byron, Yan Hu, Donn Felker, Will Button, Deniella Meeker, Allen Hsiao, Hua Xu, Charles, Torre Jr, Wade Schulz",
+    "authors": "Fongci Lin, Patrick Yang, Huan He, Jimin Huang, Roger Gagne, Daniel Rice, Nathan Price, Will Byron, Yan Hu, Donn Felker, Will Button, Deniella Meeker, Allen Hsiao, Hua Xu, Charles Torre Jr, Wade Schulz",
     "date": "Jun 4, 2024",
     "source": "IEEE 12th International Conference on Healthcare Informatics (ICHI 2024) Best Paper Award in industry track",
     "type": "conference",
@@ -271,7 +271,7 @@
 {
     "thumb": "jamia/ocad134-thumb.jpg",
     "title": "An open natural language processing (NLP) framework for EHR-based clinical research: a case demonstration using the National COVID Cohort Collaborative (N3C)",
-    "authors": "Sijia Liu, Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Robert Miller, Andrew Williams, Daniel Harris, Ramakanth Kavuluru, Mei Liu, Noor Abu-el-Rub, Dalton Schutte, Rui Zhang, Masoud Rouhizadeh, John D Osborne, Yongqun He, Umit Topaloglu, Stephanie S Hong, Joel H Saltz, Thomas Schaffter, Emily Pfaff, Christopher G Chute, Tim Duong, Melissa A Haendel, Rafael Fuentes, Peter Szolovits, Hua Xu, Hongfang Liu",
+    "authors": "Sijia Liu, Andrew Wen, Liwei Wang, Huan He, Sunyang Fu, Robert Miller, Andrew Williams, Daniel Harris, Ramakanth Kavuluru, Mei Liu, Noor Abu-el-Rub, Dalton Schutte, Rui Zhang, Masoud Rouhizadeh, John D Osborne, Yongqun He, Umit Topaloglu, Stephanie S Hong, Joel H Saltz, Thomas Schaffter, Emily R Pfaff, Christopher G. Chute, Tim Duong, Melissa A. Haendel, Rafael Fuentes, Peter Szolovits, Hua Xu, Hongfang Liu",
     "date": "August 14, 2023",
     "source": "Journal of the American Medical Informatics Association",
     "type": "journal",
@@ -283,7 +283,7 @@
 {
     "thumb": "npj/impact-thumb.jpg",
     "title": "The IMPACT framework and implementation for accessible in silico clinical phenotyping in the digital era",
-    "authors": "Andrew Wen, Huan He, Sunyang Fu, Sijia Liu, Kurt Miller, Liwei Wang, Kirk E. Roberts, Steven D. Bedrick, William R. Hersh & Hongfang Liu",
+    "authors": "Andrew Wen, Huan He, Sunyang Fu, Sijia Liu, Kurt Miller, Liwei Wang, Kirk E. Roberts, Steven D. Bedrick, William R. Hersh, Hongfang Liu",
     "date": "July 21, 2023",
     "source": "npj Digital Medicine",
     "type": "journal",
@@ -296,7 +296,7 @@
 {
     "thumb": "jmir/cqmqa-thumb.jpg",
     "title": "Extractive Clinical Question-Answering With Multianswer and Multifocus Questions: Data Set Development and Evaluation Study",
-    "authors": "Sungrim Moon, Huan He, Heling Jia, Hongfang Liu, Jungwei Wilfred Fan",
+    "authors": "Sungrim Moon, Huan He, Heling Jia, Hongfang Liu, Jungwei W. Fan",
     "date": "June 20, 2023",
     "source": "JMIR AI",
     "type": "journal",
@@ -307,7 +307,7 @@
 {
     "thumb": "jamaonc23/mcspc-thumb.jpg",
     "title": "First-line Systemic Treatment Options for Metastatic Castration-Sensitive Prostate Cancer: A Living Systematic Review and Network Meta-analysis",
-    "authors": "Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Huan He, Noureen Asghar, Rabbia Siddiqi, Hongfang Liu, Parminder Singh, Daniel S. Childs, Praful Ravi, Syed A. Hussain, Mohammad Hassan Murad, Stephen A. Boorjian, Christopher Sweeney, Eliezer M. Van Allen, Alan H. Bryce",
+    "authors": "Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Huan He, Noureen Asghar, Rabbia Siddiqi, Hongfang Liu, Parminder Singh, Daniel S. Childs, Praful Ravi, Syed A. Hussain, M. Hassan Murad, Stephen A. Boorjian, Christopher Sweeney, Eliezer M. Van Allen, Alan H. Bryce",
     "date": "March 2, 2023",
     "source": "JAMA Oncology",
     "type": "journal",
@@ -321,7 +321,7 @@
 {
     "thumb": "jmir/familyhis-thumb.jpg",
     "title": "Acquisition of a Lexicon for Family History Information: Bidirectional Encoder Representations From Transformers–Assisted Sublanguage Analysis",
-    "authors": "Liwei Wang, Huan He, Andrew Wen, Sungrim Moon, Sunyang Fu, Kevin J Peterson, Xuguang Ai, Sijia Liu, Ramakanth Kavuluru, Hongfang Liu",
+    "authors": "Liwei Wang, Huan He, Andrew Wen, Sungrim Moon, Sunyang Fu, Kevin J. Peterson, Xuguang Ai, Sijia Liu, Ramakanth Kavuluru, Hongfang Liu",
     "date": "April 13, 2023",
     "source": "npj Digital Medicine",
     "type": "journal",
@@ -360,7 +360,7 @@
 {
     "thumb": "amiais23/CDTUI-thumb.jpg",
     "title": "Towards High Efficiency Eligibility Assessment for Clinical Trial Accrual",
-    "authors": "Huan He, Andrew Wen, Sunyang Fu, Sijia Liu, Kurt Miller, Michael Lin, Robert Gehrke, Carmen Vodislav, Kathryn Cook, David Strauss, Dania Helgeson, Thomas Kingsley, Alexander Ryu, Hongfang Liu",
+    "authors": "Huan He, Andrew Wen, Sunyang Fu, Sijia Liu, Kurt Miller, Michael Lin, Robert Gehrke, Carmen Vodislav, Kathryn Cook, David Strauss, Dania Helgeson, Thomas Kingsley, Alexander J. Ryu, Hongfang Liu",
     "date": "March 13-17, 2023",
     "source": "AMIA 2023 Informatics Summit",
     "type": "conference",
@@ -373,7 +373,7 @@
 {
     "thumb": "amiais23/CDT-thumb.jpg",
     "title": "A Cohort Discovery and Exploration System for Clinical Trial Accrual",
-    "authors": "Andrew Wen, Huan He, Sunyang Fu, Sijia Liu, Kurt Miller, Robert Gehrke, Carmen Vodislav, Michael Lin, Kathryn Cook, David Strauss, Dania Helgeson, Thomas Kingsley, Alexander Ryu, Hongfang Liu",
+    "authors": "Andrew Wen, Huan He, Sunyang Fu, Sijia Liu, Kurt Miller, Robert Gehrke, Carmen Vodislav, Michael Lin, Kathryn Cook, David Strauss, Dania Helgeson, Thomas Kingsley, Alexander J. Ryu, Hongfang Liu",
     "date": "March 13-17, 2023",
     "source": "AMIA 2023 Informatics Summit",
     "type": "conference",
@@ -385,7 +385,7 @@
 {
     "thumb": "amiais23/CDTNA-thumb.jpg",
     "title": "Needs Assessment of a Cohort Exploration Tool for Clinical Research Coordinators at a Large Academic Medical Center",
-    "authors": "Thomas Kingsley, Sunyang Fu, Huan He, Michael Lin, Robert Gehrke, Carmen Vodislav, Sijia Liu, Andrew Wen, Dania Helgeson, David Strauss, Kathryn Cook, Alexander Ryu, Hongfang Liu",
+    "authors": "Thomas Kingsley, Sunyang Fu, Huan He, Michael Lin, Robert Gehrke, Carmen Vodislav, Sijia Liu, Andrew Wen, Dania Helgeson, David Strauss, Kathryn Cook, Alexander J. Ryu, Hongfang Liu",
     "date": "March 13-17, 2023",
     "source": "AMIA 2023 Informatics Summit",
     "type": "conference",
@@ -468,7 +468,7 @@
 {
     "thumb": "other/rpecnlp-thumb.jpg",
     "title": "Recommended practices and ethical considerations for natural language processing-assisted observational research: A scoping review",
-    "authors": "Sunyang Fu, Liwei Wang, Sungrim Moon, Nansu Zong, Huan He, Vikas Pejaver, Rose Relevo, Anita Walden, Melissa Haendel, Christopher G. Chute, Hongfang Liu",
+    "authors": "Sunyang Fu, Liwei Wang, Sungrim Moon, Nansu Zong, Huan He, Vikas Pejaver, Rose Relevo, Anita Walden, Melissa A. Haendel, Christopher G. Chute, Hongfang Liu",
     "date": "07 December 2022",
     "source": "Clinical and Translational Science",
     "type": "journal",
@@ -548,19 +548,21 @@
 {
     "thumb": "other/esmo22-irbaz.png",
     "title": "Mixed treatment comparisons evaluating contemporary therapies in metastatic castration sensitive prostate cancer (mCSPC): A living systematic review",
-    "authors": "Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Huan He, Noureen Asghar, Rabbia Siddiqi, K.Z.R. Khakwani, Hongfang Liu, Syed A.Hussain, Parminder Singh, M. Hassan Murad, Alan Haruo Bryce",
+    "authors": "Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Huan He, Noureen Asghar, Rabbia Siddiqi, K.Z.R. Khakwani, Hongfang Liu, Syed A. Hussain, Parminder Singh, M. Hassan Murad, Alan H. Bryce",
     "date": "Sep. 9 - 13, 2022",
     "source": "Annals of Oncology (2022) 33 (suppl_7): S616-S652 (ESMO Congress 2022)",
     "type": "journal",
     "links": [
-        ["Poster", "https://oncologypro.esmo.org/meeting-resources/esmo-congress/mixed-treatment-comparisons-evaluating-contemporary-therapies-in-metastatic-castration-sensitive-prostate-cancer-mcspc-a-living-systematic-review", "poster"],
+        ["Poster", "https://www.annalsofoncology.org/article/S0923-7534(22)03754-1/fulltext", "poster"],
+        ["PDF", "/file/other/esmo22-irbaz.pdf", "paper"],
+        ["10.1016/j.annonc.2022.07.1903", "https://doi.org/10.1016/j.annonc.2022.07.1903", "doi"],
         ["Living SRMA", "https://mcspc.living-evidence.com/", "demo"]
     ]
 },
 {
     "thumb": "other/aehrcrpc-liwei.jpg",
     "title": "Assessment of Electronic Health Record for Cancer Research and Patient Care Through a Scoping Review of Cancer Natural Language Processing",
-    "authors": "Liwei Wang, Sunyang Fu, Andrew Wen, Xiaoyang Ruan, Huan He, Sijia Liu, Sungrim Moon, Michelle Mai, Irbaz B Riaz, Nan Wang, Ping Yang, Hua Xu, Jeremy L Warner , Hongfang Liu",
+    "authors": "Liwei Wang, Sunyang Fu, Andrew Wen, Xiaoyang Ruan, Huan He, Sijia Liu, Sungrim Moon, Michelle Mai, Irbaz Bin Riaz, Nan Wang, Ping Yang, Hua Xu, Jeremy L Warner , Hongfang Liu",
     "date": "July 2022",
     "source": "JCO Clinical Cancer Informatics, 6:e2200006",
     "type": "journal",
@@ -586,7 +588,7 @@
 {
     "thumb": "other/asco22-irbaz.png",
     "title": "Treatment of cancer associated thrombosis: A living interactive systematic review and bayesian network meta-analysis",
-    "authors": "Qurat Ul Ain Riaz Sipra, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Huan He, Hongfang Liu, Alan Haruo Bryce, M. Hassan Murad, Robert McBane",
+    "authors": "Qurat Ul Ain Riaz Sipra, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Huan He, Hongfang Liu, Alan H. Bryce, M. Hassan Murad, Robert McBane",
     "date": "June 3-7, 2022",
     "source": "Journal of Clinical Oncology 40, no. 16_suppl (June 01, 2022) e24070-e24070 (2022 ASCO Annual Meeting)",
     "type": "conference",
@@ -629,7 +631,7 @@
 {
     "thumb": "other/croh22-adjrcc.jpg",
     "title": "Quantifying Absolute Benefit for Adjuvant Treatment Options in Renal Cell Carcinoma: A Living Interactive Systematic Review and Network Meta-analysis",
-    "authors": "Irbaz Bin Riaz, Qurat Ul Ain Riaz Sipra, Syed Arsalan Ahmed Naqvi, Huan He, Rabbia Siddiqi, Mahnoor Islam, Noureen Asghar, Waleed Ikram, Wenxin Xu, Hongfong Liu, Parminder Singh, Thai Huu Ho, Mehmet Asim Bilen, Yousef Zakharia, Alan Haruo Bryce, Mohammad Hassan Murad",
+    "authors": "Irbaz Bin Riaz, Qurat Ul Ain Riaz Sipra, Syed Arsalan Ahmed Naqvi, Huan He, Rabbia Siddiqi, Mahnoor Islam, Noureen Asghar, Waleed Ikram, Wenxin Xu, Hongfang Liu, Parminder Singh, Thai Huu Ho, Mehmet Asim Bilen, Yousef Zakharia, Alan H. Bryce, M. Hassan Murad",
     "date": "May 7, 2022",
     "source": "Critical Reviews in Oncology Hematology. 103706 Epub",
     "type": "journal",
@@ -693,7 +695,7 @@
 {
     "thumb": "other/mcp21-cat-thumb.png",
     "title": "Direct Oral Anticoagulants Compared With Dalteparin for Treatment of Cancer-Associated Thrombosis: A Living, Interactive Systematic Review and Network Meta-analysis",
-    "authors": "Irbaz Bin Riaz, Harry E Fuentes, Syed Arsalan Ahmed Naqvi, Huan He, Qurat-Ul-Ain Riaz Sipra, Alfonso J Tafur, Leslie Padranos, Waldemar E Wysokinski, Ariela L Marshall, Per Olav Vandvik, Victor Montori, Alan H Bryce, Hongfang Liu, Robert G Badgett, Mohammad Hassan Murad, Robert D McBane 2nd",
+    "authors": "Irbaz Bin Riaz, Harry E Fuentes, Syed Arsalan Ahmed Naqvi, Huan He, Qurat Ul Ain Riaz Sipra, Alfonso J Tafur, Leslie Padranos, Waldemar E Wysokinski, Ariela L Marshall, Per Olav Vandvik, Victor Montori, Alan H. Bryce, Hongfang Liu, Robert G Badgett, M. Hassan Murad, Robert D McBane 2nd",
     "date": "June 22, 2021",
     "source": "Mayo Clinic Proceedings. 2022 Feb;97(2):308-324",
     "type": "journal",
@@ -743,7 +745,7 @@
 {
     "thumb": "amia21-all/ptpt-thumb.png",
     "title": "Patient Asynchronous Response to Coronavirus Disease 2019 (COVID-19): A Retrospective Analysis of Patient Portal Messages",
-    "authors": "Ming Huang, Aditya Khurana, George Mastorakos, Andrew Wen, Huan He, Liwei Wang, Sijia Liu, Yanshan Wang, Julie E Prigge, Brian A Costello, Nilay D Shah, Henry H Ting, Christi A Patten, Jung-wei Fan, Hongfang Liu",
+    "authors": "Ming Huang, Aditya Khurana, George Mastorakos, Andrew Wen, Huan He, Liwei Wang, Sijia Liu, Yanshan Wang, Julie E Prigge, Brian A. Costello, Nilay D Shah, Henry H Ting, Christi A Patten, Jungwei W. Fan, Hongfang Liu",
     "date": "Oct. 26 - Nov 3, 2021",
     "source": "AMIA 2021 Annual Symposium",
     "type": "conference",
@@ -755,7 +757,7 @@
 {
     "thumb": "other/jco21-adjrcc-thumb.png",
     "title": "Adjuvant Tyrosine Kinase Inhibitors in Renal Cell Carcinoma: A Concluded Living Systematic Review and Meta-Analysis",
-    "authors": "Irbaz Bin Riaz, Rabbia Siddiqi, Mahnoor Islam, Huan He, Anum Riaz, Noureen Asghar, Syed Arsalan Ahmed Naqvi, Jeremy L Warner, Mohammad H.Murad, Manish Kohli",
+    "authors": "Irbaz Bin Riaz, Rabbia Siddiqi, Mahnoor Islam, Huan He, Anum Riaz, Noureen Asghar, Syed Arsalan Ahmed Naqvi, Jeremy L Warner, M. Hassan Murad, Manish Kohli",
     "date": "May 2021",
     "source": "JCO Clinical Cancer Informatics. 2021 May;5:588-599",
     "type": "journal",
@@ -768,7 +770,7 @@
 {
     "thumb": "other/eu21-rcc-thumb.png",
     "title": "A Living, Interactive Systematic Review and Network Meta-analysis of First-line Treatment of Metastatic Renal Cell Carcinoma",
-    "authors": "Irbaz Bin Riaz, Huan He, Alexander J.Ryu, Rabbia Siddiqi, Syed Arsalan Ahmed Naqvi, Yuan Yao, MuhammadHusnain, Deepa Maheswari Narasimhulu, Jessey Mathew, Qurat Ul Ain Riaz Sipra, Per Olav Vandvik, Richard W.Joseph, Hongfang Liu, Zhen Wang, VitalyHerasevich, ParminderSingh, Syed A.Hussain, Thai H.Ho, Alan H.Bryce, Lance C.Pagliaro, Mohammad H.Murad, Brian A.Costello",
+    "authors": "Irbaz Bin Riaz, Huan He, Alexander J. Ryu, Rabbia Siddiqi, Syed Arsalan Ahmed Naqvi, Yuan Yao, Muhammad Husnain, Deepa Maheswari Narasimhulu, Jessey Mathew, Qurat Ul Ain Riaz Sipra, Per Olav Vandvik, Richard W.Joseph, Hongfang Liu, Zhen Wang, Vitaly Herasevich, Parminder Singh, Syed A. Hussain, Thai Huu Ho, Alan H. Bryce, Lance C.Pagliaro, M. Hassan Murad, Brian A. Costello",
     "date": "December 2021",
     "source": "European Urology, Volume 80, Issue 6, Pages 712-723",
     "type": "journal",
@@ -781,7 +783,7 @@
 {
     "thumb": "other/jbi21-flu-thumb.png",
     "title": "An aberration detection-based approach for sentinel syndromic surveillance of COVID-19 and other novel influenza-like illnesses",
-    "authors": "Andrew Wen, Liwei Wang, Huan He, Sijia Liu, Sunyang Fu, Sunghwan Sohn, Jacob A Kugel, Vinod C Kaggal, Ming Huang, Yanshan Wang, Feichen Shen, Jungwei Fan, Hongfang Liu",
+    "authors": "Andrew Wen, Liwei Wang, Huan He, Sijia Liu, Sunyang Fu, Sunghwan Sohn, Jacob A Kugel, Vinod C Kaggal, Ming Huang, Yanshan Wang, Feichen Shen, Jungwei W. Fan, Hongfang Liu",
     "date": "Jan 2021",
     "source": "Journal of Biomedical Informatics. 2021 Jan;113:103660",
     "type": "journal",
@@ -873,7 +875,7 @@
 {
     "thumb": "other/jmirmi20-cpe-thumb.png",
     "title": "Characterizing Chronic Pain Episodes in Clinical Text at Two Health Care Systems: Comprehensive Annotation and Corpus Analysis",
-    "authors": "Luke A Carlson, Molly M Jeffery, Sunyang Fu, Huan He, Rozalina G McCoy, Yanshan Wang, William Michael Hooten, Jennifer St Sauver, Hongfang Liu, Jungwei Fan",
+    "authors": "Luke A Carlson, Molly M Jeffery, Sunyang Fu, Huan He, Rozalina G McCoy, Yanshan Wang, William Michael Hooten, Jennifer St Sauver, Hongfang Liu, Jungwei W. Fan",
     "date": "November 2020",
     "source": "JMIR Medical Informatics. 2020 Nov 16;8(11):e18659. doi: 10.2196/18659.",
     "type": "journal",
