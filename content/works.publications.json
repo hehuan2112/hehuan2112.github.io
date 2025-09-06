@@ -196,7 +196,8 @@
     "type": "conference",
     "place": "San Francisco, CA",
     "links": [
-        ["Poster", "/file/amia24/ici-poster.jpg", "paper"]
+        ["Poster", "/file/amia24/ici-poster.jpg", "poster"],
+        ["Abstract", "/file/amia24/ici-abstract.pdf", "paper"]
     ]
 },
 
