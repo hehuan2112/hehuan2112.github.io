@@ -172,13 +172,15 @@
     "type": "conference",
     "place": "San Francisco, CA",
     "links": [
-        ["Paper", "/file/amia24/vecoe-abstract.pdf", "paper"]
+        ["Paper", "/file/amia24/vecoe-abstract.pdf", "paper"],
+        ["IEEE Xplore", "https://ieeexplore.ieee.org/document/10842960", "paper"],
+        ["10.1109/VAHC65315.2024.00010", "https://doi.org/10.1109/VAHC65315.2024.00010", "doi"]
     ]
 },
 {
     "thumb": "amia24/pda-thumb.png",
     "title": "A Patient Decision Aid Tool to Support Shared Decision-Making",
-    "authors": "Syed Arsalan Ahmed Naqvi, Kunwer Sufyan Faisal, Manal Imran, Muhammad Ali Khan, Kaneez Zahra Rubab Khakwani, M. Hassan Murad, Huan He, Irbaz Bin Riaz",
+    "authors": "Syed Arsalan Ahmed Naqvi, M. Hassan Murad, Huan He, Irbaz Bin Riaz",
     "date": "Nov 9, 2024",
     "source": "The 15th Workshop on Visual Analytics in Healthcare (VAHC 2024) in conjunction with AMIA 2024 Annual Symposium",
     "type": "conference",
@@ -191,7 +193,7 @@
 {
     "thumb": "amia24/ici-thumb.png",
     "title": "Visual Exploration of the Pairwise Meta-analysis of Toxicity of Immune Checkpoint Inhibitors",
-    "authors": "Syed Arsalan Ahmed Naqvi, Kunwer Sufyan Faisal, Manal Imran, Muhammad Ali Khan, Kaneez Zahra Rubab Khakwani, M. Hassan Murad, Huan He, Irbaz Bin Riaz",
+    "authors": "Syed Arsalan Ahmed Naqvi, Muhammad Ali Khan, M. Hassan Murad, Huan He, Irbaz Bin Riaz",
     "date": "Nov 9, 2024",
     "source": "The 15th Workshop on Visual Analytics in Healthcare (VAHC 2024) in conjunction with AMIA 2024 Annual Symposium",
     "type": "conference",
