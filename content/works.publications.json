@@ -12,6 +12,19 @@
     ]
 },
 {
+    "thumb": "jco/mcrpc-thumb.png",
+    "title": "Social determinants of health extraction from clinical notes across institutions using large language models",
+    "authors": "Vipina K Keloth, Salih Selek, Qingyu Chen, Christopher Gilman, Sunyang Fu, Yifang Dang, Xinghan Chen, Xinyue Hu, Yujia Zhou, Huan He, Jungwei W Fan, Karen Wang, Cynthia Brandt, Cui Tao, Hongfang Liu, Hua Xu",
+    "date": "May 17, 2025",
+    "source": "npj Digital Medicine",
+    "type": "journal",
+    "links": [
+        ["40379919", "https://pubmed.ncbi.nlm.nih.gov/40379919/", "pmid"],
+        ["PMC12084648", "https://pmc.ncbi.nlm.nih.gov/articles/PMC12084648/", "pmcid"],
+        ["10.1038/s41746-025-01645-8", "https://www.nature.com/articles/s41746-025-01645-8", "doi"]
+    ]
+},
+{
     "thumb": "jamia/cdemapper-thumb.jpg",
     "title": "CDEMapper: enhancing National Institutes of Health common data element use with large language models",
     "authors": "Yan Wang, Jimin Huang, Huan He, Vincent Zhang, Yujia Zhou, Xubing Hao, Pritham Ram, Lingfei Qian, Qianqian Xie, Ruey-Ling Weng, Fongci Lin, Yan Hu, Licong Cui, Xiaoqian Jiang, Hua Xu, Na Hong",
@@ -548,7 +561,7 @@
     "thumb": "other/aehrcrpc-liwei.jpg",
     "title": "Assessment of Electronic Health Record for Cancer Research and Patient Care Through a Scoping Review of Cancer Natural Language Processing",
     "authors": "Liwei Wang, Sunyang Fu, Andrew Wen, Xiaoyang Ruan, Huan He, Sijia Liu, Sungrim Moon, Michelle Mai, Irbaz B Riaz, Nan Wang, Ping Yang, Hua Xu, Jeremy L Warner , Hongfang Liu",
-    "date": "2022 July",
+    "date": "July 2022",
     "source": "JCO Clinical Cancer Informatics, 6:e2200006",
     "type": "journal",
     "links": [
@@ -617,7 +630,7 @@
     "thumb": "other/croh22-adjrcc.jpg",
     "title": "Quantifying Absolute Benefit for Adjuvant Treatment Options in Renal Cell Carcinoma: A Living Interactive Systematic Review and Network Meta-analysis",
     "authors": "Irbaz Bin Riaz, Qurat Ul Ain Riaz Sipra, Syed Arsalan Ahmed Naqvi, Huan He, Rabbia Siddiqi, Mahnoor Islam, Noureen Asghar, Waleed Ikram, Wenxin Xu, Hongfong Liu, Parminder Singh, Thai Huu Ho, Mehmet Asim Bilen, Yousef Zakharia, Alan Haruo Bryce, Mohammad Hassan Murad",
-    "date": "2022 May 07",
+    "date": "May 7, 2022",
     "source": "Critical Reviews in Oncology Hematology. 103706 Epub",
     "type": "journal",
     "links": [
@@ -681,7 +694,7 @@
     "thumb": "other/mcp21-cat-thumb.png",
     "title": "Direct Oral Anticoagulants Compared With Dalteparin for Treatment of Cancer-Associated Thrombosis: A Living, Interactive Systematic Review and Network Meta-analysis",
     "authors": "Irbaz Bin Riaz, Harry E Fuentes, Syed Arsalan Ahmed Naqvi, Huan He, Qurat-Ul-Ain Riaz Sipra, Alfonso J Tafur, Leslie Padranos, Waldemar E Wysokinski, Ariela L Marshall, Per Olav Vandvik, Victor Montori, Alan H Bryce, Hongfang Liu, Robert G Badgett, Mohammad Hassan Murad, Robert D McBane 2nd",
-    "date": "2021 Jun 22",
+    "date": "June 22, 2021",
     "source": "Mayo Clinic Proceedings. 2022 Feb;97(2):308-324",
     "type": "journal",
     "links": [
@@ -743,7 +756,7 @@
     "thumb": "other/jco21-adjrcc-thumb.png",
     "title": "Adjuvant Tyrosine Kinase Inhibitors in Renal Cell Carcinoma: A Concluded Living Systematic Review and Meta-Analysis",
     "authors": "Irbaz Bin Riaz, Rabbia Siddiqi, Mahnoor Islam, Huan He, Anum Riaz, Noureen Asghar, Syed Arsalan Ahmed Naqvi, Jeremy L Warner, Mohammad H.Murad, Manish Kohli",
-    "date": "2021 May",
+    "date": "May 2021",
     "source": "JCO Clinical Cancer Informatics. 2021 May;5:588-599",
     "type": "journal",
     "links": [
@@ -769,7 +782,7 @@
     "thumb": "other/jbi21-flu-thumb.png",
     "title": "An aberration detection-based approach for sentinel syndromic surveillance of COVID-19 and other novel influenza-like illnesses",
     "authors": "Andrew Wen, Liwei Wang, Huan He, Sijia Liu, Sunyang Fu, Sunghwan Sohn, Jacob A Kugel, Vinod C Kaggal, Ming Huang, Yanshan Wang, Feichen Shen, Jungwei Fan, Hongfang Liu",
-    "date": "2021 Jan",
+    "date": "Jan 2021",
     "source": "Journal of Biomedical Informatics. 2021 Jan;113:103660",
     "type": "journal",
     "links": [
@@ -786,7 +799,7 @@
     "thumb": "other/jbi20-cce-thumb.png",
     "title": "Clinical concept extraction: A methodology review",
     "authors": "Sunyang Fu, David Chen, Huan He, Sijia Liu, Sungrim Moon, Kevin J Peterson, Feichen Shen, Liwei Wang, Yanshan Wang, Andrew Wen, Yiqing Zhao, Sunghwan Sohn, Hongfang Liu",
-    "date": "2020 Sep",
+    "date": "September 2020",
     "source": "Journal of Biomedical Informatics. 2020 Sep;109:103526",
     "type": "journal",
     "links": [
@@ -861,7 +874,7 @@
     "thumb": "other/jmirmi20-cpe-thumb.png",
     "title": "Characterizing Chronic Pain Episodes in Clinical Text at Two Health Care Systems: Comprehensive Annotation and Corpus Analysis",
     "authors": "Luke A Carlson, Molly M Jeffery, Sunyang Fu, Huan He, Rozalina G McCoy, Yanshan Wang, William Michael Hooten, Jennifer St Sauver, Hongfang Liu, Jungwei Fan",
-    "date": "2020 Nov",
+    "date": "November 2020",
     "source": "JMIR Medical Informatics. 2020 Nov 16;8(11):e18659. doi: 10.2196/18659.",
     "type": "journal",
     "links": [
