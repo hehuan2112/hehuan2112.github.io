@@ -486,7 +486,7 @@
     "type": "conference",
     "links": [
         ["Paper Link", "https://ash.confex.com/ash/2022/webprogram/Paper170869.html", "paper"],
-        ["Poster", "", "poster"]
+        ["10.1182/blood-2022-170869", "https://doi.org/10.1182/blood-2022-170869", "doi"]
     ]
 },
 {
