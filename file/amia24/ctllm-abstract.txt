@@ -1,0 +1,17 @@
+Topic Analysis of the Global Clinical Trials using Large Language Model
+
+Poster Number: P03
+Presentation Time: 05:00 PM - 06:30 PM
+
+Abstract Keywords: Natural Language Processing, Information Retrieval, Information Visualization
+Primary Track: Applications
+Programmatic Theme: Academic Informatics / LIEAF
+
+Clinical trials have long been a cornerstone in advancing medical knowledge, driving innovation, and patient care worldwide. The landscape of clinical trials has evolved significantly, witnessing an exponential increase in the volume and diversity of studies. Understanding the topics and underlying patterns within this vast clinical trial data is crucial for various stakeholders. Traditionally, studies in this domain have focused on leveraging domain-specific categorizations or statistical metrics, such as nationality or geographical distribution, to analyze the trial data. While these approaches have provided valuable insights into specific therapeutic areas of clinical research, the broader landscape of diverse clinical trial topics is less studied. In this ongoing work, we propose a Large Language Model (LLM)-based approach for conducting topic analysis of global clinical trials by leveraging the semantic embeddings to capture the underlying topics and relationships within the entire clinical trial data.
+
+Speaker(s):
+Zhiyuan Cao, B.Eng.
+Yale University
+
+Author(s):
+Zhiyuan Cao, B.Eng. - Yale University; Qinhan Hu; Dingwei Zhan; Siyan (Amy) Guo; Huan He, Ph.D. - Yale University; Hua Xu, Ph.D - Yale University;
