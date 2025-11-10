@@ -344,7 +344,7 @@
     "type": "conference",
     "place": "Seattle, WA",
     "links": [
-        ["Podium Abstract", "/file/amiais23/NMA-abstract.pdf", "paper"],
+        ["Podium Abstract", "/file/amiais23/NMA-paper.pdf", "paper"],
         ["Slide", "/file/amiais23/NMA-slide.pdf", "slide"]
     ]
 },
@@ -453,6 +453,8 @@
     "type": "conference",
     "place": "Washington, D.C.",
     "links": [
+        ["Abstract", "/file/amia22-all/fh-paper.pdf", "paper"],
+        ["Poster", "/file/amia22-all/fh-poster.pdf", "poster"],
         ["PDF (AMIA Knowledge Center Link)", "https://knowledge.amia.org/76677-amia-1.4637602/f008-1.4640715/f008-1.4640716/530-1.4640816/530-1.4640817", "paper"]
     ]
 },
@@ -717,6 +719,7 @@
     "type": "conference",
     "place": "San Diego, CA",
     "links": [
+        ["PDF",    "/file/amia21-all/qa-paper.pdf", "paper"],
         ["Poster", "/file/amia21-all/qa-poster.pdf", "poster"]
     ]
 },
