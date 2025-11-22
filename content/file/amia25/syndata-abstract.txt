@@ -1,0 +1,10 @@
+Facilitating Clinical Information Extraction with Synthetic Data and Ontology using Large Language Models
+
+Yan Hu^1, Huan He5^, Qingyu Chen^2, Xiaoqian Jiang^1, Kirk Roberts^1, Hua Xu^2
+1 Mcwilliam School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, Texas, USA; 
+2 Department of Biomedical Informatics and Data Science, Yale School of Medicine, Yale University, New Haven, USA
+
+
+Abstract
+
+The rapid growth of unstructured clinical text in electronic health records necessitates robust information extraction  systems, yet their development is hindered by the scarcity of high-quality annotated data. This study explores the potential of large language models to generate synthetic data for clinical named entity recognition and examines its impact on model performance. We propose a novel framework that integrates self-verified synthetic data generation with domain-specific semantic mapping using SNOMED-CT. By leveraging GPT-4o-mini for synthetic data creation and refining its quality through iterative verification and anomaly detection, we systematically evaluate the influence of synthetic data quality and quantity on fine-tuning LLaMA-3-8B. Experimental results across four datasets (MTSamples, UTP, MIMIC-III, and i2b2) demonstrate that self-verification and semantic mapping significantly enhance synthetic data utility, improving model generalizability. Our findings highlight the importance of balancing human-annotated and synthetic data, with a 1:1 ratio emerging as the optimal configuration for performance gains. This study advances clinical NLP by providing a scalable approach to mitigating annotation challenges while improving model performance.

@@ -1,5 +1,138 @@
 [
 {
+    "thumb": "amia25/syndata-thumb.jpg",
+    "title": "Facilitating Clinical Information Extraction with Synthetic Data and Ontology using Large Language Models",
+    "authors": "Yan Hu, Huan He, Qingyu Chen, Xiaoqian Jiang, Kirk Roberts, Hua Xu",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Distinguished Paper Award", "/file/amia25/syndata-abstract.txt", "paper"]
+    ]
+},
+{
+    "thumb": "amia25/renov-thumb.jpg",
+    "title": "An Information Extraction Approach to Detecting Novelty of Biomedical Publications",
+    "authors": "Xueqing Peng, Brian Ondov, Huan He, Yan Hu, Hua Xu",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Paper", "/file/amia25/renov-abstract.txt", "paper"]
+    ]
+},
+{
+    "thumb": "amia25/cde2-thumb.jpg",
+    "title": "CDEMapper 2.0: Expediting collaborative review and facilitating consensus building during Common Data Elements mapping",
+    "authors": "Vincent J Zhang, Huan He, Lingfei Qian, Yujia Zhou, Yan Wang, Ruey-Ling Weng, Jihoon Kim, Hua Xu, Na Hong",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Poster", "/file/amia25/cde2-paper.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amia25/cdevis-thumb.jpg",
+    "title": "Designing a Visual Analytics Dashboard to Streamline Collaborative Common Data Element Mapping",
+    "authors": "Ruey-Ling Weng, Huan He, Vincent J Zhang, Yujia Zhou, Lingfei Qian, Jihoon Kim, Na Hong, Hua Xu",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Poster", "/file/amia25/cdevis-paper.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amia25/novtax-thumb.jpg",
+    "title": "How Researchers Claim Novelty in Biomedical Science: A Taxonomy for Understanding Innovation",
+    "authors": "Xueqing Peng, Huan He, Rui Shi, Vipina K. Keloth, Lingfei Qian, Yan Hu, Jimin Huang, Qianqian Xie, Na Hong, Hua Xu",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Poster", "/file/amia25/novtax-paper.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amia25/iris-thumb.jpg",
+    "title": "Time-aware Dimension Reduction for Exploring Trends in Literature",
+    "authors": "Brian Ondov, Xueqing Peng, Huan He, Hua Xu",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Poster", "/file/amia25/iris-paper.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amia25/tf-thumb.jpg",
+    "title": "TopicForest: Embedding-driven Hierarchical Clustering and Labeling for Biomedical Literature",
+    "authors": "Chia-Hsuan Chang, Bin Choi, Brian Ondov, Xueqing Peng, Huan He, Hua Xu",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Poster", "/file/amia25/tf-thumb.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amia25/medtaxon-thumb.jpg",
+    "title": "MedTaxon: Accelerating Biomedical Taxonomy Construction with A Web-based Interactive Tool using Large Language Models",
+    "authors": "Huan He, Xueqing Peng, Vipina K. Keloth, Lingfei Qian, Qianqian Xie, Na Hong, Hua Xu",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Podium Abstract", "/file/amia25/medtaxon-paper.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amia25/medviz-thumb.jpg",
+    "title": "MedViz: Illuminating Biomedical Literature using Agentic AI and Visual Analytics",
+    "authors": "Huan He, Xueqing Peng, Yutong Xie, Qijia Liu, Chia-Hsuan Chang, Lingfei Qian, Brian Ondov, Qiaozhu Mei*, Hua Xu*",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Podium Abstract", "/file/amia25/medviz-paper.pdf", "paper"]
+    ]
+},
+{
+    "thumb": "amia25/risk-thumb.jpg",
+    "title": "Automated Risk Categorization of Metastatic Prostate Cancer Using Large Language Models",
+    "authors": "Ji-Eun Yum, Syed Arsalan Ahmed Naqvi, Prateek Jain, Umair Ayub, Ben Zhou, Huan He, Chitta Baral, Neeraj Agarwal, Alan Bryce, Cassandra Moore, Mark Waddle, Parminder Singh, Yousef Zakharia, Irbaz Bin Riaz",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Poster", "/file/amia25/risk-abstract.txt", "paper"]
+    ]
+},
+{
+    "thumb": "amia25/echo-thumb.jpg",
+    "title": "Accelerating Cohort Identification from EHRs with Biomedical Knowledge Driven AI Agents",
+    "authors": "Huan He, Lingfei Qian, Yujia Zhou, Na Hong, Hua Xu",
+    "date": "Nov 14, 2025",
+    "source": "AMIA 2025 Annual Symposium Knowledge Representation and Semantics Working Group Collaborative Workshop (KRS Workshop)",
+    "type": "conference",
+    "place": "Atlanta, GA",
+    "links": [
+        ["Oral presentation", "/file/amia25/echo-paper.txt", "paper"]
+    ]
+},
+
+{
     "thumb": "jco/mcrpc-thumb.png",
     "title": "Systemic Therapy in Patients With Metastatic Castration-Resistant Prostate Cancer: ASCO Guideline Update",
     "authors": "Rohan Garje, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Robert Bryan Rumble, Mary-Ellen Taplin, Terry M. Kungel, Daniel Herchenhorn, Tian Zhang, Kathryn E. Beckermann, Neha Vapiwala, Michael A. Carducci, Paul Celano, Sebastien J. Hotte, Arnab Basu, Hala Borno, Alan H. Bryce, Peng Wang, Elizabeth Wulff-Burchfield, Lisa Bodei, Andrew Loblaw, Robert J. Hamilton, Hamid Emamekhoo, Thomas A. Hope, Huan He, M. Hassan Murad, Hongfang Liu, James Elbert Williams, Rahul A. Parikh",
