@@ -1,0 +1,17 @@
+An Information Extraction Approach to Detecting Novelty of Biomedical Publications
+
+2025 Annual Symposium On Demand
+
+Presentation Time: 03:30 PM - 03:42 PM
+
+Abstract Keywords: Information Extraction, Natural Language Processing, Data Mining
+Primary Track: Foundations
+
+Scientific novelty plays a critical role in shaping research impact, yet it remains inconsistently defined and difficult to quantify. Existing approaches often reduce novelty to a single measure, failing to distinguish the specific types of contributions that drive influence. In this study, we introduce a semantic measure of novelty based on the emergence of new biomedical entities and relationships within the conclusion sections of research articles. Leveraging transformer-based named entity recognition and relation extraction tools, we identify novel findings and classify articles into four categories: No Novelty, Entity-only Novelty, Relation-only Novelty, and Entity-Relation Novelty. We evaluate this framework using citation counts and Journal Impact Factors as proxies for research influence. Our results show that Entity-Relation Novelty articles receive the highest citation impact, with relation novelty more closely aligned with high-impact journals. These findings offer a scalable framework for assessing novelty and guiding future research evaluation.
+
+Speaker:
+Xueqing Peng, PhD
+Yale University
+
+Authors:
+Xueqing Peng, PhD - Yale University; Brian Ondov, PhD - Yale School of Medicine; Huan He, Ph.D. - Yale University; Yan Hu, MS - UTHealth Science Center Houston; Hua Xu, Ph.D - Yale University;

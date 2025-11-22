@@ -1,0 +1,20 @@
+Automated Risk Categorization of Metastatic Prostate Cancer Using Large Language Models
+
+Poster Number: P62
+
+Click to View Presentation
+
+Presentation Time: 05:45 PM - 07:00 PM
+
+Abstract Keywords: Large Language Models (LLMs), Clinical Decision Support, Information Extraction, Artificial Intelligence
+Primary Track: Applications
+Programmatic Theme: Clinical Informatics
+
+We developed a large language model-based framework designed to directly enhance clinical practice by automating the prognostic classification of patients with metastatic hormone-sensitive prostate cancer. This approach accurately categorizes patients into clinically meaningful synchronous/metachronous and high/low-volume subgroups directly from electronic health records. Iterative clinician-driven error analyses and sophisticated prompt decomposition strategies were key in achieving clinically significant improvements in performance (weighted F1-score: 0.905), ultimately enabling faster, more precise decision-making in routine patient care.
+
+Speaker:
+Ji-Eun Yum, B.S.
+Mayo Clinic Alix School of Medicine - Arizona
+
+Authors:
+Ji-Eun Yum, B.S. - Mayo Clinic Alix School of Medicine - AZ; Syed Arsalan Ahmed Naqvi, M.B.B.S - Mayo Clinic; Prateek Jain, MBBS - Mayo Clinic; Umair Ayub, PhD, MS - Mayo Clinic; Ben Zhou, PhD - Arizona State University; Huan He, Ph.D. - Yale University; Chitta Baral, PhD - Arizona State University; Neeraj Agarwal, MD, FASCO - University of Utah; Alan Bryce, MD - City of Hope; Cassandra Moore, MD - Mayo Clinic; Mark Waddle, MD - Mayo Clinic; Parminder Singh, MD - Mayo Clinic; Yousef Zakharia, MD - Mayo Clinic; Irbaz Riaz, MBBS, PhD, MS - Mayo Clinic;

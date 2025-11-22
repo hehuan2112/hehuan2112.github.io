@@ -1,0 +1,16 @@
+Me LLaMA: Foundation Large Language Models for Medical Applications
+
+Presentation Time: 09:45 AM - 10:00 AM
+
+Abstract Keywords: Large Language Models (LLMs), Natural Language Processing, Deep Learning
+Primary Track: Foundations
+Programmatic Theme: Clinical Research Informatics
+
+Recent large language models (LLMs) such as ChatGPT and LLaMA have shown great promise in many AI applications. However, their performance on medical tasks is suboptimal and can be improved by training on extensive domain-specific datasets. This study introduces Me LLaMA, a medical LLM family that includes foundation models – Me LLaMA 13/70B, along with their chat-enhanced versions – Me LLaMA 13/70B-chat, developed through continual pre-training and instruction tuning of LLaMA2 using large medical datasets. Our domain-specific data suite for training and evaluation includes a large-scale, continual pre-training dataset with 129B tokens, an instruction tuning dataset with 214k samples, and a new medical evaluation benchmark (MIBE) across six tasks with 12 datasets. Our extensive evaluation using the MIBE shows that Me LLaMA models achieve overall better performance than existing open-source medical LLMs in zero-shot, few-shot and supervised learning abilities. With task-specific instruction tuning, Me LLaMA models outperform ChatGPT on 7 out of 8 datasets and GPT-4 on 5 out of 8 datasets. In addition, we investigated the catastrophic forgetting problem, and our results show that Me LLaMA models outperform other open-source medical LLMs in mitigating this issue. Me LLaMA is one of the largest open-source medical foundation LLMs that use both biomedical and clinical data. It exhibits superior performance across both general and medical tasks compared to other open-source medical LLMs, rendering it an attractive choice for medical AI applications.
+
+Speaker(s):
+Qianqian Xie, PhD
+Yale University
+
+Author(s):
+Qianqian Xie, PhD - Yale University; Qingyu Chen, PhD - Yale University; Aokun Chen; Cheng Peng, PhD - University of Florida; Yan Hu - UTHealth Science Center Houston; Fongci Lin, PhD - Yale University; Xueqing Peng, PhD - Yale University; Jimin Huang, MS - Yale University; Jeffrey Zhang, PhD - Yale University; Vipina K. Keloth, PhD - Yale University; Xingyu Zhou, Bachelor - Yale University; Huan He, Ph.D. - Yale University; Lucila Ohno-Machado, MD, PhD - UC San Diego School of Medicine; Yonghui Wu, PhD - University of Florida; Hua Xu, Ph.D - Yale University; Jiang Bian, PhD - University of Florida;
