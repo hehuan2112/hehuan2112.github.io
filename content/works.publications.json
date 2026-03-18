@@ -1,5 +1,46 @@
 [
 {
+    "thumb": "eu/mhspc-thumb.jpg",
+    "title": "Comparative Survival in Metastatic Hormone-sensitive Prostate Cancer by Volume of Disease and Timing of Metastasis: A Living Network Meta-analysis",
+    "authors": "Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Kunwer Sufyan Faisal, Huan He, Kaneez Zahra Rubab Khakwani, Daniel S Childs, Jacob J Orme, Praful Ravi, Parminder Singh, Syed A Hussain, Kim Chi, Neeraj Agarwal, Axel S Merseburger, Ian D Davis, Andrew Armstrong, Maha H Hussain, Matthew Smith, Gerhardt Attard, Bertrand Tombal, Karim Fizazi, Nick James, Aurelius Omlin, Silke Gillessen, Mohammad Hassan Murad, Eliezer M Van Allen, Christopher J Sweeney, Alan Haruo Bryce",
+    "date": "Jan, 2026",
+    "source": "European Urology",
+    "type": "journal",
+    "links": [
+        ["41193370", "https://pubmed.ncbi.nlm.nih.gov/41193370/", "pmid"],
+        ["10.1016/j.eururo.2025.09.007", "https://doi.org/10.1016/j.eururo.2025.09.007", "doi"]
+    ]
+},
+
+
+
+
+{
+    "thumb": "jbi/semnovel-thumb.jpg",
+    "title": "SemNovel - A new approach to detecting semantic novelty of biomedical publications using embeddings of large language models",
+    "authors": "Xueqing Peng, Yutong Xie, Huan He, Brian Ondov, Kalpana Raja, Qijia Liu, Qiaozhu Mei, Hua Xu",
+    "date": "Dec, 2025",
+    "source": "Journal of Biomedical Informatics",
+    "type": "journal",
+    "links": [
+        ["41242670", "https://pubmed.ncbi.nlm.nih.gov/41242670/", "pmid"],
+        ["10.1016/j.jbi.2025.104952", "https://doi.org/10.1016/j.jbi.2025.104952", "doi"]
+    ]
+},
+{
+    "thumb": "jbi/topicforest-thumb.jpg",
+    "title": "TopicForest: embedding-driven hierarchical clustering and labeling for biomedical literature",
+    "authors": "Chia-Hsuan Chang, Brian Ondov, Bin Choi, Xueqing Peng, Huan He, Hua Xu",
+    "date": "Dec, 2025",
+    "source": "Journal of Biomedical Informatics",
+    "type": "journal",
+    "links": [
+        ["41242669", "https://pubmed.ncbi.nlm.nih.gov/41242669/", "pmid"],
+        ["PMC12902918", "https://pubmed.ncbi.nlm.nih.gov/41242669/", "pmcid"],
+        ["10.1016/j.jbi.2025.104958", "https://doi.org/10.1016/j.jbi.2025.104958", "doi"]
+    ]
+},
+{
     "thumb": "amia25/syndata-thumb.jpg",
     "title": "Facilitating Clinical Information Extraction with Synthetic Data and Ontology using Large Language Models",
     "authors": "Yan Hu, Huan He, Qingyu Chen, Xiaoqian Jiang, Kirk Roberts, Hua Xu",
@@ -8,6 +49,8 @@
     "type": "conference",
     "place": "Atlanta, GA",
     "links": [
+        ["41726483", "https://pubmed.ncbi.nlm.nih.gov/41726483/", "pmid"],
+        ["PMC12919538", "https://pubmed.ncbi.nlm.nih.gov/PMC12919538/", "pmcid"],
         ["Distinguished Paper Award", "/file/amia25/syndata-abstract.txt", "paper"]
     ]
 },
@@ -20,6 +63,8 @@
     "type": "conference",
     "place": "Atlanta, GA",
     "links": [
+        ["41726468", "https://pubmed.ncbi.nlm.nih.gov/41726468/", "pmid"],
+        ["PMC12919535", "https://pubmed.ncbi.nlm.nih.gov/PMC12919535/", "pmcid"],
         ["Paper", "/file/amia25/renov-abstract.txt", "paper"]
     ]
 },
