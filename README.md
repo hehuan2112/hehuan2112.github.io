@@ -1,102 +1,86 @@
 # Huan He's Online CV
 
-Welcome! and thank you so much for viewing my online CV! You can visit the [hehuan2112.github.io](https://hehuan2112.github.io/) to view the CV.
+Personal website at [hehuan2112.github.io](https://hehuan2112.github.io/).
 
-# Update
+## Tech Stack
 
-It has been a super big update since 2023!
-I learned to use [Pelican](https://getpelican.com/) to manage the HTML rendering and to make a easy-to-write enviroment for me. 
+- **Bun** — package manager & runtime
+- **Vue 3** — UI framework (Composition API)
+- **Vite** — build tool
+- **marked** — Markdown rendering
 
-# Development
+All content is stored as JSON files in `content/`. No database, no backend.
 
-Once all dependent packages are installed, run `pelican -r -l` to start a development server for testing.
+## Development
 
-# Deployment
-
-To deploy the generated static site on GitHub Pages, the following steps should be followed:
-
-1. Enable workflow permissions. In "Settings / Action / General", ensure the "Workflow permissions" is set to "Read and write permissions".
-2. Enable GitHub Action and add a new workflow `main.yml`. 
-   Copy the following content to create the workflow action. 
-   It will take a few minutes to run. Once it shows completed without any error in the Action, you can move next step.
-3. Enable the GitHub Pages. In "Settings / Pages", select:
-    - Source: Deploy from a branch
-    - Branch: gh-pages, /(root)
-
-If everything works fine, you can find the `gh-pages` branch has been deployed on GitHub Pages and you can access it.
-
-```yaml
-# This is a basic workflow to help you get started with Actions
-
-name: Deploy Latest Pages by Pelican
-
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, Pelican!
-          
-      # Runs a build for pelican
-      - name: GitHub Pages Pelican Build Action
-        uses: nelsonjchen/gh-pages-pelican-action@0.1.10
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+```bash
+bun install       # install dependencies
+bun run dev       # start dev server (http://localhost:5173)
+bun run build     # production build → dist/
+bun run preview   # preview the production build
 ```
 
-# Update publications and others
+## Updating Content
 
-To add a new publication, add the following code in the `publications` of `content/works.publications.json` and edit the content accordingly:
+All data lives in `content/`. Edit the relevant JSON file and push — the CI will rebuild automatically.
 
+| File | Content |
+|---|---|
+| `content/works.json` | Name, email, institution, about bio |
+| `content/works.news.json` | News items (supports Markdown) |
+| `content/works.publications.json` | Publications |
+| `content/works.projects.json` | Projects |
+| `content/works.tools.json` | Tools |
+| `content/works.patents.json` | Patents |
+| `content/works.work_exp.json` | Work experience |
+| `content/works.academic_exp.json` | Community services |
+| `content/works.awards.json` | Awards |
+
+Paper files and thumbnails go in `content/file/<venue>/`.
+
+**Adding a publication:**
 ```json
 {
-    "thumb": "",
+    "thumb": "<venue>/<name>-thumb.jpg",
     "title": "",
     "authors": "",
-    "date": "",
+    "date": "Nov, 2025",
     "source": "",
+    "type": "journal",
     "links": [
-        ["", "", "paper"]
-    ]
-},
-```
-
-Similar to publication, add the following in the `content/works.projects.json` to add a new project:
-
-```json
-{
-    "slug": "",
-    "date": "",
-    "thumb": "",
-    "title": "",
-    "organization": "",
-    "location": "",
-    "description": "",
-    "links": [
-        ["", "", "demo"]
+        ["12345678", "https://pubmed.ncbi.nlm.nih.gov/12345678/", "pmid"],
+        ["10.xxx/yyy", "https://doi.org/10.xxx/yyy", "doi"]
     ]
 }
 ```
 
-Also thanks the [Milligram](https://milligram.io/)!
+## Deployment
+
+Push to `master` triggers the GitHub Actions workflow (`.github/workflows/deploy.yml`):
+
+1. Bun installs dependencies
+2. Vite builds to `dist/`
+3. Deployed to GitHub Pages via `actions/deploy-pages`
+
+**Required one-time setup:** In repo **Settings → Pages → Source**, select **"GitHub Actions"** (not "Deploy from a branch").
+
+## Project Structure
+
+```
+src/
+├── App.vue
+├── components/       # one component per section
+├── data/index.js     # imports all JSON files
+└── utils/markdown.js # md rendering, citation formatting, author highlighting
+
+content/              # all JSON data + paper files/thumbnails
+public/
+├── file -> ../content/file   (symlink)
+└── img  -> ../themes/hh-theme/static/img  (symlink)
+```
+
+---
+
+## Archive: Previous Stack (pre-2025)
+
+The site was originally built with [Pelican](https://getpelican.com/) (Python static site generator) using a custom Jinja2 theme (`themes/hh-theme/`). Deployment used `nelsonjchen/gh-pages-pelican-action` to build and push to the `gh-pages` branch. The Pelican setup is preserved in the repository for reference but is no longer active.
