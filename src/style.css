@@ -600,6 +600,38 @@ hr {
   border-color: transparent;
 }
 
+.identifier-link {
+  display: inline-flex;
+  align-items: baseline;
+  margin-right: 3px;
+}
+
+.identifier-link > .tag-link {
+  margin-right: 0;
+}
+
+.identifier-copy {
+  display: none;
+  margin-left: 3px;
+  color: #555;
+  background: white;
+  border-color: #ccc;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.identifier-copy:hover,
+.identifier-copy:focus-visible {
+  color: white;
+  background: #555;
+  border-color: #555;
+}
+
+.publication:hover .identifier-copy,
+.identifier-link:focus-within .identifier-copy {
+  display: inline-block;
+}
+
 /* Hover-reveal cite link */
 .pub-content .tag-link-cite {
   display: none;

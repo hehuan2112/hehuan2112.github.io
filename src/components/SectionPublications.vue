@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, onBeforeUnmount, ref } from 'vue'
 import { getYear, highlightMe } from '../utils/markdown.js'
 
 const props = defineProps({
@@ -7,6 +7,9 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['cite'])
+const identifierTypes = new Set(['pmid', 'pmcid', 'doi'])
+const copiedLink = ref(null)
+let copyResetTimer
 
 // Build sorted year list: newest first, then "Before 2018"
 const years = computed(() => {
@@ -37,6 +40,35 @@ function imgSrc(thumb) {
 function linkClass(type) {
   return `tag-link tag-link-${type}`
 }
+
+function isIdentifier(type) {
+  return identifierTypes.has(type?.toLowerCase())
+}
+
+async function copyIdentifier(link) {
+  const identifier = link[0]
+
+  try {
+    await navigator.clipboard.writeText(identifier)
+  } catch {
+    const textarea = document.createElement('textarea')
+    textarea.value = identifier
+    textarea.style.position = 'fixed'
+    textarea.style.opacity = '0'
+    document.body.appendChild(textarea)
+    textarea.select()
+    document.execCommand('copy')
+    textarea.remove()
+  }
+
+  copiedLink.value = link
+  clearTimeout(copyResetTimer)
+  copyResetTimer = setTimeout(() => {
+    copiedLink.value = null
+  }, 1500)
+}
+
+onBeforeUnmount(() => clearTimeout(copyResetTimer))
 </script>
 
 <template>
@@ -76,14 +108,33 @@ function linkClass(type) {
             </i>
             <br>
             <span class="pub-links">
-              <a
+              <span
                 v-for="(link, li) in pub.links"
                 :key="li"
-                :href="link[1]"
-                :class="linkClass(link[2])"
-                target="_blank"
-                rel="noopener"
-              >{{ link[0] }}</a>
+                :class="{ 'identifier-link': isIdentifier(link[2]) }"
+              >
+                <a
+                  :href="link[1]"
+                  :class="linkClass(link[2])"
+                  target="_blank"
+                  rel="noopener"
+                >{{ link[0] }}</a>
+                <button
+                  v-if="isIdentifier(link[2])"
+                  class="tag-link identifier-copy"
+                  type="button"
+                  :title="`Copy ${link[2].toUpperCase()}`"
+                  :aria-label="`Copy ${link[2].toUpperCase()} ${link[0]}`"
+                  @click="copyIdentifier(link)"
+                >
+                  <i
+                    class="bi"
+                    :class="copiedLink === link ? 'bi-check2' : 'bi-copy'"
+                    aria-hidden="true"
+                  ></i>
+                  {{ copiedLink === link ? 'Copied' : 'Copy' }}
+                </button>
+              </span>
             </span>
             <a
               class="tag-link tag-link-cite"
