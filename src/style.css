@@ -601,18 +601,36 @@ hr {
 }
 
 .identifier-link {
-  display: inline-flex;
-  align-items: baseline;
-  margin-right: 3px;
+  position: relative;
+  display: inline-block;
+  margin-right: 26px;
 }
 
 .identifier-link > .tag-link {
   margin-right: 0;
 }
 
+.publication:hover .identifier-link > a,
+.publication:focus-within .identifier-link > a {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .identifier-copy {
+  position: absolute;
+  top: 2px;
+  left: calc(100% - 1px);
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 19px;
   display: none;
-  margin-left: 3px;
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  white-space: nowrap;
+  z-index: 1;
   color: #555;
   background: white;
   border-color: #ccc;
@@ -620,16 +638,45 @@ hr {
   font-family: inherit;
 }
 
+.copy-feedback {
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: white;
+  background: #333;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1.2;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.copy-feedback::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-top-color: #333;
+  content: '';
+  transform: translateX(-50%);
+}
+
 .identifier-copy:hover,
 .identifier-copy:focus-visible {
-  color: white;
-  background: #555;
-  border-color: #555;
+  color: #555;
+  background: #f2f2f2;
+  border-color: #c8c8c8;
 }
 
 .publication:hover .identifier-copy,
-.identifier-link:focus-within .identifier-copy {
-  display: inline-block;
+.publication:focus-within .identifier-copy {
+  display: inline-flex;
 }
 
 /* Hover-reveal cite link */

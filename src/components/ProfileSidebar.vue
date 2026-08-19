@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div id="info">
-    <img src="/img/me3.jpg" alt="Huan He" @error="e => e.target.style.display='none'">
+    <img :src="'/img/me3.jpg'" alt="Huan He" @error="e => e.target.style.display='none'">
     <p>
       <span class="name">Huan He</span><br>
       <span class="email">{{ me.email }}</span><br>

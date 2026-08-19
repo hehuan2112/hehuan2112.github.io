@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onBeforeUnmount, ref } from 'vue'
+import { computed, onBeforeUnmount, shallowRef } from 'vue'
 import { getYear, highlightMe } from '../utils/markdown.js'
 
 const props = defineProps({
@@ -8,7 +8,7 @@ const props = defineProps({
 
 const emit = defineEmits(['cite'])
 const identifierTypes = new Set(['pmid', 'pmcid', 'doi'])
-const copiedLink = ref(null)
+const copiedLink = shallowRef(null)
 let copyResetTimer
 
 // Build sorted year list: newest first, then "Before 2018"
@@ -123,16 +123,20 @@ onBeforeUnmount(() => clearTimeout(copyResetTimer))
                   v-if="isIdentifier(link[2])"
                   class="tag-link identifier-copy"
                   type="button"
-                  :title="`Copy ${link[2].toUpperCase()}`"
-                  :aria-label="`Copy ${link[2].toUpperCase()} ${link[0]}`"
+                  :title="copiedLink === link ? 'Copied' : `Copy ${link[2].toUpperCase()}`"
+                  :aria-label="copiedLink === link ? `${link[2].toUpperCase()} ${link[0]} copied` : `Copy ${link[2].toUpperCase()} ${link[0]}`"
                   @click="copyIdentifier(link)"
                 >
                   <i
                     class="bi"
-                    :class="copiedLink === link ? 'bi-check2' : 'bi-copy'"
+                    :class="copiedLink === link ? 'bi-check2' : 'bi-clipboard'"
                     aria-hidden="true"
                   ></i>
-                  {{ copiedLink === link ? 'Copied' : 'Copy' }}
+                  <span
+                    v-if="copiedLink === link"
+                    class="copy-feedback"
+                    role="status"
+                  >Copied!</span>
                 </button>
               </span>
             </span>
