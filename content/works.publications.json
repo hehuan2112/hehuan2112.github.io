@@ -1,5 +1,55 @@
 [
 {
+    "thumb": "jamia/citesure-thumb.jpg",
+    "title": "CiteSure: retrieval-augmented large language models for faithful biomedical citation recommendation",
+    "authors": "Qianqian Xie, Jeffrey Zhang, Yan Wang, Jimin Huang, Fongci Lin, Ruey-Ling Weng, Huan He, Qingyu Chen, Hua Xu",
+    "date": "Aug 4, 2026",
+    "source": "Journal of the American Medical Informatics Association, ocag122",
+    "type": "journal",
+    "links": [
+        ["42551844", "https://pubmed.ncbi.nlm.nih.gov/42551844/", "pmid"],
+        ["10.1093/jamia/ocag122", "https://doi.org/10.1093/jamia/ocag122", "doi"]
+    ]
+},
+{
+    "thumb": "acl26/multifinben-thumb.jpg",
+    "title": "MultiFinBen: Benchmarking Large Language Models for Multilingual and Multimodal Financial Application",
+    "authors": "Xueqing Peng, Lingfei Qian, Yan Wang, Ruoyu Xiang, Yueru He, Yang Ren, Mingyang Jiang, Vincent Jim Zhang, Yuqing Guo, Jeff Zhao, Huan He, Yi Han, Yun Feng, Yuechen Jiang, Yupeng Cao, Haohang Li, Yangyang Yu, Xiaoyu Wang, Penglei Gao, Shengyuan Lin, Keyi Wang, Shanshan Yang, Yilun Zhao, Zhiwei Liu, Peng Lu, Jerry Huang, Suyuchen Wang, Triantafillos Papadopoulos, Polydoros Giannouris, Efstathia Soufleri, Nuo Chen, Zhiyang Deng, Heming Fu, Yijia Zhao, Mingquan Lin, Meikang Qiu, Kaleb E Smith, Arman Cohan, Xiao-Yang Liu, Jimin Huang, Guojun Xiong, Alejandro Lopez-Lira, Xi Chen, Junichi Tsujii, Jian-Yun Nie, Sophia Ananiadou, Qianqian Xie",
+    "date": "July 2-7, 2026",
+    "source": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026), Volume 1: Long Papers, pp. 16934-16963",
+    "type": "conference",
+    "place": "San Diego, CA",
+    "links": [
+        ["PDF", "https://aclanthology.org/2026.acl-long.770.pdf", "paper"],
+        ["10.18653/v1/2026.acl-long.770", "https://doi.org/10.18653/v1/2026.acl-long.770", "doi"]
+    ]
+},
+{
+    "thumb": "www26/agents-trade-thumb.jpg",
+    "title": "When Agents Trade: Live Multi-Market Trading Arena for LLM Agents",
+    "authors": "Lingfei Qian, Xueqing Peng, Hanley Smith, Yi Han, Yueru He, Haohang Li, Yupeng Cao, Yangyang Yu, Guojun Xiong, Peng Lu, Yan Wang, Vincent Jim Zhang, Huan He, Alejandro Lopez-Lira, Jimin Huang, Jian-Yun Nie, Sophia Ananiadou",
+    "date": "June 29 - July 3, 2026",
+    "source": "The ACM Web Conference 2026 (WWW 2026)",
+    "type": "conference",
+    "place": "Dubai, UAE",
+    "links": [
+        ["arXiv", "https://arxiv.org/abs/2510.11695", "paper"],
+        ["10.1145/3774904.3792821", "https://dl.acm.org/doi/10.1145/3774904.3792821", "doi"]
+    ]
+},
+{
+    "thumb": "jco/agentic-guideline-2026-thumb.jpg",
+    "title": "Transforming evidence into answers: An agentic framework to support living clinical practice guidelines",
+    "authors": "Syed Arsalan Ahmed Naqvi, Muhammad Ali Khan, Fouad Nahhat, Muhammad Uzair Sarfraz, Priya Kumar, R Bryan Rumble, Tom Oliver, Irbaz Bin Riaz, Huan He",
+    "date": "May 29 - June 2, 2026",
+    "source": "Journal of Clinical Oncology 44, no. 16_suppl (June 01, 2026) e17004 (2026 ASCO Annual Meeting)",
+    "type": "conference",
+    "place": "Chicago, IL",
+    "links": [
+        ["10.1200/JCO.2026.44.16_suppl.e17004", "https://doi.org/10.1200/JCO.2026.44.16_suppl.e17004", "doi"]
+    ]
+},
+{
     "thumb": "jco/mcrpc-guideline-2026-thumb.jpg",
     "title": "Systemic Therapy in Patients With Metastatic Castration-Resistant Prostate Cancer: ASCO Living Guideline, Version 2026.1",
     "authors": "Mary-Ellen Taplin, Irbaz Bin Riaz, R Bryan Rumble, Syed Arsalan Ahmed Naqvi, Thomas A Hope, Mariane Fontes Dias, Huan He, Sebastien J Hotte, Hamid Emamekhoo, M Hassan Murad, Paul Celano, Terry M Kungel, Steve Hentzen, Michael Thomas Serzan, Rahul A Parikh",

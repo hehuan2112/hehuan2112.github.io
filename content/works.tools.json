@@ -1,5 +1,37 @@
 [
 {
+    "slug": "medviz",
+    "title": "MedViz",
+    "thumb": "tool/medviz-thumb.png",
+    "homepage": "https://medviz.org/",
+    "repository": "https://github.com/BIDS-Xu-Lab/medviz",
+    "description": "A visualization tool for medical literature data"
+},
+{
+    "slug": "medtaxon",
+    "title": "MedTaxon",
+    "thumb": "tool/medtaxon-thumb.png",
+    "homepage": "https://clinicalnlp.org/medtaxon/",
+    "repository": "https://github.com/BIDS-Xu-Lab/medtaxon",
+    "description": "A mapping tool for taxonomy creation"
+},
+{
+    "slug": "mhspc-vc",
+    "title": "mHSPC Volume Classification",
+    "thumb": "tool/mhspc-vc-thumb.png",
+    "homepage": "https://mhspc-vc.lisr.org/",
+    "repository": "https://github.com/orgs/LivingEvidence/repositories",
+    "description": "A tool for visualizing the classification of volumes in Metastatic Hormone-Sensitive Prostate Cancer (mHSPC)."
+},
+{
+    "slug": "blu-lite",
+    "title": "Blu Lite",
+    "thumb": "tool/blu-lite-thumb.png",
+    "homepage": "https://clinicalnlp.org/blu-lite/",
+    "repository": "http://github.com/BIDS-Xu-Lab/blu-lite",
+    "description": "A Concept Mapping Tool"
+},
+{
     "slug": "medtator",
     "title": "MedTator",
     "thumb": "tool/medtator-thumb.jpg",
